@@ -1,0 +1,516 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "products": "Productos",
+    "partnerEdge": "Partner Edge",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Bienvenido a Stronwell",
+    "subtitle": "Soluciones de Equipos Profesionales",
+    "description": "Soluciones Reales para Desafíos Reales del Importador",
+    "fullDescription": "Stronwell ayuda a los distribuidores latinoamericanos a liberarse de marcas premium caras e importaciones de baja calidad no confiables, ofreciendo rendimiento confiable, márgenes sólidos y crecimiento escalable.",
+    "seeSolutions": "Ver Soluciones",
+    "contactUs": "Contáctenos",
+    "learnMore": "Más Información"
+  },
+  "products": {
+    "title": "Nuestros Productos",
+    "subtitle": "Soluciones de Equipos Profesionales para Cada Necesidad",
+    "description": "Descubra nuestro amplio rango de equipos y herramientas de grado profesional",
+    "allCategories": "Todas las Categorías",
+    "viewDetails": "Ver Detalles",
+    "searchPlaceholder": "Buscar productos...",
+    "noResults": "No se encontraron productos",
+    "categories": "Categorías",
+    "allProducts": "Todos los Productos",
+    "productNotFound": "Producto No Encontrado",
+    "productNotFoundDesc": "El producto que está buscando no existe.",
+    "backToProducts": "Volver a Productos",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbProducts": "Productos",
+    "professionalEquipment": "Profesional",
+    "equipment": "Equipo",
+    "variants": "Variantes",
+    "models": "Modelos",
+    "support": "Soporte",
+    "keyFeatures": "Características Clave",
+    "availableModels": "Modelos Disponibles",
+    "searchModels": "Buscar modelos por especificaciones...",
+    "showingModels": "Mostrando modelos que coinciden con",
+    "noModelsFound": "No se encontraron modelos",
+    "noModelsDesc": "Intente ajustar su término de búsqueda o explore todos los modelos.",
+    "showAllModels": "Mostrar Todos los Modelos",
+    "clickToView": "Haga clic para ver el producto",
+    "needMoreInfo": "¿Necesita Más Información?",
+    "needMoreInfoDesc": "Nuestro equipo técnico puede ayudarlo a elegir el modelo adecuado y proporcionar especificaciones detalladas.",
+    "productVariants": "Variantes de Producto",
+    "requestQuote": "Solicitar Cotización",
+    "yourFullName": "Su nombre completo",
+    "yourEmail": "su.correo@ejemplo.com",
+    "yourPhone": "+52 (555) 123-4567",
+    "yourCountry": "Su país",
+    "productCodesPlaceholder": "ej., BBC26DC, BBC33DC",
+    "messagePlaceholder": "Por favor proporcione detalles sobre sus requisitos y mencione la cantidad que necesita...",
+    "submitting": "Enviando...",
+    "submitQuoteRequest": "Enviar Solicitud de Cotización",
+    "thankYou": "¡Gracias!",
+    "quoteSubmitted": "Su solicitud de cotización se ha enviado exitosamente. Nuestro equipo revisará sus requisitos y se comunicará con usted dentro de las 24 horas.",
+    "needImmediateSupport": "¿Necesita soporte inmediato?",
+    "redirecting": "Redirigiendo a la página de inicio en 5 segundos...",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "phoneNumber": "Número de Teléfono",
+    "country": "País",
+    "productName": "Nombre del Producto",
+    "productCodes": "Códigos de Producto (Si los hay)",
+    "messageWithQuantity": "Mensaje con Cantidad"
+  },
+  "about": {
+    "title": "Acerca de Stronwell",
+    "subtitle": "Su Socio de Confianza en Equipos Profesionales",
+    "intro": "Bienvenido a Stronwell",
+    "description": "Stronwell se especializa en proporcionar soluciones de equipos profesionales de alta calidad a empresas en América Latina y más allá.",
+    "ourStory": "Nuestra Historia",
+    "storyContent": "Fundada con la visión de cerrar la brecha entre calidad premium y asequibilidad, Stronwell se ha convertido en un nombre confiable en la industria de equipos profesionales.",
+    "ourMission": "Nuestra Misión",
+    "missionContent": "Empoderar a las empresas con equipos profesionales confiables que mejoran la productividad e impulsan el crecimiento.",
+    "ourVision": "Nuestra Visión",
+    "visionContent": "Ser el proveedor líder de soluciones de equipos profesionales en mercados emergentes en todo el mundo.",
+    "whyChooseUs": "Por Qué Elegirnos",
+    "qualityProducts": "Productos de Calidad",
+    "qualityDesc": "Todos nuestros productos cumplen con estándares internacionales de calidad",
+    "competitivePricing": "Precios Competitivos",
+    "pricingDesc": "Mejor valor para equipos de grado profesional",
+    "reliableSupport": "Soporte Confiable",
+    "supportDesc": "Soporte técnico y servicio al cliente 24/7",
+    "globalNetwork": "Red Global",
+    "networkDesc": "Amplia red de distribuidores en América Latina",
+    "getInTouch": "Póngase en Contacto",
+    "contactDesc": "¿Tiene preguntas? Nuestro equipo está aquí para ayudarlo a encontrar las soluciones adecuadas para su negocio.",
+    "ourPresence": "Nuestra Presencia Global",
+    "contactUs": "Contáctenos",
+    "scrollToExplore": "Deslice para Explorar",
+    "whereWeComeFrom": {
+      "title": "De Dónde Venimos",
+      "para1": "Stronwell fue fundada con una misión clara: cerrar la brecha entre calidad premium y asequibilidad en los mercados de equipos profesionales.",
+      "para2": "Reconociendo los desafíos que enfrentan los distribuidores latinoamericanos—atrapados entre marcas premium caras e importaciones de baja calidad no confiables—nos propusimos crear una mejor alternativa.",
+      "para3": "Hoy, servimos a cientos de socios en múltiples países, proporcionándoles rendimiento confiable, márgenes sólidos y el apoyo que necesitan para escalar sus negocios."
+    },
+    "whatWeBelieve": {
+      "title": "En Qué Creemos",
+      "belief1": {
+        "title": "Calidad Sin Compromisos",
+        "description": "Cada producto que ofrecemos cumple con rigurosos estándares internacionales, garantizando confiabilidad y rendimiento en los que sus clientes pueden confiar."
+      },
+      "belief2": {
+        "title": "Precios Justos y Transparentes",
+        "description": "Creemos en asociaciones sostenibles construidas sobre márgenes saludables que permiten a nuestros distribuidores desarrollar negocios rentables."
+      },
+      "belief3": {
+        "title": "Asociaciones a Largo Plazo",
+        "description": "No somos solo proveedores—somos socios comprometidos e invertidos en su éxito a través de apoyo integral y crecimiento compartido."
+      },
+      "belief4": {
+        "title": "Innovación Impulsada por el Mercado",
+        "description": "Adaptamos continuamente nuestras ofertas basándonos en comentarios reales de nuestra red de distribuidores y usuarios finales en mercados locales."
+      }
+    },
+    "globalPresence": {
+      "title": "Nuestra Presencia Global",
+      "subtitle": "Sirviendo Mercados en Todo el Mundo",
+      "location1": "América Latina",
+      "location2": "Asia Pacífico",
+      "location3": "Medio Oriente",
+      "para1": "Con una red creciente de distribuidores de confianza, Stronwell sirve mercados de equipos profesionales en múltiples continentes.",
+      "para2": "Nuestro compromiso con las asociaciones locales garantiza que las empresas tengan acceso a productos de calidad respaldados por soporte confiable, sin importar dónde operen."
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Póngase en Contacto",
+    "description": "¿Tiene preguntas? Estamos aquí para ayudar. Envíenos un mensaje y responderemos lo antes posible.",
+    "fullName": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Número de Teléfono",
+    "country": "País",
+    "company": "Nombre de la Empresa",
+    "requirement": "Su Requisito",
+    "message": "Su Mensaje",
+    "sendMessage": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "thankYou": "¡Gracias!",
+    "successMessage": "Su mensaje ha sido enviado exitosamente. Nuestro equipo se comunicará con usted dentro de las 24 horas.",
+    "needImmediate": "¿Necesita asistencia inmediata?",
+    "redirecting": "Redirigiendo a la página de inicio en 5 segundos...",
+    "contactInfo": "Información de Contacto",
+    "address": "Dirección",
+    "addressValue": "Plot No. 756, 2nd Floor, Udyog Vihar Phase - 5, Gurugram, Haryana, India",
+    "emailUs": "Envíenos un Correo",
+    "callUs": "Llámenos",
+    "followUs": "Síguenos",
+    "namePlaceholder": "Juan Pérez",
+    "emailPlaceholder": "juan@ejemplo.com",
+    "phonePlaceholder": "+52 (555) 123-4567",
+    "countryPlaceholder": "México",
+    "companyPlaceholder": "Su Empresa S.A.",
+    "requirementPlaceholder": "Consulta de producto, Asociación, Soporte técnico...",
+    "messagePlaceholder": "Cuéntenos más sobre sus requisitos...",
+    "support247": "Soporte 24/7",
+    "responseTime": "Tiempo de Respuesta < 24h",
+    "countriesServed": "Países Atendidos",
+    "satisfactionRate": "Tasa de Satisfacción",
+    "getInTouch": "Póngase en Contacto",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "fullNamePlaceholder": "Ingrese su nombre completo",
+    "phoneNumberPlaceholder": "Ingrese su número de teléfono",
+    "selectRequirement": "Seleccione su requisito",
+    "requirementOptions": ["Comprador", "Distribuidor", "Consulta General"],
+    "successTitle": "¡Mensaje Enviado Exitosamente!",
+    "close": "Cerrar"
+  },
+  "partnerEdge": {
+    "title": "Programa Partner Edge",
+    "subtitle": "Únase a Nuestra Red Global",
+    "subtitle2": "Soluciones Reales para Desafíos Reales del Importador",
+    "description": "Soluciones Reales para Desafíos Reales del Importador",
+    "fullDescription": "Stronwell ayuda a los distribuidores latinoamericanos a liberarse de marcas premium caras e importaciones de baja calidad no confiables, ofreciendo rendimiento confiable, márgenes sólidos y crecimiento escalable.",
+    "whyPartner": "Por Qué Asociarse con Nosotros",
+    "benefit1": "Derechos de Territorio Exclusivos",
+    "benefit1Desc": "Asegure su mercado con territorios protegidos",
+    "benefit2": "Soporte de Marketing",
+    "benefit2Desc": "Materiales de marca compartida y asistencia de marketing digital",
+    "benefit3": "Capacitación Técnica",
+    "benefit3Desc": "Capacitación integral de productos y certificaciones",
+    "benefit4": "Márgenes Competitivos",
+    "benefit4Desc": "Estructura de precios atractiva para crecimiento sostenible",
+    "benefit5": "Envío Rápido",
+    "benefit5Desc": "Logística eficiente y gestión de inventario",
+    "benefit6": "Soporte Dedicado",
+    "benefit6Desc": "Soporte de socios 24/7 y gestión de cuentas",
+    "ourSolutions": "Nuestras Soluciones",
+    "contactUs": "Contáctenos",
+    "scrollToExplore": "Deslice para Explorar",
+    "challenges": {
+      "title": "Desafíos Comunes del Importador que Resolvemos",
+      "challenge1": {
+        "title": "Precios de Marcas Premium",
+        "description": "Las marcas premium con precios elevados reducen sus márgenes y dificultan competir en mercados sensibles al precio."
+      },
+      "challenge2": {
+        "title": "Importaciones Baratas No Confiables",
+        "description": "Los productos de baja calidad dañan su reputación y generan costosas reclamaciones de garantía y quejas de clientes."
+      },
+      "challenge3": {
+        "title": "Rango de Productos Limitado",
+        "description": "Las carteras de productos limitadas restringen su capacidad para atender diversas necesidades de clientes y aumentar la cuota de mercado."
+      },
+      "challenge4": {
+        "title": "Suministro Inconsistente",
+        "description": "La disponibilidad de stock impredecible y los tiempos de entrega hacen que la planificación de inventario sea casi imposible."
+      },
+      "challenge5": {
+        "title": "Soporte Técnico Débil",
+        "description": "El soporte postventa inadecuado deja a su equipo luchando para ayudar a los clientes con problemas técnicos."
+      },
+      "challenge6": {
+        "title": "Sin Materiales de Marketing",
+        "description": "La falta de activos de marketing profesionales dificulta promover productos y generar clientes potenciales de manera efectiva."
+      },
+      "challenge7": {
+        "title": "Proceso de Importación Complejo",
+        "description": "Los procedimientos y documentación aduanera complicados crean demoras y aumentan los costos operativos."
+      },
+      "challenge8": {
+        "title": "Fluctuaciones Cambiarias",
+        "description": "La volatilidad del tipo de cambio erosiona los márgenes y hace que la planificación financiera sea incierta para su negocio."
+      },
+      "challenge9": {
+        "title": "Cantidades Mínimas de Pedido",
+        "description": "Los MOQ altos atan capital y espacio de almacén, limitando la flexibilidad para probar nuevos productos o mercados."
+      },
+      "challenge10": {
+        "title": "Competencia del E-commerce",
+        "description": "Los minoristas en línea que venden directamente a los consumidores amenazan las ventajas de su canal de distribución tradicional."
+      },
+      "challenge11": {
+        "title": "Capacitación y Educación",
+        "description": "La capacitación insuficiente de productos para su equipo de ventas resulta en oportunidades perdidas y malas experiencias del cliente."
+      },
+      "challenge12": {
+        "title": "Términos de Pago",
+        "description": "Las condiciones de pago rígidas tensan el flujo de efectivo y dificultan la gestión efectiva del capital de trabajo."
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona Partner Edge",
+      "step1": {
+        "title": "Envíe Su Solicitud",
+        "description": "Complete nuestro formulario de asociación con detalles sobre su negocio, mercado y capacidades de distribución."
+      },
+      "step2": {
+        "title": "Revisión de Solicitud",
+        "description": "Nuestro equipo de asociaciones evalúa su solicitud y analiza la adecuación del mercado dentro de 48-72 horas."
+      },
+      "step3": {
+        "title": "Acuerdo de Asociación",
+        "description": "Discutimos los términos, derechos territoriales, estructura de precios y finalizamos el contrato de asociación juntos."
+      },
+      "step4": {
+        "title": "Incorporación y Capacitación",
+        "description": "Acceda a capacitación integral de productos, materiales de marketing y recursos técnicos para comenzar."
+      },
+      "step5": {
+        "title": "Lanzamiento y Crecimiento",
+        "description": "Comience a vender con el apoyo completo de nuestro equipo—la asistencia continua le ayuda a escalar su negocio."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Transformar Su Negocio de Distribución?",
+      "subtitle": "Únase a socios exitosos que ya han cambiado a márgenes confiables y crecimiento sostenible."
+    },
+    "requirements": "Requisitos de Asociación",
+    "req1": "Negocio establecido con experiencia relevante",
+    "req2": "Fuerte presencia y red en el mercado local",
+    "req3": "Capacidad financiera para mantener inventario",
+    "req4": "Compromiso con la calidad y el servicio al cliente",
+    "readyToStart": "¿Listo para Comenzar?",
+    "readyDesc": "Únase a cientos de socios exitosos en todo el mundo. Dé el primer paso hacia una asociación rentable.",
+    "applyNow": "Solicitar Ahora",
+    "learnMore": "Más Información"
+  },
+  "dealer": {
+    "title": "Conviértete en Distribuidor",
+    "subtitle": "Únete a nuestra creciente red de distribuidores y haz crecer tu negocio con Stronwell",
+    "description": "Únete a nuestra red de distribuidores",
+    "companyName": "Nombre de la Empresa",
+    "companyNamePlaceholder": "Nombre de Tu Empresa",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "empresa@ejemplo.com",
+    "contactNumber": "Número de Contacto",
+    "contactNumberPlaceholder": "+52 (555) 123-4567",
+    "currentBrands": "Marcas Actuales",
+    "currentBrandsPlaceholder": "Marcas que representas actualmente",
+    "city": "Ciudad",
+    "cityPlaceholder": "Tu Ciudad",
+    "country": "País",
+    "countryPlaceholder": "Tu País",
+    "consent": "Acepto los términos y condiciones",
+    "submit": "Enviar Solicitud",
+    "submitApplication": "Enviar Solicitud",
+    "submitting": "Enviando...",
+    "successTitle": "¡Gracias por Tu Solicitud!",
+    "successMessage": "Hemos recibido tu solicitud de distribuidor y la revisaremos dentro de 48 horas. Nuestro equipo de asociaciones se pondrá en contacto contigo pronto para discutir los próximos pasos."
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "subtitle": "Aprenda cómo usamos las cookies para mejorar su experiencia de navegación",
+    "lastUpdated": "Última Actualización",
+    "intro": "Esta Política de Cookies explica cómo Stronwell utiliza cookies y tecnologías similares para reconocerlo cuando visita nuestro sitio web.",
+    "whatAreCookies": "¿Qué Son las Cookies?",
+    "whyWeUse": "Por Qué Usamos Cookies",
+    "cookieDuration": "Duración de las Cookies",
+    "thirdParty": "Cookies de Terceros",
+    "managing": "Gestión de sus Preferencias de Cookies",
+    "impact": "Impacto de Deshabilitar las Cookies",
+    "understandingCookies": "Entendiendo las Cookies",
+    "understandingIntro": "En Stronwell Machines, utilizamos cookies y tecnologías similares para mejorar su experiencia de navegación, analizar el tráfico del sitio web y proporcionar contenido personalizado. Esta Política de Cookies explica qué son las cookies, cómo las usamos y cómo puede controlarlas.",
+    "questionsHeading": "¿Preguntas Sobre las Cookies?",
+    "questionsText": "Nuestro equipo está aquí para ayudarlo a comprender cómo usamos las cookies y administrar sus preferencias.",
+    "contactSupport": "Contactar Soporte",
+    "privacyPolicy": "Política de Privacidad"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "subtitle": "Aprenda cómo protegemos su información personal",
+    "lastUpdated": "Última Actualización",
+    "intro": "En Stronwell, tomamos su privacidad en serio. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información.",
+    "commitmentHeading": "Nuestro Compromiso con la Privacidad",
+    "commitmentPara1": "En Stronwell Machines, estamos comprometidos a proteger su privacidad y garantizar la seguridad de su información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, compartimos y protegemos la información sobre usted cuando utiliza nuestro sitio web, productos y servicios.",
+    "commitmentPara2": "Creemos en la transparencia y queremos que comprenda sus derechos con respecto a sus datos personales. Esta política se aplica a toda la información recopilada a través de nuestro sitio web, aplicaciones móviles y otros servicios digitales.",
+    "questionsHeading": "¿Preguntas Sobre Su Privacidad?",
+    "questionsText": "Nuestro equipo de privacidad está aquí para ayudarlo a comprender cómo protegemos sus datos y ejercer sus derechos.",
+    "contactPrivacyTeam": "Contactar Equipo de Privacidad",
+    "termsConditions": "Términos y Condiciones",
+    "privacyMattersHeading": "Su Privacidad Importa",
+    "privacyMattersText": "Estamos comprometidos a mantener los más altos estándares de protección de datos y privacidad. Si tiene alguna inquietud sobre cómo se maneja su información, no dude en contactarnos.",
+    "infoWeCollect": "Información que Recopilamos",
+    "howWeCollect": "Cómo Recopilamos Información",
+    "howWeUse": "Cómo Usamos su Información",
+    "infoSharing": "Compartir y Divulgación de Información",
+    "dataSecurity": "Seguridad de Datos",
+    "cookiesTracking": "Cookies y Tecnologías de Seguimiento",
+    "yourRights": "Sus Derechos y Opciones",
+    "dataRetention": "Retención de Datos",
+    "international": "Transferencias Internacionales de Datos",
+    "thirdPartyLinks": "Enlaces de Terceros",
+    "childrens": "Privacidad de los Niños",
+    "changes": "Cambios a Esta Política de Privacidad",
+    "contactInfo": "Información de Contacto"
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "subtitle": "Por favor lea estos términos cuidadosamente antes de usar nuestros servicios",
+    "lastUpdated": "Última Actualización",
+    "introduction": "Introducción",
+    "introPara1": "Bienvenido a Stronwell Machines. Estos Términos y Condiciones (\"Términos\") rigen su uso de nuestro sitio web, productos y servicios. Al acceder o utilizar nuestros servicios, usted acepta estar sujeto a estos Términos.",
+    "introPara2": "Stronwell Machines se compromete a proporcionar maquinaria y equipos de alta calidad mientras mantiene prácticas comerciales transparentes y justas. Estos términos ayudan a garantizar una experiencia positiva para todos nuestros clientes y socios.",
+    "questionsHeading": "¿Preguntas Sobre Nuestros Términos?",
+    "questionsText": "Nuestro equipo legal está disponible para aclarar cualquier pregunta que pueda tener sobre estos términos y condiciones.",
+    "contactLegalTeam": "Contactar Equipo Legal",
+    "privacyPolicy": "Política de Privacidad",
+    "importantNotice": "Aviso Importante",
+    "importantNoticeText": "Estos términos y condiciones constituyen el acuerdo completo entre usted y Stronwell Machines. Al continuar utilizando nuestros servicios, usted reconoce que ha leído, comprendido y acepta estar sujeto a estos términos.",
+    "intro": "Por favor lea estos términos y condiciones cuidadosamente antes de usar nuestro sitio web y servicios.",
+    "acceptance": "Aceptación de Términos",
+    "useLicense": "Licencia de Uso",
+    "productsServices": "Productos y Servicios",
+    "dealerPartnership": "Términos de Distribuidores y Asociación",
+    "ordering": "Pedidos y Pago",
+    "shipping": "Envío y Entrega",
+    "warranty": "Garantía y Devoluciones",
+    "privacyData": "Privacidad y Protección de Datos",
+    "intellectual": "Propiedad Intelectual",
+    "limitation": "Limitación de Responsabilidad",
+    "indemnification": "Indemnización",
+    "governing": "Ley Aplicable",
+    "contactInfo": "Información de Contacto"
+  },
+  "quote": {
+    "title": "Solicitar Cotización",
+    "productName": "Nombre del Producto",
+    "productCodes": "Códigos de Producto",
+    "quantity": "Cantidad",
+    "getQuote": "Solicitar Cotización",
+    "requestQuote": "Solicitar Cotización",
+    "close": "Cerrar"
+  },
+  "common": {
+    "home": "Inicio",
+    "getQuote": "Solicitar Cotización",
+    "becomePartner": "Ser Socio",
+    "exploreProducts": "Explorar Productos",
+    "technicalSupport": "Soporte Técnico",
+    "browseProducts": "Ver Todos los Productos",
+    "viewMore": "Ver Más",
+    "loadMore": "Cargar Más",
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar"
+  },
+  "footer": {
+    "description": "Empoderando a profesionales con herramientas y equipos premium. Construyendo el futuro de la excelencia industrial a través de la innovación y la calidad.",
+    "becomeDealer": "Convertirse en Distribuidor",
+    "company": "Empresa",
+    "aboutUs": "Sobre Nosotros",
+    "ourStory": "Nuestra Historia",
+    "faqs": "Preguntas Frecuentes",
+    "productsTitle": "Productos",
+    "ourProducts": "Nuestros Productos",
+    "brushCutter": "Desbrozadora",
+    "chainsaw": "Motosierra",
+    "support": "Soporte",
+    "partnerEdge": "Partner Edge",
+    "contactUs": "Contáctanos",
+    "warranty": "Garantía",
+    "contactEmail": "Contáctanos:",
+    "whatsapp": "WhatsApp: +91 9995900918",
+    "facebook": "Facebook: stronwell.machines",
+    "copyright": "Stronwell. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "cookiePolicy": "Política de Cookies",
+    "backToTop": "Volver arriba"
+  },
+  "sections": {
+    "about": {
+      "title": "Sobre Stronwell",
+      "subtitle": "Pioneros en excelencia en soluciones industriales por más de dos décadas, hemos sido el socio de confianza para empresas en todo el mundo.",
+      "ourStory": "Nuestra Historia",
+      "story1": "Fundada con la visión de revolucionar el panorama de equipos industriales, Stronwell ha crecido de un pequeño taller a un líder global en la fabricación de herramientas y maquinaria de alta calidad.",
+      "story2": "Nuestro viaje comenzó con una creencia simple: que cada profesional merece acceso a equipos confiables e innovadores que mejoren su productividad e impulsen su éxito. Esta filosofía continúa guiándonos hoy.",
+      "story3": "A través de la innovación continua, alianzas estratégicas y un compromiso inquebrantable con la calidad, hemos construido una reputación que abarca continentes y sirve a diversas industrias en todo el mundo.",
+      "ourMission": "Nuestra Misión",
+      "missionText": "Empoderar a empresas y profesionales con soluciones industriales innovadoras, confiables y sostenibles que impulsen el crecimiento, la eficiencia y el éxito en un mercado en constante evolución.",
+      "ourCoreValues": "Nuestros Valores Fundamentales",
+      "valuesSubtitle": "Los principios que impulsan nuestro éxito y guían nuestras relaciones con clientes, socios y comunidades.",
+      "innovation": "Innovación",
+      "innovationDesc": "Constantemente superando límites con tecnología de vanguardia y soluciones visionarias.",
+      "quality": "Calidad",
+      "qualityDesc": "Compromiso inquebrantable con la excelencia en cada producto que fabricamos y entregamos.",
+      "reliability": "Confiabilidad",
+      "reliabilityDesc": "Construyendo confianza a través del rendimiento consistente para nuestros clientes.",
+      "sustainability": "Sostenibilidad",
+      "sustainabilityDesc": "Creando productos ambientalmente responsables que contribuyen a un futuro mejor."
+    },
+    "faqs": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Encuentre respuestas a preguntas comunes sobre nuestros productos, servicios y asociaciones. ¿No encuentra lo que busca? Contacte a nuestro equipo de soporte.",
+      "q1": "¿Qué tipos de equipos industriales fabrica Stronwell?",
+      "a1": "Stronwell se especializa en una gama completa de equipos industriales que incluyen maquinaria agrícola, herramientas eléctricas, equipos de jardín, motores marinos, sistemas de limpieza, generadores y herramientas de construcción. Nuestro portafolio de productos abarca más de 500 modelos diferentes diseñados para uso profesional y comercial.",
+      "q2": "¿Ofrecen garantía en sus productos?",
+      "a2": "Sí, todos los productos Stronwell vienen con cobertura de garantía integral. Nuestra garantía estándar varía de 1 a 3 años dependiendo de la categoría del producto. También ofrecemos opciones de garantía extendida y soporte integral postventa a través de nuestra red de servicio global.",
+      "q3": "¿Cómo puedo convertirme en distribuidor de productos Stronwell?",
+      "a3": "Damos la bienvenida a oportunidades de asociación con distribuidores calificados en todo el mundo. Para convertirse en distribuidor de Stronwell, deberá cumplir con ciertos criterios que incluyen presencia en el mercado, experiencia técnica y capacidades de servicio. Por favor contacte a nuestro equipo de asociaciones a través de nuestra página",
+      "a3Link": "Convertirse en Distribuidor",
+      "a3End": "para conocer los requisitos detallados y el proceso de solicitud.",
+      "q4": "¿Proporcionan envío internacional y soporte?",
+      "a4": "Sí, servimos a clientes en más de 50 países en todo el mundo. Hemos establecido asociaciones de envío y redes de servicio globalmente para garantizar entrega oportuna y soporte local. Nuestro equipo internacional puede ayudar con logística, despacho de aduanas y proporcionar soporte técnico en múltiples idiomas.",
+      "q5": "¿Cómo encuentro el producto adecuado para mis necesidades específicas?",
+      "a5": "Nuestro equipo experto puede ayudarlo a seleccionar el equipo perfecto para sus requisitos. Puede navegar nuestras categorías de productos en línea, usar nuestra herramienta de búsqueda de productos, o contactar a nuestros consultores técnicos quienes evaluarán sus necesidades y recomendarán las soluciones más adecuadas. También ofrecemos demostraciones de productos y programas de prueba para clientes calificados.",
+      "q6": "¿Qué tipo de soporte técnico y capacitación proporcionan?",
+      "a6": "Ofrecemos soporte técnico integral que incluye orientación de instalación, capacitación de operación, talleres de mantenimiento y asistencia para solución de problemas. Nuestros técnicos certificados proporcionan capacitación en sitio, tutoriales en video, manuales detallados y soporte de línea de ayuda técnica 24/7 para garantizar el rendimiento óptimo de su equipo.",
+      "ctaTitle": "¿Listo para Experimentar la Excelencia?",
+      "ctaSubtitle": "Únase a miles de clientes satisfechos que confían en Stronwell para sus necesidades de equipos industriales.",
+      "exploreProducts": "Explorar Productos",
+      "contactUs": "Contáctanos"
+    },
+    "hero": {
+      "slide1Title": "Herramientas Premium para Profesionales",
+      "slide1Subtitle": "Empoderando la excelencia a través de la innovación y la calidad",
+      "slide2Title": "Excelencia Industrial Redefinida",
+      "slide2Subtitle": "Construyendo el futuro con equipos de vanguardia",
+      "exploreProducts": "Explorar Productos",
+      "becomeDistributor": "Convertirse en Distribuidor",
+      "scroll": "Desplazar"
+    },
+    "homeProducts": {
+      "title": "Nuestros Productos",
+      "subtitle": "Descubra nuestra gama completa de equipos y herramientas de grado profesional, diseñados para cumplir con los más altos estándares de calidad y rendimiento.",
+      "viewDetails": "Ver Detalles",
+      "exploreAll": "Explorar Todos los Productos"
+    },
+    "house": {
+      "gardenForestry": "Jardín y Silvicultura",
+      "hardwareDivision": "División de Ferretería",
+      "bonhoeffer": {
+        "name": "Bonhoeffer Machines",
+        "tagline": "Trabajo Pesado para Uso Profesional"
+      },
+      "stronwell": {
+        "name": "Stronwell",
+        "tagline": "Trabajo Medio para Uso Regular"
+      },
+      "mechnova": {
+        "name": "Mechnova Machines",
+        "tagline": "Trabajo Ligero para Uso Doméstico"
+      },
+      "stevron": {
+        "name": "Stevron Tools",
+        "tagline": "Herramientas Premium para Profesionales"
+      }
+    }
+  }
+}

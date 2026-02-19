@@ -1,0 +1,1639 @@
+[
+  {
+    "category": "forestry-and-gardening",
+    "product": "brush-cutter",
+    "image": "1.png",
+    "sharedDescription": [
+      "Baja vibración - Más comodidad para el usuario",
+      "Motor de bajo consumo - Más económico y eficiente",
+      "Diseño maduro y fiable - Funcionamiento estable y duradero",
+      "Mango en D - Más comodidad durante el uso",
+      "Depósito de 0.55 litros - Autonomía de más de 1 hora",
+      "Incluye cuchilla de 3 puntas + cabezal de nylon"
+    ],
+    "models": [
+      {
+        "model": "BBC26DC",
+        "motor": "Gasolina, 2 Tiempos, 25.4CC",
+        "potenciaMaxima": "1.0 CV",
+        "mezclaCombustible": "40:1 El Es Aceite Sintético Y 25:1 El Es Aceite Mineral",
+        "capacidadDeposito": "0.55 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "diametroTubo": "26 Mm",
+        "escapeReforzado": ""
+      },
+      {
+        "model": "BBC33DC",
+        "motor": "2 Tiempos, 32.6CC",
+        "potenciaMaxima": "1.3 CV",
+        "mezclaCombustible": "40:1 El Es Aceite Sintético Y 25:1 El Es Aceite Mineral",
+        "capacidadDeposito": "0.7 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "diametroTubo": "26 Mm",
+        "escapeReforzado": ""
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "brush-cutter",
+    "image": "2.png",
+    "sharedDescription": [
+      "Manillar de bicicleta - Más comodidad durante el uso",
+      "Depósito de 0.7 litros - Autonomía de más de 1 hora",
+      "Diseño maduro y fiable - Funcionamiento estable y duradero",
+      "Incluye cuchilla de 3 puntas + cabezal de nylon"
+    ],
+    "models": [
+      {
+        "model": "BBC33C",
+        "motor": "Gasolina, 2 Tiempos, 32,6CC",
+        "potenciaMaxima": "1,0 CV",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral",
+        "capacidadDeposito": "0,7 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "diametroTubo": "26 Mm",
+        "escapeReforzado": ""
+      },
+      {
+        "model": "BBC43C",
+        "motor": "Gasolina, 2 Tiempos, 42.7CC",
+        "potenciaMaxima": "1.7 CV",
+        "mezclaCombustible": "40:1 El Es Aceite Sintético Y 25:1 El Es Aceite Mineral",
+        "capacidadDeposito": "1.0 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "diametroTubo": "28 Mm",
+        "escapeReforzado": ""
+      },
+      {
+        "model": "BBC52C",
+        "motor": "Gasolina, 2 Tiempos, 51.7CC",
+        "potenciaMaxima": "2.0 CV",
+        "mezclaCombustible": "40:1 El Es Aceite Sintético Y 25:1 El Es Aceite Mineral",
+        "capacidadDeposito": "1.0 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "diametroTubo": "28 mm, Manillar Ergonómico Dividido",
+        "escapeReforzado": "Escape Reforzado"
+      },
+       {
+        "model": "BBC62C",
+        "motor": "Gasolina, 2 Tiempos, 62,0CC",
+        "potenciaMaxima": "3,5 CV",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral",
+        "capacidadDeposito": "1.0 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "diametroTubo": "28 mm",
+        "escapeReforzado": ""
+      },
+       {
+        "model": "BBC43BC",
+        "motor": "Gasolina, 2 Tiempos, 42,7CC",
+        "potenciaMaxima": "1,7 CV",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral",
+        "capacidadDeposito": "1,0 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "diametroTubo": "26 mm, Mango en D",
+        "escapeReforzado": "Escape Reforzado"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "brush-cutter",
+    "image": "3.png",
+    "sharedDescription": [
+      "Baja vibración - Más comodidad para el usuario",
+      "Motor de bajo consumo - Más económico y eficiente",
+      "Diseño maduro y fiable - Funcionamiento estable y duradero",
+      "Mango en D - Más comodidad durante el uso",
+      "Depósito de 0.55 litros - Autonomía de más de 1 hora",
+      "Incluye cuchilla de 3 puntas + cabezal de nylon"
+    ],
+    "models": [
+      {
+        "model": "BBC43MTC",
+        "motor": "Gasolina, 2 Tiempos, 42,7Cc",
+        "potenciaMaxima": "1,7 CV",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral",
+        "capacidadDeposito": "0,1 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "diametroTubo": "26 Mm",
+        "escapeReforzado": ""
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "brush-cutter",
+    "image": "4.png",
+    "sharedDescription": [
+      "Baja vibración - Más comodidad para el usuario",
+      "Motor de bajo consumo - Más económico y eficiente",
+      "Diseño maduro y fiable - Funcionamiento estable y duradero",
+      "Mango en D - Más comodidad durante el uso",
+      "Depósito de 0.55 litros - Autonomía de más de 1 hora",
+      "Incluye cuchilla de 3 puntas + cabezal de nylon"
+    ],
+    "models": [
+      {
+        "model": "BBCE1400C-1",
+        "motor": "Eléctrico 110V, 50/60Hz",
+        "potenciaMaxima": "1,4 kW"
+      },
+      {
+        "model": "BBCE1400C-2",
+        "motor": "Eléctrico 220V, 50/60Hz",
+        "potenciaMaxima": "1,4 kW"
+      }      
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "chainsaw",
+    "image": "5.png",
+    "sharedDescription": [
+      " Lubricación de cadena automática ajustable",
+      " Amortiguadores de vibracion - baja vibración y comodidad para el usuario",
+      " agarre ergonómico, más adherencia al uso",
+      " moto de bajo consumo - más económico y eficiente"
+    ],
+    "models": [
+      {
+        "model": "BCS25C-10SN",
+        "motor": "Gasolina, 2 tiempos, 25,4CC",
+        "potenciaMaxima": "1.0 CV",
+        "barraGuia": "10\"",
+        "cadena": "3/8\"",
+        "capacidadTanqueCombustible": "230 ml",
+        "capacidadTanqueAceite": "160 ml",
+        "maximaRevolucion": "12000 por minuto",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral"
+      },
+      {
+        "model": "BCS42C-16SN",
+        "motor": "Gasolina, 2 tiempos, 42,0CC",
+        "potenciaMaxima": "2.1 CV",
+        "barraGuia": "16\"",
+        "cadena": "3/8\"",
+        "capacidadTanqueCombustible": "310 ml",
+        "capacidadTanqueAceite": "210 ml",
+        "maximaRevolucion": "13000 por minuto",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral"
+      },
+      {
+        "model": "BCS53C-18SN",
+        "motor": "Gasolina, 2 tiempos, 50,8CC",
+        "potenciaMaxima": "2.8 CV",
+        "barraGuia": "18\"",
+        "cadena": ".325\"",
+        "capacidadTanqueCombustible": "550 ml",
+        "capacidadTanqueAceite": "260 ml",
+        "maximaRevolucion": "12500 por minuto",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral"
+      },
+      {
+        "model": "BCS58C-20SN",
+        "motor": "Gasolina, 2 tiempos, 54,0CC",
+        "potenciaMaxima": "3.2 CV",
+        "barraGuia": "20\"",
+        "cadena": ".325\"",
+        "capacidadTanqueCombustible": "550 ml",
+        "capacidadTanqueAceite": "260 ml",
+        "maximaRevolucion": "12500 por minuto",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "chainsaw",
+    "image": "6.png",
+    "sharedDescription": [
+      " Lubricación de cadena automática ajustable",
+      " Amortiguadores de vibracion - baja vibración y comodidad para el usuario",
+      " agarre ergonómico, más adherencia al uso",
+      " moto de bajo consumo - más económico y eficiente"
+    ],
+    "models": [
+      {
+        "model": "BCSE2400C-18SN-2",
+        "motor": "Gasolina, 2 tiempos, 25,4CC",
+        "potenciaMaxima": "2400W",
+        "barraGuia": "18\"",
+        "máximaVelocidadDeCadena": "15m/s"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "blower",
+    "image": "7.png",
+    "sharedDescription": [
+      "Ligera y portátil - Fácil de usar y transportar.",
+      "Potente motor - Gran caudal de aire, ideal para limpiar hojas, jardines y escombros.",
+      "Empuñadura ergonómica y sistema de amortiguación - Reduce las vibraciones y aumenta la comodidad del operario."
+    ],
+    "models": [
+      {
+        "model": "BB26C",
+        "motor": "25.4CC Gasolina, 2 Tiempos",
+        "potenciaMaxima": "1.0CV @ 7500RPM",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral",
+        "capacidadDeposito": "0.45 Litros",
+        "carburador": "Diafragma",
+        "escapeReforzado": "",
+        "tipoArranque": "Manual Retráctil",
+        "volumenDeAire": "0,18M³/S Ou 636M³/Hora"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "blower",
+    "image": "8.png",
+    "sharedDescription": [
+      "Ligera y portátil - Fácil de usar y transportar.",
+      "Potente motor - Gran caudal de aire, ideal para limpiar hojas, jardines y escombros.",
+      "Empuñadura ergonómica y sistema de amortiguación - Reduce las vibraciones y aumenta la comodidad del operario."
+    ],
+    "models": [
+      {
+        "model": "BB63BC",
+        "motor": "63.3CC, A Gasolina, 2 Tiempos",
+        "potenciaMaxima": "3.5CV @ 7000RPM",
+        "volumenDeAire": "0,24M³/S Ou 864 M³/Hora",
+        "carburador": "Diafragma",
+        "capacidadDeposito": "1.8 Litro",
+        "controlDeAceleracion": "No Punho"
+      },
+      {
+        "model": "BB76BC",
+        "motor": "75.6CC, A Gasolina, 2 Tiempos",
+        "potenciaMaxima": "4.1CV @ 7000RPM",
+        "volumenDeAire": "0,3M³/S Ou 1080 M³/Hora",
+        "carburador": "Diafragma",
+        "capacidadDeposito": "2.2 Litro",
+        "controlDeAceleracion": "No Punho"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "vacuum-blower",
+    "image": "9.png",
+    "sharedDescription": [
+      "Ligera y portátil - Fácil de usar y transportar.",
+      "Potente motor - Gran caudal de aire, ideal para limpiar hojas, jardines y escombros.",
+      "Empuñadura ergonómica y sistema de amortiguación - Reduce las vibraciones y aumenta la comodidad del operario.",
+      "Con bolsa recolectora"
+    ],
+    "models": [
+      {
+        "model": "BVB26C",
+        "motor": "25.4CC Gasolina, 2 Tiempos",
+        "potenciaMaxima": "1.0CV @ 7500RPM",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral",
+        "capacidadDeposito": "0.45 Litros",
+        "carburador": "Diafragma",
+        "tipoArranque": "Manual Retráctil",
+        "volumenDeAire": "0,18M³/S Ou 636M³/Hora",
+        "escapeReforzado": ""
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "sprayer",
+    "image": "10.png",
+    "sharedDescription": [
+      "Con regulación de presión de salida - práctica y precisa",
+      "Motor económico y fiable - mayor autonomía",
+      "2 lanzadores largos con punta reta - mayor volumen",
+      "Dos boquillas de pulverización - mayor volumen",
+      "Bomba de presión en latón"
+    ],
+    "models": [
+      {
+        "model": "BS26BC",
+        "motor": "25.4CC Gasolina, 2 tiempos",
+        "potenciaMaxima": "1.0CV",
+        "capacidadDelDeposito": "0.6 litros",
+        "capacidadTanque": "25 litros",
+        "presionTrabajo": "35 PSI",
+        "presionMaxima": "508 PSI",
+        "volumenPulverizacion": "5-8 litros/min",
+        "tipoDeBomba": "Bomba de émbolo de alta presión",
+        "materialDeBomba": "Latón",
+        "sistemaDeArranque": "Retráctil"
+      },
+      {
+        "model": "BS26BC-PL",
+        "motor": "25.4CC Gasolina, 2 tiempos",
+        "potenciaMaxima": "1.0CV",
+        "capacidadDelDeposito": "0.6 litros",
+        "capacidadTanque": "25 litros",
+        "presionTrabajo": "35 PSI",
+        "presionMaxima": "508 PSI",
+        "volumenPulverizacion": "5-8 litros/min",
+        "tipoDeBomba": "Bomba de émbolo de alta presión",
+        "materialDeBomba": "NYLON",
+        "sistemaDeArranque": "Retráctil"
+      },
+      {
+        "model": "BS35BC",
+        "motor": "35CC Gasolina, 4 tiempos",
+        "potenciaMaxima": "1.35CV",
+        "capacidadDelDeposito": "0.6 litros",
+        "capacidadTanque": "25 litros",
+        "presionTrabajo": "35 PSI",
+        "presionMaxima": "508 PSI",
+        "volumenPulverizacion": "5-8 litros/min",
+        "tipoDeBomba": "Bomba de presión en latón",
+        "materialDeBomba": "Latón",
+        "sistemaDeArranque": "Retráctil"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "back-pack-sprayer",
+    "image": "11.png",
+    "sharedDescription": [
+      "Con lanza regulable de acero inoxidable",
+      "3 boquillas de pulverización - mejor ajuste a la necesidad",
+      "Motor eléctrico - sin humo y sin contaminación",
+      "Práctico y ligero"
+    ],
+    "models": [
+      {
+        "model": "BEBS18VBC-20",
+        "bateria": "18V Lithium-Ion - 4.0Ah",
+        "cargador": "110-220V",
+        "capacidadTanque": "20 litros",
+        "volumenPulverizacion": "2.8 (litros / min)",
+        "tipoBomba": "Bomba Automática"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "hedge-trimmer",
+    "image": "12.png",
+    "sharedDescription": [
+      "Ligera y portátil - fácil de usar y transportar",
+      "Empuñadura ergonómica y rotacionable",
+      "Doble acción de corte",
+      "Bajo consumo"
+    ],
+    "models": [
+      {
+        "model": "BHT700C",
+        "motor": "23cc, A gasolina, 2 tiempos",
+        "potenciaMaxima": "0.9 CV",
+        "longitudSabre": "700mm",
+        "dobleAccionCorte": ""
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "pole-pruner",
+    "image": "13.png",
+    "sharedDescription": [
+      "Baja vibración - más comodidad para el usuario.",
+      "Motor de bajo consumo - Más económico y eficiente.",
+      "Diseño maduro y fiable - Funcionamiento estable y duradero.",
+      "Empuñadura en goma - Más practicidad durante el uso.",
+      "Depósito de 0,7 litros - Autonomía de más de 1 hora.",
+      "Largo alcance en podas de árboles.",
+      "Longitud total de 2,6 hasta 4 metros."
+    ],
+    "models": [
+      {
+        "model": "BPP26C",
+        "motor": "Gasolina, 2 Tiempos, 26cc",
+        "potenciaMaxima": "1,0 CV",
+        "mezclaCombustible": "40:1 Si Es Aceite Sintético Y 25:1 Si Es Aceite Mineral",
+        "capacidadDeposito": "0,7 Litros",
+        "carburador": "Diafragma",
+        "escapeReforzado": "Sí",
+        "tipoArranque": "Manual Retráctil",
+        "manillar": "Ergonómico con goma"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "pole-pruner",
+    "image": "14.png",
+    "sharedDescription": [
+      "Baja vibración y ruido - más comodidad para el usuario.",
+      "Motor eléctrico - Más económico y eficiente.",
+      "Empuñadura en goma - Más practicidad durante el uso.",
+      "Largo alcance en podas de árboles.",
+      "Longitud total de 2,2 hasta 3,2 metros.",
+      "Montaje sin herramienta.",
+      "Cabezal de poda ajustable en ángulo (0 - 30°)."
+    ],
+    "models": [
+      {
+        "model": "BPPE700C-1",
+        "motor": "Eléctrico, 110V, 50/60Hz",
+        "potenciaMaxima": "700W",
+        "longitudTotal": "3,2 metros",
+        "manillar": "Ergonómico con goma"
+      },
+      {
+        "model": "BPPE700C-2",
+        "motor": "Eléctrico, 220V, 50/60Hz",
+        "potenciaMaxima": "700W",
+        "longitudTotal": "3,2 metros",
+        "manillar": "Ergonómico con goma"
+      }
+    ]
+  },
+   {
+    "category": "mowers",
+    "product": "lawn-mower",
+    "image": "15.png",
+    "sharedDescription": [
+      "Fácil de operar, ideal para jardines pequeños a medianos",
+      "Altura de corte ajustable central",
+      "Recogedor con bolsa de tela y tapa de plástico",
+      "Cuchilla recta para corte preciso"
+    ],
+    "models": [
+      {
+        "model": "BLM430RC-80cc",
+        "tipoAccionamiento": "Manual",
+        "funcionDescarga": "3 En 1 Trasera, Recogida, Recicladora",
+        "empuñadura": "De Goma",
+        "cubiertaDelantera": "Sí",
+        "engancheLimpieza": "No",
+        "motor": "80 CC Gasolina",
+        "anchuraCorte": "17 pulgadas",
+        "alturaCorte": "25-75mm (6 posiciones)",
+        "sistemaArranque": "Manual Retráctil",
+        "capacidadDepositoCombustible": "0.8 litros",
+        "capacidadAceiteMotor": "0.4 litros",
+        "ruedas": "6/7 pulgadas (delanteras/traseras)",
+        "volumenRecogedor": "45L",
+        "tipoCuchilla": "Recta",
+        "recogedor": "Tapa plástica y bolsa de tela"
+      }
+    ]
+  },
+  {
+    "category": "mowers",
+    "product": "lawn-mower",
+    "image": "16.png",
+    "sharedDescription": [
+      "Plataforma metálica de 20\" - Equilibrio ideal entre tamaño y productividad",
+      "Fácil de arrancar, fácil de mantener",
+      "Salida lateral y recicladora - 2 en 1"
+    ],
+    "models": [
+      {
+        "model": "BLM510SC-196cc",
+        "motor": "196 CC Gasolina",
+        "anchuraCorte": "20\"",
+        "alturaCorte": "25-75 mm (6 opciones de ajuste central)",
+        "opcionesSalida": "Salida lateral y reciclador",
+        "capacidadRecogedor": "No",
+        "tipoPropulsion": "Manual",
+        "manillar": "Manillar engomado",
+        "ruedas": "Delanteras de 7\" y traseras de 10\""
+      }
+    ]
+  },
+  {
+    "category": "mowers",
+    "product": "lawn-mower",
+    "image": "17.png",
+    "sharedDescription": [
+      "Plataforma metálica de 21\" - Tamaño medio ideal",
+      "Corte preciso y fiable",
+      "Recogedor híbrido de 65L - fácil de desmontar y limpiar",
+      "4 en 1: salida trasera, recogedor, salida lateral y reciclador"
+    ],
+    "models": [
+      {
+        "model": "BLM530CTC-196cc",
+        "motor": "196 CC Gasolina",
+        "anchuraCorte": "21\"",
+        "alturaCorte": "25-75 mm (7 opciones de ajuste central)",
+        "opcionesSalida": "Salida trasera, recogedor, salida lateral y reciclador",
+        "capacidadRecogedor": "65 Litros",
+        "tipoPropulsion": "Traccionado",
+        "manillar": "Manillar engomado",
+        "ruedas": "Delanteras de 8\" y traseras de 11\""
+      },
+      {
+        "model": "BLM560CTC-196CC",
+        "motor": "196 CC Gasolina",
+        "anchuraCorte": "22\"",
+        "alturaCorte": "25-75 mm (7 opciones de ajuste central)",
+        "opcionesSalida": "Salida trasera, recogedor, salida lateral y reciclador",
+        "capacidadRecogedor": "65 Litros",
+        "tipoPropulsion": "Traccionado",
+        "manillar": "Manillar engomado",
+        "ruedas": "Delanteras de 8\" y traseras de 11\""
+      }
+    ]
+  },
+  {
+    "category": "cleaning",
+    "product": "pressure-washer",
+    "image": "18.png",
+    "sharedDescription": [
+      "Con Auto Stop - para el motor cuando la presión alcanza el valor máximo",
+      "Tamaño compacto - fácil de almacenar",
+      "5 metros de manguera con soporte - fácil de manejar",
+      "Cable de alimentación de 5 metros",
+      "Con ruedas y asa larga - fácil de mover",
+      "Con botella de jabón y conector rápido"
+    ],
+    "models": [
+      {
+        "model": "BEPW2000C-1",
+        "motor": "1800W - 110V - 50/60Hz - Tipo de cepillo",
+        "presionNominal": "110Bar",
+        "presionMax": "150Bar",
+        "caudalNominal": "6,0 l/min"
+      },
+      {
+        "model": "BEPW2000C-2",
+        "motor": "1800W - 220V - 50/60Hz - Tipo de cepillo",
+        "presionNominal": "110Bar",
+        "presionMax": "150Bar",
+        "caudalNominal": "6,0 l/min"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": "19.png",
+    "sharedDescription": [
+      "Calidad superior: componentes de alta calidad como cilindros, pistones, sellos de aceite y cojinetes",
+      "Sistema de arranque retráctil o eléctrico según el modelo"
+    ],
+    "models": [
+      {
+        "model": "BE11TC",
+        "motor": "25.4cc, 2 Tiempos",
+        "potenciaMaxima": "1.1 HP",
+        "refrigeracion": "Aire",
+        "tanqueCombustible": "0.7 Litros",
+        "sistemaArranque": "Retráctil"
+      },
+      {
+        "model": "BE20TC",
+        "motor": "51.7cc, 2 Tiempos",
+        "potenciaMaxima": "2 HP",
+        "refrigeracion": "Aire",
+        "tanqueCombustible": "0.8 Litros",
+        "sistemaArranque": "Retráctil"
+      },
+      {
+        "model": "BE70C",
+        "motor": "212cc, 4 Tiempos",
+        "potenciaMaxima": "7.0 HP",
+        "refrigeracion": "Aire",
+        "tanqueCombustible": "3.6 Litros",
+        "sistemaArranque": "Retráctil"
+      },
+      {
+        "model": "BE130C",
+        "motor": "390cc, 4 Tiempos",
+        "potenciaMaxima": "13 HP",
+        "refrigeracion": "Aire",
+        "tanqueCombustible": "6.5 Litros",
+        "sistemaArranque": "Retráctil"
+      },
+      {
+        "model": "BE150C",
+        "motor": "420cc, 4 Tiempos",
+        "potenciaMaxima": "15 HP",
+        "refrigeracion": "Aire",
+        "tanqueCombustible": "6.5 Litros",
+        "sistemaArranque": "Retráctil"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": "20.png",
+    "sharedDescription": [
+      "Calidad superior: componentes de alta calidad como cilindros, pistones, sellos de aceite y cojinetes",
+      "Sistema de arranque retráctil o eléctrico según el modelo"
+    ],
+    "models": [
+      {
+        "model": "BE150EC",
+        "motor": "420cc, 4 Tiempos",
+        "potenciaMaxima": "15 HP",
+        "refrigeracion": "Aire",
+        "tanqueCombustible": "6.5 Litros",
+        "sistemaArranque": "Eléctrico y Retráctil"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": "21.png",
+    "sharedDescription": [
+      "Revestimiento de hierro fundido - alta resistencia al desgaste",
+      "Componentes de alta calidad como cilindros, pistones, sellos de aceite, cojinetes"
+    ],
+    "models": [
+      {
+        "model": "BDE50C",
+        "motor": "211cc, 4 Tiempos",
+        "potenciaNominal": "2.8kW / 3.75CV",
+        "potenciaMaxima": "3.3kW / 4.5CV",
+        "diametroCilindro": "70 mm",
+        "tanqueCombustible": "2.5 Litros",
+        "aceite": "750 ml",
+        "arranque": "Manual Retráctil"
+      },
+      {
+        "model": "BDE70C",
+        "motor": "296cc, 4 Tiempos",
+        "potenciaNominal": "4.0kW / 5.4CV",
+        "potenciaMaxima": "4.8kW / 6.5CV",
+        "diametroCilindro": "78 mm",
+        "tanqueCombustible": "3.5 Litros",
+        "aceite": "1100 ml",
+        "arranque": "Manual Retráctil"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": "22.png",
+    "sharedDescription": [
+      "Revestimiento de hierro fundido - alta resistencia al desgaste",
+      "Componentes de alta calidad como cilindros, pistones, sellos de aceite, cojinetes"
+    ],
+    "models": [{
+        "model": "BDE100EC",
+        "motor": "406cc, 4 Tiempos",
+        "potenciaNominal": "6.4kW / 8.6CV",
+        "potenciaMaxima": "7.5kW / 10.0CV",
+        "diametroCilindro": "86 mm",
+        "tanqueCombustible": "5.5 Litros",
+        "aceite": "1650 ml",
+        "arranque": "Manual Retráctil"
+      },
+      {
+        "model": "BDE110EC",
+        "motor": "476cc, 4 Tiempos",
+        "potenciaNominal": "7.3kW / 9.8CV",
+        "potenciaMaxima": "8.1kW / 10.9CV",
+        "diametroCilindro": "88 mm",
+        "tanqueCombustible": "5.5 Litros",
+        "aceite": "1650 ml",
+        "arranque": "Eléctrico / Manual Retráctil"
+      },
+      {
+        "model": "BDE130EC",
+        "motor": "519cc, 4 Tiempos",
+        "potenciaNominal": "7.9kW / 10.6CV",
+        "potenciaMaxima": "8.2kW / 11.0CV",
+        "diametroCilindro": "92 mm",
+        "tanqueCombustible": "5.5 Litros",
+        "aceite": "1650 ml",
+        "arranque": "Eléctrico / Manual Retráctil"
+      }
+    ]
+  },
+  {
+  "category": "power",
+  "product": "engine-motor",
+  "image": "23.png",
+  "sharedDescription": [
+    "Motores monofásicos de alto rendimiento",
+    "Bobinado en cobre",
+    "Arranque con alto par",
+    "Carcasa de hierro fundido",
+    "Eje mm",
+    "Capacitor de arranque incluido"
+  ],
+  "models": [
+    {
+      "model": "BEE1.OHC-DS60",
+      "potencia": "1.0HP / 0.75kW",
+      "voltaje": "110 / 220V - 60Hz",
+      "monofasico": true,
+      "poles": "2 polos",
+      "velocidad": "alta velocidad"
+    },
+    {
+      "model": "BEE2.OHC-DS60",
+      "potencia": "2.0HP / 1.5kW",
+      "voltaje": "110 / 220V - 60Hz",
+      "monofasico": true,
+      "poles": "2 polos",
+      "velocidad": "alta velocidad"
+    },
+    {
+      "model": "BEE3.OHC-DS60",
+      "potencia": "3.0HP / 2.2kW",
+      "voltaje": "110 / 220V - 60Hz",
+      "monofasico": true,
+      "poles": "2 polos",
+      "velocidad": "alta velocidad"
+    },
+    {
+      "model": "BEE4.OHC-DS60",
+      "potencia": "4.0HP / 3.0kW",
+      "voltaje": "110 / 220V - 60Hz",
+      "monofasico": true,
+      "poles": "2 polos",
+      "velocidad": "alta velocidad"
+    },
+    {
+      "model": "BEE1.OLC-DS60",
+      "potencia": "1.0HP / 0.75kW",
+      "voltaje": "110 / 220V - 60Hz",
+      "monofasico": true,
+      "poles": "4 polos",
+      "velocidad": "alta velocidad"
+    },
+    {
+      "model": "BEE2.OLC-DS60",
+      "potencia": "2.0HP / 1.5kW",
+      "voltaje": "110 / 220V - 60Hz",
+      "monofasico": true,
+      "poles": "4 polos",
+      "velocidad": "baja velocidad"
+    },
+    {
+      "model": "BEE3.OLC-DS60",
+      "potencia": "3.0HP / 2.2kW",
+      "voltaje": "110 / 220V - 60Hz",
+      "monofasico": true,
+      "poles": "4 polos",
+      "velocidad": "alta velocidad"
+    },
+    {
+      "model": "BEE4.OLC-DS60",
+      "potencia": "4.0HP / 3.0kW",
+      "voltaje": "110 / 220V - 60Hz",
+      "monofasico": true,
+      "poles": "4 polos",
+      "velocidad": "baja velocidad"
+    }
+  ]
+},
+{
+    "category": "power",
+    "product": "water-pump",
+    "image": "24.png",
+    "sharedDescription": [
+      "Autosucción eficiente con gran capacidad de bombeo",
+      "Componentes de alta calidad: cilindros, pistones, sellos de aceite, cojinetes",
+      "Tamaño compacto y diseño portátil",
+      "Modelos para diferentes caudales y alturas de elevación"
+    ],
+    "models": [
+      {
+        "model": "BWP1.5x1.5STC",
+        "tipoBomba": "Autocebante",
+        "motor": "Gasolina, 2 tiempos, 52cc, 2.0 HP",
+        "sistemaArranque": "Retráctil",
+        "capacidadMaximaBombeo": "15000 litros por hora",
+        "diametroSuccionDescarga": "1.5 pulgadas x 1.5 pulgadas",
+        "elevacionTotal": "30 metros",
+        "alturaSuccion": "7 metros",
+        "tanqueCombustible": "1.2 litros"
+      },
+      {
+        "model": "BWP2x2SC-212",
+        "tipoBomba": "Autocebante",
+        "motor": "Gasolina, 4 tiempos, 212cc, 7.0 HP",
+        "sistemaArranque": "Retráctil",
+        "capacidadMaximaBombeo": "30000 litros por hora",
+        "diametroSuccionDescarga": "2 pulgadas x 2 pulgadas",
+        "elevacionTotal": "30 metros",
+        "alturaSuccion": "7 metros",
+        "tanqueCombustible": "3.6 litros"
+      },
+      {
+        "model": "BWP3x3SC-212",
+        "tipoBomba": "Autocebante",
+        "motor": "Gasolina, 4 tiempos, 212cc, 7.0 HP",
+        "sistemaArranque": "Retráctil",
+        "capacidadMaximaBombeo": "60000 litros por hora",
+        "diametroSuccionDescarga": "3 pulgadas x 3 pulgadas",
+        "elevacionTotal": "30 metros",
+        "alturaSuccion": "7 metros",
+        "tanqueCombustible": "3.6 litros"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "water-pump",
+    "image": "25.png",
+    "sharedDescription": [
+      "Autosucción eficiente con gran capacidad de bombeo",
+      "Componentes de alta calidad: cilindros, pistones, sellos de aceite, cojinetes",
+      "Tamaño compacto y diseño portátil",
+      "Modelos para diferentes caudales y alturas de elevación"
+    ],
+    "models": [{
+        "model": "BWP2x2CC-212",
+        "tipoBomba": "Autocebante",
+        "motor": "Gasolina, 4 tiempos, 212cc, 7.0 HP",
+        "sistemaArranque": "Retráctil",
+        "capacidadMaximaBombeo": "22000 litros por hora",
+        "diametroSuccionDescarga": "2 pulgadas x 2 pulgadas",
+        "elevacionTotal": "68 metros",
+        "alturaSuccion": "6 metros",
+        "tanqueCombustible": "3.6 litros"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "water-pump",
+    "image": "26.png",
+    "sharedDescription": [
+      "Revestimiento de hierro fundido - excelente resistencia al desgaste",
+      "Componentes de alta calidad como cilindros, pistones, sellos de aceite, cojinetes",
+      "Amplia gama de caudales y alturas según el modelo",
+      "Diseño robusto y duradero para uso intensivo"
+    ],
+    "models": [
+      {
+        "model": "BDWP2x2SC-211",
+        "tipoBomba": "Autocebante",
+        "motor": "Diesel, 4 tiempos, 211cc, 5.0 HP",
+        "sistemaArranque": "Retráctil",
+        "capacidadMaximaBombeo": "30000 litros por hora",
+        "diametroSuccionDescarga": "2 pulgadas x 2 pulgadas",
+        "elevacionTotal": "25 metros",
+        "alturaSuccion": "8 metros",
+        "tanqueCombustible": "2.5 litros"
+      },
+      {
+        "model": "BDWP3x3SC-296",
+        "tipoBomba": "Autocebante",
+        "motor": "Diesel, 4 tiempos, 296cc, 7.0 HP",
+        "sistemaArranque": "Retráctil",
+        "capacidadMaximaBombeo": "50000 litros por hora",
+        "diametroSuccionDescarga": "3 pulgadas x 3 pulgadas",
+        "elevacionTotal": "25 metros",
+        "alturaSuccion": "8 metros",
+        "tanqueCombustible": "3.5 litros"
+      },
+      {
+        "model": "BDWP4x4SC-406",
+        "tipoBomba": "Autocebante",
+        "motor": "Diesel, 4 tiempos, 406cc, 10.0 HP",
+        "sistemaArranque": "Retráctil",
+        "capacidadMaximaBombeo": "65000 litros por hora",
+        "diametroSuccionDescarga": "4 pulgadas x 4 pulgadas",
+        "elevacionTotal": "25 metros",
+        "alturaSuccion": "8 metros",
+        "tanqueCombustible": "5.5 litros"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "water-pump",
+    "image": "27.png",
+    "sharedDescription": [
+      "Revestimiento de hierro fundido - excelente resistencia al desgaste",
+      "Componentes de alta calidad como cilindros, pistones, sellos de aceite, cojinetes",
+      "Amplia gama de caudales y alturas según el modelo",
+      "Diseño robusto y duradero para uso intensivo"
+    ],
+    "models": [{
+        "model": "BDWP2x2CC",
+        "tipoBomba": "Centrífuga",
+        "motor": "Diesel, 4 tiempos, 406cc, 10.0 HP",
+        "sistemaArranque": "Retráctil",
+        "capacidadMaximaBombeo": "30000 litros por hora",
+        "diametroSuccionDescarga": "4 pulgadas x 4 pulgadas",
+        "elevacionTotal": "65 metros",
+        "alturaSuccion": "8 metros",
+        "tanqueCombustible": "5.5 litros"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": "28.png",
+    "sharedDescription": [
+      "Alternador de acero laminado en frío - mejor rendimiento en alta temperatura",
+      "Bobina 100% cobre - más eficiente energéticamente",
+      "Voltaje doble disponible según el modelo (110/220V - 50/60Hz)",
+      "Motor OHV de gasolina de 4 tiempos",
+      "Amplia variedad de potencias para distintas necesidades"
+    ],
+    "models": [
+      {
+        "model": "BG3.3CSD-60",
+        "potenciaMaxima": "3.3 KW",
+        "potenciaNominal": "3.0 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "7 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "11.5 Hora",
+        "capacidadCombustible": "15 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "600 ml"
+      },
+      {
+        "model": "BG3.0CSD-50",
+        "potenciaMaxima": "3.0 KW",
+        "potenciaNominal": "2.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "7 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "11.5 Hora",
+        "capacidadCombustible": "15 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "600 ml"
+      },
+      
+      {
+        "model": "BG9.0CSD-60",
+        "potenciaMaxima": "9.0 KW",
+        "potenciaNominal": "8.5 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "16 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      },
+      {
+        "model": "BG8.1CSD",
+        "potenciaMaxima": "8.1 KW",
+        "potenciaNominal": "7.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "16 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      },
+      {
+        "model": "BG8.1CS1",
+        "potenciaMaxima": "8.1 KW",
+        "potenciaNominal": "7.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 50Hz",
+        "motor": "16 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": "29.png",
+    "sharedDescription": [
+      "Alternador de acero laminado en frío - mejor rendimiento en alta temperatura",
+      "Bobina 100% cobre - más eficiente energéticamente",
+      "Voltaje doble disponible según el modelo (110/220V - 50/60Hz)",
+      "Motor OHV de gasolina de 4 tiempos",
+      "Amplia variedad de potencias para distintas necesidades"
+    ],
+    "models": [
+      {
+        "model": "BG3.0CS1-50",
+        "potenciaMaxima": "3.0 KW",
+        "potenciaNominal": "2.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 50Hz",
+        "motor": "7 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "11.5 Hora",
+        "capacidadCombustible": "15 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "600 ml"
+      }
+    ]
+  },
+   {
+    "category": "power",
+    "product": "generator",
+    "image": "30.png",
+    "sharedDescription": [
+      "Alternador de acero laminado en frío - mejor rendimiento en alta temperatura",
+      "Bobina 100% cobre - más eficiente energéticamente",
+      "Voltaje doble disponible según el modelo (110/220V - 50/60Hz)",
+      "Motor OHV de gasolina de 4 tiempos",
+      "Amplia variedad de potencias para distintas necesidades"
+    ],
+    "models": [
+
+      {
+        "model": "BG6.0CSD-60",
+        "potenciaMaxima": "6.0 KW",
+        "potenciaNominal": "5.5 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "13 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "8.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      },
+      {
+        "model": "BG5.5CSD-50",
+        "potenciaMaxima": "5.5 KW",
+        "potenciaNominal": "5.0 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "13 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "8.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": "31.png",
+    "sharedDescription": [
+      "Alternador de acero laminado en frío - mejor rendimiento en alta temperatura",
+      "Bobina 100% cobre - más eficiente energéticamente",
+      "Voltaje doble disponible según el modelo (110/220V - 50/60Hz)",
+      "Motor OHV de gasolina de 4 tiempos",
+      "Amplia variedad de potencias para distintas necesidades"
+    ],
+    "models": [
+      {
+        "model": "BG5.5CS1-50",
+        "potenciaMaxima": "5.5 KW",
+        "potenciaNominal": "5.0 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 50Hz",
+        "motor": "13 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "8.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": "32.png",
+    "sharedDescription": [
+      "Alternador de acero laminado en frío - mejor rendimiento en alta temperatura",
+      "Bobina 100% cobre - más eficiente energéticamente",
+      "Voltaje doble disponible según el modelo (110/220V - 50/60Hz)",
+      "Motor OHV de gasolina de 4 tiempos",
+      "Amplia variedad de potencias para distintas necesidades"
+    ],
+    "models": [
+      {
+        "model": "BG7.0CSD-60",
+        "potenciaMaxima": "7.0 KW",
+        "potenciaNominal": "6.5 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "15 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "7.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      },
+      {
+        "model": "BG6.3CSD-50",
+        "potenciaMaxima": "6.3 KW",
+        "potenciaNominal": "5.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "15 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "7.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      }
+    ]
+  },
+ {
+    "category": "power",
+    "product": "generator",
+    "image": "33.png",
+    "sharedDescription": [
+      "Alternador de acero laminado en frío - mejor rendimiento en alta temperatura",
+      "Bobina 100% cobre - más eficiente energéticamente",
+      "Voltaje doble disponible según el modelo (110/220V - 50/60Hz)",
+      "Motor OHV de gasolina de 4 tiempos",
+      "Amplia variedad de potencias para distintas necesidades"
+    ],
+    "models": [
+      {
+        "model": "BG6.3CS1-50",
+        "potenciaMaxima": "6.3 KW",
+        "potenciaNominal": "5.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 50Hz",
+        "motor": "15 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "7.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      }
+    ]
+  },
+ {
+    "category": "power",
+    "product": "generator",
+    "image": "34.png",
+    "sharedDescription": [
+      "Alternador de acero laminado en frío - mejor rendimiento en alta temperatura",
+      "Bobina 100% cobre - más eficiente energéticamente",
+      "Voltaje doble disponible según el modelo (110/220V - 50/60Hz)",
+      "Motor OHV de gasolina de 4 tiempos",
+      "Amplia variedad de potencias para distintas necesidades"
+    ],
+    "models": [
+      {
+        "model": "BG9.0CSD-60",
+        "potenciaMaxima": "9.0 KW",
+        "potenciaNominal": "8.5 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "16 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      },
+      {
+        "model": "BG8.1CSD",
+        "potenciaMaxima": "8.1 KW",
+        "potenciaNominal": "7.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "16 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      } 
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": "35.png",
+    "sharedDescription": [
+      "Alternador de acero laminado en frío - mejor rendimiento en alta temperatura",
+      "Bobina 100% cobre - más eficiente energéticamente",
+      "Voltaje doble disponible según el modelo (110/220V - 50/60Hz)",
+      "Motor OHV de gasolina de 4 tiempos",
+      "Amplia variedad de potencias para distintas necesidades"
+    ],
+    "models": [
+      {
+        "model": "BG8.1CS1",
+        "potenciaMaxima": "8.1 KW",
+        "potenciaNominal": "7.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 50Hz",
+        "motor": "16 HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6.0 Hora",
+        "capacidadCombustible": "25 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      }
+    ]
+  },
+      
+  {
+    "category": "power",
+    "product": "generator",
+    "image": "36.png",
+    "sharedDescription": [
+      "Bobina de cobre 100% (más eficiente energéticamente)",
+      "Tecnología inverter - alto rendimiento",
+      "Alternador de acero laminado en frío para un mejor rendimiento en alta temperatura",
+      "Con medidor de voltaje",
+      "2 enchufes de salida"
+    ],
+    "models": [
+      {
+        "model": "BG3.5iCS1-60",
+        "potenciaMaxima": "3.5 KW",
+        "potenciaNominal": "3.2 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V - 60Hz",
+        "motor": "223cc - 8HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6 Hora",
+        "capacidadCombustible": "7.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "550 ml"
+      },
+      {
+        "model": "BG3.5iCS2-60",
+        "potenciaMaxima": "3.5 KW",
+        "potenciaNominal": "3.2 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 60Hz",
+        "motor": "223cc - 8HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6 Hora",
+        "capacidadCombustible": "7.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "550 ml"
+      },
+      {
+        "model": "BG3.5iCS1-50",
+        "potenciaMaxima": "3.5 KW",
+        "potenciaNominal": "3.2 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V - 50Hz",
+        "motor": "223cc - 8HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6 Hora",
+        "capacidadCombustible": "7.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "550 ml"
+      },
+      {
+        "model": "BG3.5iCS2-50",
+        "potenciaMaxima": "3.5 KW",
+        "potenciaNominal": "3.2 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 50Hz",
+        "motor": "223cc - 8HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "6 Hora",
+        "capacidadCombustible": "7.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "550 ml"
+      },
+      {
+        "model": "BG1.8iCS2-50",
+        "potenciaMaxima": "",
+        "potenciaNominal": "",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 50Hz",
+        "motor": "223cc - 8HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "",
+        "capacidadCombustible": "",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": ""
+      },
+      {
+        "model": "BG3.5iCS2-50",
+        "potenciaMaxima": "",
+        "potenciaNominal": "",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "220V - 50Hz",
+        "motor": "223cc - 8HP / OHV, Gasolina, 4 Tiempos",
+        "autonomia50carga": "",
+        "capacidadCombustible": "",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": ""
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": "37.png",
+    "sharedDescription": [
+      "Bobina de cobre 100% (más eficiente energéticamente)",
+      "Voltaje dual 110/220V",
+      "Alternador de acero laminado en frío para mejor rendimiento en alta temperatura",
+      "Cargador de batería: 12VDC 8.3A"
+    ],
+    "models": [
+      {
+        "model": "BDG2.2CSD-60",
+        "potenciaMaxima": "2.2 KW",
+        "potenciaNominal": "2.0 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "211cc, 5HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "11.5 Hora",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "750 ml"
+      },
+      {
+        "model": "BDG2.0CSD-50",
+        "potenciaMaxima": "2.0 KW",
+        "potenciaNominal": "1.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "211cc, 5HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "11.5 Hora",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "750 ml"
+      },
+      {
+        "model": "BDG3.3CSD-60",
+        "potenciaMaxima": "3.3 KW",
+        "potenciaNominal": "3.0 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "296cc, 7HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "10.0 Hora",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      },
+      {
+        "model": "BDG3.0CSD-50",
+        "potenciaMaxima": "3.0 KW",
+        "potenciaNominal": "2.7 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "296cc, 7HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "10.0 Hora",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.1 Litro"
+      },
+      {
+        "model": "BDG5.0CSD-60",
+        "potenciaMaxima": "5.0 KW",
+        "potenciaNominal": "4.6 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "418cc, 11HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "9.0 Hora",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.65 Litros"
+      },
+      {
+        "model": "BDG4.5CSD-50",
+        "potenciaMaxima": "4.5 KW",
+        "potenciaNominal": "4.1 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "406cc, 10HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "9.0 Hora",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.65 Litros"
+      },
+      {
+        "model": "BDG5.0CSD-50",
+        "potenciaMaxima": "5.0 KW",
+        "potenciaNominal": "4.5 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "418cc, 11HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "8.0 Horas",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.65 Litros"
+      },
+      {
+        "model": "BDG7.5CSD-60",
+        "potenciaMaxima": "7.5 KW",
+        "potenciaNominal": "6.8 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 60Hz",
+        "motor": "418cc, 11HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "7.0 Horas",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.65 Litros"
+      },
+      {
+        "model": "BDG6.8CSD-50",
+        "potenciaMaxima": "6.8 KW",
+        "potenciaNominal": "6.2 KW",
+        "bobinaEstator": "100% Cobre",
+        "voltaje": "110V/220V Doble voltaje - 50Hz",
+        "motor": "519cc, 13HP, Diesel, 4 Tiempos",
+        "autonomia50carga": "7.0 Hora",
+        "capacidadCombustible": "12.5 Litros",
+        "sistemaArranque": "Retráctil",
+        "capacidadAceite": "1.65 Litros"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "sprayer-pump",
+    "image": "38.png",
+    "sharedDescription": [
+      "Bomba triplex con pistones de acero inoxidable",
+      "Recomendada para pulverización agrícola o como hidrolavadora",
+      "Compatible con motores eléctricos, diesel o gasolina"
+    ],
+    "models": [
+      {
+        "model": "BPSP22C",
+        "caudalMaximo": "14 a 22 l/min",
+        "velocidadTrabajo": "300 a 800 RPM",
+        "potenciaMotorGasolina": "5.5 a 6.5 CV",
+        "potenciaMotorElectrico": "1.5 a 2 HP",
+        "presionMaxima": "35 kgf/cm²",
+        "estructura": "Carcasa de hierro fundido, bomba triplex"
+      },
+      {
+        "model": "BPSP45C",
+        "caudalMaximo": "30 a 45 l/min",
+        "velocidadTrabajo": "300 a 800 RPM",
+        "potenciaMotorGasolina": "6.5 a 9.0 CV",
+        "potenciaMotorElectrico": "2.7 a 4 HP",
+        "presionMaxima": "45 kgf/cm²",
+        "estructura": "Carcasa de hierro fundido, bomba triplex"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "manual-seed-spreader",
+    "image": "39.png",
+    "sharedDescription": [
+      "Accionamiento por manivela",
+      "Tanque de 10 litros",
+      "Alcance hasta 7 metros"
+    ],
+    "models": [
+      {
+        "model": "BSS10C",
+        "tipo": "Manual",
+        "tanque": "10 litros",
+        "alcance": "Hasta 7 metros"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "earth-auger",
+    "image": "40.png",
+    "sharedDescription": [
+      "Diseño reforzado, práctico y ligero",
+      "Con taladro incluido",
+      "Fácil operación por uno o dos operadores"
+    ],
+    "models": [
+      {
+        "model": "BEA43C-150",
+        "motor": "2 tiempos, gasolina, 43cc, 1.7CV",
+        "operadores": "Un operador",
+        "diametroOrificio": "50mm",
+        "taladro": "150mm"
+      },
+      {
+        "model": "BEA52C-200",
+        "motor": "2 tiempos, gasolina, 52cc, 2.0CV",
+        "operadores": "Un operador",
+        "diametroOrificio": "200mm",
+        "taladro": "200mm"
+      },
+      {
+        "model": "BEA63C-250",
+        "motor": "2 tiempos, gasolina, 63cc, 3.5CV",
+        "operadores": "Uno o dos operadores",
+        "diametroOrificio": "250mm",
+        "taladro": "250mm"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "sprayer-pump",
+    "image": "41.png",
+    "sharedDescription": [
+      "Diseño de mochila para fácil transporte",
+      "Alcance costero de hasta 15 metros",
+      "Ligero y cómodo"
+    ],
+    "models": [
+      {
+        "model": "BMD43BC",
+        "motor": "2 tiempos, gasolina, 43cc, 1.7CV",
+        "alcance": "15 metros"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "tiller",
+    "image": "42.png",
+    "sharedDescription": [
+      "Motor de gasolina 212cc, 4 tiempos",
+      "Profundidad de arado hasta 100mm",
+      "Sistema de arranque manual retráctil",
+      "Manillar ajustable y neumáticos inflables"
+    ],
+    "models": [
+      {
+        "model": "BT1000RC",
+        "motor": "212cc, 4 tiempos, gasolina",
+        "tipoMango": "Manillar ajustable en altura y giro",
+        "anchuraCorte": "900 mm",
+        "profundidadArado": "100 mm",
+        "engranaje": "1 Adelante, 1 Atrás",
+        "tanqueCombustible": "3.6 L",
+        "transmision": "Caja de transmisión con PTO",
+        "arranque": "Manual retráctil"
+      },
+      {
+        "model": "BT900RC",
+        "motor": "212cc, 4 tiempos, gasolina",
+        "tipoMango": "Manillar rotatable, Ajustable en altura",
+        "anchuraCorte": "900 mm",
+        "profundidadArado": "100 mm",
+        "engranaje": "2 Adelante, 1 Atrás",
+        "tanqueCombustible": "3.6 L",
+        "transmision": "Por correa",
+        "arranque": "Manual retráctil"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "tiller",
+    "image": "43.png",
+    "sharedDescription": [
+      "Motor diesel 406cc, 4 tiempos",
+      "Manillar rotatable y ajustable",
+      "Profundidad de arado 150-300mm",
+      "Caja de transmisión con eje PTO",
+      "6 velocidades"
+    ],
+    "models": [
+      {
+        "model": "BDT1350ERC",
+        "motor": "406cc, 4 tiempos, diesel",
+        "anchuraCorte": "1350 mm",
+        "profundidadArado": "150 hasta 300mm",
+        "engranaje": "6 velocidades",
+        "tanqueCombustible": "5.5 L"
+      }
+    ]
+  },
+  {
+    "category": "marine",
+    "product": "outboard-motor",
+    "image": "44.png",
+    "sharedDescription": [
+      "Motores ligeros y potentes",
+      "Sistema de arranque manual",
+      "Velocidades: Adelante, Neutro y Reversa según modelo",
+      "Ideal para navegación con bajo consumo de combustible"
+    ],
+    "models": [
+      {
+        "model": "BM35TS",
+        "motor": "2 tiempos, 1 cilindro, 70cc",
+        "potenciaMaxima": "3.5HP",
+        "refrigeracion": "Por agua, pata corta",
+        "tanqueCombustible": "1.4L interno",
+        "rpmMaxima": "5500RPM",
+        "velocidades": "1 velocidad adelante y neutro",
+        "arranque": "Manual"
+      },
+      {
+        "model": "BM58TS",
+        "motor": "2 tiempos, 1 cilindro, 103cc",
+        "potenciaMaxima": "5.8CV",
+        "refrigeracion": "Por agua, pata corta",
+        "tanqueCombustible": "2.8L interno",
+        "rpmMaxima": "5500RPM",
+        "velocidades": "1 velocidad adelante, neutro y 1 reverso",
+        "arranque": "Manual"
+      },
+      {
+        "model": "BM98TS",
+        "motor": "2 tiempos, 1 cilindro, 246cc",
+        "potenciaMaxima": "9.8CV",
+        "refrigeracion": "Por agua, pata corta",
+        "tanqueCombustible": "2.4L externo",
+        "rpmMaxima": "5500RPM",
+        "velocidades": "1 velocidad adelante, neutro y 1 reverso",
+        "arranque": "Manual"
+      }
+    ]
+  }
+]

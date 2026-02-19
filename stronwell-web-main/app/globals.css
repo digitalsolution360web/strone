@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --brand-color: #ff4f01;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--brand-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e03e00;
+}
+
+/* Ensure content doesn't hide behind fixed header */
+main {
+  padding-top: 80px; /* Adjust based on header height */
+}
+
+@media (max-width: 1024px) {
+  main {
+    padding-top: 64px; /* Smaller padding for mobile */
+  }
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Premium UI – focus & interactions (colors unchanged) */
+:focus-visible {
+  outline: 2px solid var(--brand-color);
+  outline-offset: 2px;
+}
+
+/* Premium section spacing */
+.section-spacing {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media (min-width: 1024px) {
+  .section-spacing {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* Premium card lift */
+.premium-card {
+  transition: transform 0.35s cubic-bezier(0.25, 0.1, 0.25, 1),
+    box-shadow 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.premium-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+}
+
+/* Section overline label – bold UI */
+.section-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ff4f01;
+  margin-bottom: 0.75rem;
+}
+
+/* Card with left accent (brand gradient) */
+.card-accent {
+  border-left: 4px solid #ff4f01;
+}

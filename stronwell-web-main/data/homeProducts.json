@@ -1,0 +1,102 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Agricultural Equipment",
+      "image": "/home-products/agricultural.jpg",
+      "category": "agricultural",
+      "link": "/products/tiller"
+    },
+    {
+      "id": 2,
+      "title": "Back Pack Sprayer",
+      "image": "/home-products/back-pack-sprayer.png",
+      "category": "sprayers",
+      "link": "/products/sprayer"
+    },
+    {
+      "id": 3,
+      "title": "Blower",
+      "image": "/home-products/blower.png",
+      "category": "blowers",
+      "link": "/products/blower"
+    },
+    {
+      "id": 4,
+      "title": "Brush Cutter",
+      "image": "/home-products/brush-cutter.png",
+      "category": "cutting-tools",
+      "link": "/products/brush-cutter"
+    },
+    {
+      "id": 5,
+      "title": "Chain Saw",
+      "image": "/home-products/chain-saw.png",
+      "category": "cutting-tools",
+      "link": "/products/chainsaw"
+    },
+    {
+      "id": 6,
+      "title": "Cleaning Equipment",
+      "image": "/home-products/cleaning.png",
+      "category": "cleaning",
+      "link": "/products/pressure-washer"
+    },
+    {
+      "id": 7,
+      "title": "Earth Auger",
+      "image": "/home-products/earth-auger.png",
+      "category": "construction",
+      "link": "/products/earth-auger"
+    },
+    {
+      "id": 8,
+      "title": "Engine Motor",
+      "image": "/home-products/engine-motor.png",
+      "category": "engines",
+      "link": "/products/engine-motor"
+    },
+    {
+      "id": 9,
+      "title": "Water Pump",
+      "image": "/home-products/water-pump.png",
+      "category": "pumps",
+      "link": "/products/pumps"
+    },
+    {
+      "id": 10,
+      "title": "Generator",
+      "image": "/home-products/generator.png",
+      "category": "power-equipment",
+      "link": "/products/generator"
+    },
+    {
+      "id": 11,
+      "title": "Hedge Trimmer",
+      "image": "/home-products/hedge-trimmer.png",
+      "category": "garden-tools",
+      "link": "/products/hedge-trimmer"
+    },
+    {
+      "id": 12,
+      "title": "Lawn Mowers",
+      "image": "/home-products/lawn-mowers.png",
+      "category": "lawn-care",
+      "link": "/products/lawn-mower"
+    },
+    {
+      "id": 13,
+      "title": "Manual Seed Spreader",
+      "image": "/home-products/manual-seed-spreader.png",
+      "category": "agricultural",
+      "link": "/products/manual-seed-spreader"
+    },
+    {
+      "id": 14,
+      "title": "Marine Equipment",
+      "image": "/home-products/marine.png",
+      "category": "marine",
+      "link": "/products/marine"
+    }
+  ]
+}

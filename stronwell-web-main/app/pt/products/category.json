@@ -1,0 +1,144 @@
+{
+  "products": {
+    "agricultural": [
+      {
+        "id": 1,
+        "title": "Earth Auger",
+        "image": "/product-banner/earth-auger.png",
+        "category": "agricultural",
+        "link": "/products/earth-auger"
+      },
+      {
+        "id": 2,
+        "title": "Manual Seed Spreader",
+        "image": "/product-banner/manual-seed-spreader.png",
+        "category": "agricultural",
+        "link": "/products/manual-seed-spreader"
+      },
+      {
+        "id": 3,
+        "title": "Sprayer Pump",
+        "image": "/product-banner/sprayer-pump.png",
+        "category": "agricultural",
+        "link": "/products/sprayer-pump"
+      },
+      {
+        "id": 4,
+        "title": "Tiller",
+        "image": "/product-banner/agricultural.jpg",
+        "category": "agricultural",
+        "link": "/products/tiller"
+      }
+    ],
+    "cleaning": [
+      {
+        "id": 1,
+        "title": "Pressure Washer",
+        "image": "/product-banner/cleaning.png",
+        "category": "cleaning",
+        "link": "/products/pressure-washer"
+      }
+    ],
+    "forestry and gardening": [
+      {
+        "id": 1,
+        "title": "Back Pack Sprayer",
+        "image": "/product-banner/back-pack-sprayer.png",
+        "category": "forestry and gardening",
+        "link": "/products/sprayer"
+      },
+      {
+        "id": 2,
+        "title": "Blower",
+        "image": "/product-banner/blower.png",
+        "category": "forestry and gardening",
+        "link": "/products/blower"
+      },
+      {
+        "id": 3,
+        "title": "Brush Cutter",
+        "image": "/product-banner/brush-cutter.png",
+        "category": "forestry and gardening",
+        "link": "/products/brush-cutter"
+      },
+      {
+        "id": 4,
+        "title": "Chain Saw",
+        "image": "/product-banner/chain-saw.png",
+        "category": "forestry and gardening",
+        "link": "/products/chainsaw"
+      },
+      {
+        "id": 5,
+        "title": "Hedge Trimmer",
+        "image": "/product-banner/hedge-trimmer.png",
+        "category": "forestry and gardening",
+        "link": "/products/hedge-trimmer"
+      },
+      {
+        "id": 6,
+        "title": "Pole Pruner",
+        "image": "/product-banner/pole-prunner.png",
+        "category": "forestry and gardening",
+        "link": "/products/pole-pruner"
+      },
+      {
+        "id": 7,
+        "title": "Vacuum Blower",
+        "image": "/product-banner/vacuum-blower.png",
+        "category": "forestry and gardening",
+        "link": "/products/vacuum-blower"
+      }
+    ],
+    "garden-tools": [
+      {
+        "id": 1,
+        "title": "Forest & Garden Tools",
+        "image": "/product-banner/f-g-forestry-garden.png",
+        "category": "garden-tools",
+        "link": "/products/garden-tools"
+      }
+    ],
+    "marine": [
+      {
+        "id": 1,
+        "title": "Outboard Motor",
+        "image": "/product-banner/outboard-motor.png",
+        "category": "marine",
+        "link": "/products/outboard-motor"
+      }
+    ],
+    "mowers": [
+      {
+        "id": 1,
+        "title": "Lawn Mower",
+        "image": "/product-banner/lawn-mowers.png",
+        "category": "mowers",
+        "link": "/products/lawn-mower"
+      }
+    ],
+    "power": [
+      {
+        "id": 1,
+        "title": "Engine / Motor",
+        "image": "/product-banner/engine-motor.png",
+        "category": "power",
+        "link": "/products/engine-motor"
+      },
+      {
+        "id": 2,
+        "title": "Generator",
+        "image": "/product-banner/generator.png",
+        "category": "power",
+        "link": "/products/generator"
+      },
+      {
+        "id": 3,
+        "title": "Water Pump",
+        "image": "/product-banner/water-pump.png",
+        "category": "power",
+        "link": "/products/water-pump"
+      }
+    ]
+  }
+}

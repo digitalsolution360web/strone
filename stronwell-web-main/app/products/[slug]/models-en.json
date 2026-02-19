@@ -1,0 +1,1647 @@
+[
+  {
+    "category": "forestry-and-gardening",
+    "product": "brush-cutter",
+    "image": ["SBC26DC.webp", "SBC33DC.webp"],
+    "sharedDescription": [
+      "Low vibration - More comfort for the user",
+      "Low consumption engine - More economical and efficient",
+      "Mature and reliable design - Stable and durable operation",
+      "D-handle - More comfort during use",
+      "0.55 liter tank - Autonomy of more than 1 hour",
+      "Includes 3-point blade + nylon head"
+    ],
+    "models": [
+      {
+        "model": "SBC26DC",
+        "motor": "Gasoline, 2 Stroke, 25.4CC",
+        "maxPower": "1.0 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "0.55 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "tubeDiameter": "26 Mm",
+        "reinforcedExhaust": ""
+      },
+      {
+        "model": "SBC33DC",
+        "motor": "2 Stroke, 32.6CC",
+        "maxPower": "1.3 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "0.7 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "tubeDiameter": "26 Mm",
+        "reinforcedExhaust": ""
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "brush-cutter",
+    "image": ["SBC33C.webp", "SBC43C.webp", "SBC52C.webp", "SBC62C.webp", "SBC43BC.webp"],
+    "sharedDescription": [
+      "Bicycle handlebar - More comfort during use",
+      "0.7 liter tank - Autonomy of more than 1 hour",
+      "Mature and reliable design - Stable and durable operation",
+      "Includes 3-point blade + nylon head"
+    ],
+    "models": [
+      {
+        "model": "SBC33C",
+        "motor": "Gasoline, 2 Stroke, 32.6CC",
+        "maxPower": "1.0 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "0.7 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "tubeDiameter": "26 Mm",
+        "reinforcedExhaust": ""
+      },
+      {
+        "model": "SBC43C",
+        "motor": "Gasoline, 2 Stroke, 42.7CC",
+        "maxPower": "1.7 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "1.0 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "tubeDiameter": "28 Mm",
+        "reinforcedExhaust": ""
+      },
+      {
+        "model": "SBC52C",
+        "motor": "Gasoline, 2 Stroke, 51.7CC",
+        "maxPower": "2.0 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "1.0 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "tubeDiameter": "28 mm, Ergonomic Split Handle",
+        "reinforcedExhaust": "Reinforced Exhaust"
+      },
+      {
+        "model": "SBC62C",
+        "motor": "Gasoline, 2 Stroke, 62.0CC",
+        "maxPower": "3.5 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "1.0 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "tubeDiameter": "28 mm",
+        "reinforcedExhaust": ""
+      },
+      {
+        "model": "SBC43BC",
+        "motor": "Gasoline, 2 Stroke, 42.7CC",
+        "maxPower": "1.7 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "1.0 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "tubeDiameter": "26 mm, D-Handle",
+        "reinforcedExhaust": "Reinforced Exhaust"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "brush-cutter",
+    "image": ["SBC43MTC.webp"],
+    "sharedDescription": [
+      "Low vibration - More comfort for the user",
+      "Low consumption engine - More economical and efficient",
+      "Mature and reliable design - Stable and durable operation",
+      "D-handle - More comfort during use",
+      "0.55 liter tank - Autonomy of more than 1 hour",
+      "Includes 3-point blade + nylon head"
+    ],
+    "models": [
+      {
+        "model": "SBC43MTC",
+        "motor": "Gasoline, 2 Stroke, 42.7CC",
+        "maxPower": "1.7 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "0.1 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "tubeDiameter": "26 Mm",
+        "reinforcedExhaust": ""
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "brush-cutter",
+    "image": ["SBCE1400C-1.webp", "SBCE1400C-2.webp"],
+    "sharedDescription": [
+      "Low vibration - More comfort for the user",
+      "Low consumption engine - More economical and efficient",
+      "Mature and reliable design - Stable and durable operation",
+      "D-handle - More comfort during use",
+      "0.55 liter tank - Autonomy of more than 1 hour",
+      "Includes 3-point blade + nylon head"
+    ],
+    "models": [
+      {
+        "model": "SBCE1400C-1",
+        "motor": "Electric 110V, 50/60Hz",
+        "maxPower": "1.4 kW"
+      },
+      {
+        "model": "SBCE1400C-2",
+        "motor": "Electric 220V, 50/60Hz",
+        "maxPower": "1.4 kW"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "chainsaw",
+    "image": ["SCS25C-10SN.webp", "SCS42C-16SN.webp", "SCS53C-18SN.webp", "SCS58C-20SN.webp"],
+    "sharedDescription": [
+      "Automatic adjustable chain lubrication",
+      "Vibration dampers - low vibration and comfort for the user",
+      "Ergonomic grip, better adherence to use",
+      "Low consumption engine - more economical and efficient"
+    ],
+    "models": [
+      {
+        "model": "SCS25C-10SN",
+        "motor": "Gasoline, 2 stroke, 25.4CC",
+        "maxPower": "1.0 HP",
+        "guideBar": "10\"",
+        "chain": "3/8\"",
+        "fuelTankCapacity": "230 ml",
+        "oilTankCapacity": "160 ml",
+        "maxRpm": "12000 per minute",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil"
+      },
+      {
+        "model": "SCS42C-16SN",
+        "motor": "Gasoline, 2 stroke, 42.0CC",
+        "maxPower": "2.1 HP",
+        "guideBar": "16\"",
+        "chain": "3/8\"",
+        "fuelTankCapacity": "310 ml",
+        "oilTankCapacity": "210 ml",
+        "maxRpm": "13000 per minute",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil"
+      },
+      {
+        "model": "SCS53C-18SN",
+        "motor": "Gasoline, 2 stroke, 50.8CC",
+        "maxPower": "2.8 HP",
+        "guideBar": "18\"",
+        "chain": ".325\"",
+        "fuelTankCapacity": "550 ml",
+        "oilTankCapacity": "260 ml",
+        "maxRpm": "12500 per minute",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil"
+      },
+      {
+        "model": "SCS58C-20SN",
+        "motor": "Gasoline, 2 stroke, 54.0CC",
+        "maxPower": "3.2 HP",
+        "guideBar": "20\"",
+        "chain": ".325\"",
+        "fuelTankCapacity": "550 ml",
+        "oilTankCapacity": "260 ml",
+        "maxRpm": "12500 per minute",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "chainsaw",
+    "image": ["SCSE2400C-18SN.webp"],
+    "sharedDescription": [
+      "Automatic adjustable chain lubrication",
+      "Vibration dampers - low vibration and comfort for the user",
+      "Ergonomic grip, better adherence to use",
+      "Low consumption engine - more economical and efficient"
+    ],
+    "models": [
+      {
+        "model": "SCSE2400C-18SN",
+        "motor": "Gasoline, 2 stroke, 25.4CC",
+        "maxPower": "2400W",
+        "guideBar": "18\"",
+        "maxChainSpeed": "15m/s"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "blower",
+    "image": ["SB26C.webp"],
+    "sharedDescription": [
+      "Light and portable - Easy to use and transport",
+      "Powerful engine - High air flow, ideal for cleaning leaves, gardens and debris",
+      "Ergonomic grip and vibration damping system - Reduces vibrations and increases operator comfort"
+    ],
+    "models": [
+      {
+        "model": "SB26C",
+        "motor": "25.4CC Gasoline, 2 Stroke",
+        "maxPower": "1.0HP @ 7500RPM",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "0.45 Liters",
+        "carburetor": "Diaphragm",
+        "reinforcedExhaust": "",
+        "startType": "Manual Retractable",
+        "airVolume": "0.18M³/S Or 636M³/Hour"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "blower",
+    "image": ["SB63BC.webp", "SB76BC.webp"],
+    "sharedDescription": [
+      "Light and portable - Easy to use and transport",
+      "Powerful engine - High air flow, ideal for cleaning leaves, gardens and debris",
+      "Ergonomic grip and vibration damping system - Reduces vibrations and increases operator comfort"
+    ],
+    "models": [
+      {
+        "model": "SB63BC",
+        "motor": "63.3CC, Gasoline, 2 Stroke",
+        "maxPower": "3.5HP @ 7000RPM",
+        "airVolume": "0.24M³/S Or 864 M³/Hour",
+        "carburetor": "Diaphragm",
+        "tankCapacity": "1.8 Liter",
+        "throttleControl": "On Handle"
+      },
+      {
+        "model": "SB76BC",
+        "motor": "75.6CC, Gasoline, 2 Stroke",
+        "maxPower": "4.1HP @ 7000RPM",
+        "airVolume": "0.3M³/S Or 1080 M³/Hour",
+        "carburetor": "Diaphragm",
+        "tankCapacity": "2.2 Liter",
+        "throttleControl": "On Handle"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "vacuum-blower",
+    "image": ["SVB26C.webp"],
+    "sharedDescription": [
+      "Light and portable - Easy to use and transport",
+      "Powerful engine - High air flow, ideal for cleaning leaves, gardens and debris",
+      "Ergonomic grip and vibration damping system - Reduces vibrations and increases operator comfort",
+      "With collection bag"
+    ],
+    "models": [
+      {
+        "model": "SVB26C",
+        "motor": "25.4CC Gasoline, 2 Stroke",
+        "maxPower": "1.0HP @ 7500RPM",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "0.45 Liters",
+        "carburetor": "Diaphragm",
+        "startType": "Manual Retractable",
+        "airVolume": "0.18M³/S Or 636M³/Hour",
+        "reinforcedExhaust": ""
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "sprayer",
+    "image": ["SS26BC.webp", "SS26BC-PL.webp", "SS35BC.webp"],
+    "sharedDescription": [
+      "With output pressure regulation - Practical and precise",
+      "Economical and reliable engine - Greater autonomy",
+      "2 long launchers with straight tip - Greater volume",
+      "Two spray nozzles - Greater volume",
+      "Brass pressure pump"
+    ],
+    "models": [
+      {
+        "model": "SS26BC",
+        "motor": "25.4CC Gasoline, 2 stroke",
+        "maxPower": "1.0HP",
+        "fuelTankCapacity": "0.6 liters",
+        "sprayTankCapacity": "25 liters",
+        "workingPressure": "35 PSI",
+        "maxPressure": "508 PSI",
+        "sprayVolume": "5-8 liters/min",
+        "pumpType": "High pressure piston pump",
+        "pumpMaterial": "Brass",
+        "startSystem": "Retractable"
+      },
+      {
+        "model": "SS26BC-PL",
+        "motor": "25.4CC Gasoline, 2 stroke",
+        "maxPower": "1.0HP",
+        "fuelTankCapacity": "0.6 liters",
+        "sprayTankCapacity": "25 liters",
+        "workingPressure": "35 PSI",
+        "maxPressure": "508 PSI",
+        "sprayVolume": "5-8 liters/min",
+        "pumpType": "High pressure piston pump",
+        "pumpMaterial": "NYLON",
+        "startSystem": "Retractable"
+      },
+      {
+        "model": "SS35BC",
+        "motor": "35CC Gasoline, 4 stroke",
+        "maxPower": "1.35HP",
+        "fuelTankCapacity": "0.6 liters",
+        "sprayTankCapacity": "25 liters",
+        "workingPressure": "35 PSI",
+        "maxPressure": "508 PSI",
+        "sprayVolume": "5-8 liters/min",
+        "pumpType": "Brass pressure pump",
+        "pumpMaterial": "Brass",
+        "startSystem": "Retractable"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "back-pack-sprayer",
+    "image": ["SEBS18VBC-20.webp"],
+    "sharedDescription": [
+      "With adjustable stainless steel lance",
+      "3 spray nozzles - Better adjustment to need",
+      "Electric motor - No smoke and no pollution",
+      "Practical and light"
+    ],
+    "models": [
+      {
+        "model": "SEBS18VBC-20",
+        "battery": "18V Lithium-Ion - 4.0Ah",
+        "charger": "110-220V",
+        "tankCapacity": "20 liters",
+        "sprayVolume": "2.8 (liters / min)",
+        "pumpType": "Automatic Pump"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "hedge-trimmer",
+    "image": ["SHT700C.webp"],
+    "sharedDescription": [
+      "Light and portable - Easy to use and transport",
+      "Ergonomic and rotatable grip",
+      "Double cutting action",
+      "Low consumption"
+    ],
+    "models": [
+      {
+        "model": "SHT700C",
+        "motor": "23cc, Gasoline, 2 stroke",
+        "maxPower": "0.9 HP",
+        "bladeLength": "700mm",
+        "doubleActionCut": ""
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "pole-pruner",
+    "image": ["SPP26C.webp"],
+    "sharedDescription": [
+      "Low vibration - More comfort for the user",
+      "Low consumption engine - More economical and efficient",
+      "Mature and reliable design - Stable and durable operation",
+      "Rubber grip - More practicality during use",
+      "0.7 liter tank - Autonomy of more than 1 hour",
+      "Long reach for tree pruning",
+      "Total length from 2.6 to 4 meters"
+    ],
+    "models": [
+      {
+        "model": "SPP26C",
+        "motor": "Gasoline, 2 Stroke, 26cc",
+        "maxPower": "1.0 HP",
+        "fuelMix": "40:1 If Synthetic Oil And 25:1 If Mineral Oil",
+        "tankCapacity": "0.7 Liters",
+        "carburetor": "Diaphragm",
+        "reinforcedExhaust": "Yes",
+        "startType": "Manual Retractable",
+        "handlebar": "Ergonomic with rubber"
+      }
+    ]
+  },
+  {
+    "category": "forestry-and-gardening",
+    "product": "pole-pruner",
+    "image": ["SPPE700C-1.webp", "SPPE700C-2.webp"],
+    "sharedDescription": [
+      "Low vibration and noise - More comfort for the user",
+      "Electric motor - More economical and efficient",
+      "Rubber grip - More practicality during use",
+      "Long reach for tree pruning",
+      "Total length from 2.2 to 3.2 meters",
+      "Tool-free assembly",
+      "Cutting head adjustable at angle (0 - 30°)"
+    ],
+    "models": [
+      {
+        "model": "SPPE700C-1",
+        "motor": "Electric, 110V, 50/60Hz",
+        "maxPower": "700W",
+        "totalLength": "3.2 meters",
+        "handlebar": "Ergonomic with rubber"
+      },
+      {
+        "model": "SPPE700C-2",
+        "motor": "Electric, 220V, 50/60Hz",
+        "maxPower": "700W",
+        "totalLength": "3.2 meters",
+        "handlebar": "Ergonomic with rubber"
+      }
+    ]
+  },
+  {
+    "category": "mowers",
+    "product": "lawn-mower",
+    "image": ["SLM430RC-80CC.webp"],
+    "sharedDescription": [
+      "Easy to operate, ideal for small to medium gardens",
+      "Adjustable central cutting height",
+      "Collector with fabric bag and plastic cover",
+      "Straight blade for precise cutting"
+    ],
+    "models": [
+      {
+        "model": "SLM430RC-80cc",
+        "driveType": "Manual",
+        "dischargeFunction": "3 In 1 Rear, Collection, Mulching",
+        "grip": "Rubber",
+        "frontCover": "Yes",
+        "cleaningAttachment": "No",
+        "motor": "80 CC Gasoline",
+        "cuttingWidth": "17 inches",
+        "cuttingHeight": "25-75mm (6 positions)",
+        "startSystem": "Manual Retractable",
+        "fuelTankCapacity": "0.8 liters",
+        "engineOilCapacity": "0.4 liters",
+        "wheels": "6/7 inches (front/rear)",
+        "collectorVolume": "45L",
+        "bladeType": "Straight",
+        "collector": "Plastic cover and fabric bag"
+      }
+    ]
+  },
+  {
+    "category": "mowers",
+    "product": "lawn-mower",
+    "image": ["SLM510SC-196CC.webp"],
+    "sharedDescription": [
+      "20\" metal platform - Ideal balance between size and productivity",
+      "Easy to start, easy to maintain",
+      "Side discharge and mulching - 2 in 1"
+    ],
+    "models": [
+      {
+        "model": "SLM510SC-196cc",
+        "motor": "196 CC Gasoline",
+        "cuttingWidth": "20\"",
+        "cuttingHeight": "25-75 mm (6 central adjustment options)",
+        "dischargeOptions": "Side discharge and mulcher",
+        "collectorCapacity": "No",
+        "propulsionType": "Manual",
+        "handlebar": "Rubber handlebar",
+        "wheels": "7\" front and 10\" rear"
+      }
+    ]
+  },
+  {
+    "category": "mowers",
+    "product": "lawn-mower",
+    "image": ["SLM530CTC-196CC.webp", "SLM560CTC-196CC.webp"],
+    "sharedDescription": [
+      "21\" metal platform - Ideal medium size",
+      "Precise and reliable cutting",
+      "65L hybrid collector - Easy to remove and clean",
+      "4 in 1: Rear discharge, collector, side discharge and mulcher"
+    ],
+    "models": [
+      {
+        "model": "SLM530CTC-196CC",
+        "motor": "196 CC Gasoline",
+        "cuttingWidth": "21\"",
+        "cuttingHeight": "25-75 mm (7 central adjustment options)",
+        "dischargeOptions": "Rear discharge, collector, side discharge and mulcher",
+        "collectorCapacity": "65 Liters",
+        "propulsionType": "Self-propelled",
+        "handlebar": "Rubber handlebar",
+        "wheels": "8\" front and 11\" rear"
+      },
+      {
+        "model": "SLM560CTC-196CC",
+        "motor": "196 CC Gasoline",
+        "cuttingWidth": "22\"",
+        "cuttingHeight": "25-75 mm (7 central adjustment options)",
+        "dischargeOptions": "Rear discharge, collector, side discharge and mulcher",
+        "collectorCapacity": "65 Liters",
+        "propulsionType": "Self-propelled",
+        "handlebar": "Rubber handlebar",
+        "wheels": "8\" front and 11\" rear"
+      }
+    ]
+  },
+  {
+    "category": "cleaning",
+    "product": "pressure-washer",
+    "image": ["SEPW2000C-1.webp", "SEPW2000C-2.webp"],
+    "sharedDescription": [
+      "With Auto Stop - Stops the engine when pressure reaches maximum value",
+      "Compact size - Easy to store",
+      "5 meters hose with bracket - Easy to handle",
+      "5 meters power cable",
+      "With wheels and long handle - Easy to move",
+      "With soap bottle and quick connector"
+    ],
+    "models": [
+      {
+        "model": "SEPW2000C-1",
+        "motor": "1800W - 110V - 50/60Hz - Brush Type",
+        "nominalPressure": "110Bar",
+        "maxPressure": "150Bar",
+        "nominalFlow": "6.0 l/min"
+      },
+      {
+        "model": "SEPW2000C-2",
+        "motor": "1800W - 220V - 50/60Hz - Brush Type",
+        "nominalPressure": "110Bar",
+        "maxPressure": "150Bar",
+        "nominalFlow": "6.0 l/min"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": ["SE11TC.webp", "SE20TC.webp", "SE70C.webp", "SE130C.webp", "SE150C.webp"],
+    "sharedDescription": [
+      "Superior quality: High quality components like cylinders, pistons, oil seals and bearings",
+      "Retractable or electric start system according to model"
+    ],
+    "models": [
+      {
+        "model": "SE11TC",
+        "motor": "25.4cc, 2 Stroke",
+        "maxPower": "1.1 HP",
+        "cooling": "Air",
+        "fuelTank": "0.7 Liters",
+        "startSystem": "Retractable"
+      },
+      {
+        "model": "SE20TC",
+        "motor": "51.7cc, 2 Stroke",
+        "maxPower": "2 HP",
+        "cooling": "Air",
+        "fuelTank": "0.8 Liters",
+        "startSystem": "Retractable"
+      },
+      {
+        "model": "SE70C",
+        "motor": "212cc, 4 Stroke",
+        "maxPower": "7.0 HP",
+        "cooling": "Air",
+        "fuelTank": "3.6 Liters",
+        "startSystem": "Retractable"
+      },
+      {
+        "model": "SE130C",
+        "motor": "390cc, 4 Stroke",
+        "maxPower": "13 HP",
+        "cooling": "Air",
+        "fuelTank": "6.5 Liters",
+        "startSystem": "Retractable"
+      },
+      {
+        "model": "SE150C",
+        "motor": "420cc, 4 Stroke",
+        "maxPower": "15 HP",
+        "cooling": "Air",
+        "fuelTank": "6.5 Liters",
+        "startSystem": "Retractable"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": ["SE150EC.webp"],
+    "sharedDescription": [
+      "Superior quality: High quality components like cylinders, pistons, oil seals and bearings",
+      "Retractable or electric start system according to model"
+    ],
+    "models": [
+      {
+        "model": "SE150EC",
+        "motor": "420cc, 4 Stroke",
+        "maxPower": "15 HP",
+        "cooling": "Air",
+        "fuelTank": "6.5 Liters",
+        "startSystem": "Electric and Retractable"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": ["SDE50C.webp", "SDE70C.webp"],
+    "sharedDescription": [
+      "Cast iron coating - High wear resistance",
+      "High quality components like cylinders, pistons, oil seals, bearings"
+    ],
+    "models": [
+      {
+        "model": "SDE50C",
+        "motor": "211cc, 4 Stroke",
+        "nominalPower": "2.8kW / 3.75HP",
+        "maxPower": "3.3kW / 4.5HP",
+        "cylinderDiameter": "70 mm",
+        "fuelTank": "2.5 Liters",
+        "oil": "750 ml",
+        "start": "Manual Retractable"
+      },
+      {
+        "model": "SDE70C",
+        "motor": "296cc, 4 Stroke",
+        "nominalPower": "4.0kW / 5.4HP",
+        "maxPower": "4.8kW / 6.5HP",
+        "cylinderDiameter": "78 mm",
+        "fuelTank": "3.5 Liters",
+        "oil": "1100 ml",
+        "start": "Manual Retractable"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": ["SDE100EC.webp", "SDE110EC.webp", "SDE130EC.webp"],
+    "sharedDescription": [
+      "Cast iron coating - High wear resistance",
+      "High quality components like cylinders, pistons, oil seals, bearings"
+    ],
+    "models": [
+      {
+        "model": "SDE100EC",
+        "motor": "406cc, 4 Stroke",
+        "nominalPower": "6.4kW / 8.6HP",
+        "maxPower": "7.5kW / 10.0HP",
+        "cylinderDiameter": "86 mm",
+        "fuelTank": "5.5 Liters",
+        "oil": "1650 ml",
+        "start": "Manual Retractable"
+      },
+      {
+        "model": "SDE110EC",
+        "motor": "476cc, 4 Stroke",
+        "nominalPower": "7.3kW / 9.8HP",
+        "maxPower": "8.1kW / 10.9HP",
+        "cylinderDiameter": "88 mm",
+        "fuelTank": "5.5 Liters",
+        "oil": "1650 ml",
+        "start": "Electric / Manual Retractable"
+      },
+      {
+        "model": "SDE130EC",
+        "motor": "519cc, 4 Stroke",
+        "nominalPower": "7.9kW / 10.6HP",
+        "maxPower": "8.2kW / 11.0HP",
+        "cylinderDiameter": "92 mm",
+        "fuelTank": "5.5 Liters",
+        "oil": "1650 ml",
+        "start": "Electric / Manual Retractable"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "engine-motor",
+    "image": ["SEE1.OHC-DS60.webp", "SEE2.OHC-DS60.webp", "SEE3.OHC-DS60.webp", "SEE4.OHC-DS60.webp", "SEE1.OLC-DS60.webp", "SEE2.OLC-DS60.webp", "SEE3.OLC-DS60.webp", "SEE4.OLC-DS60.webp"],
+    "sharedDescription": [
+      "High performance single-phase motors",
+      "Copper winding",
+      "High starting torque",
+      "Cast iron housing",
+      "Shaft mm",
+      "Starting capacitor included"
+    ],
+    "models": [
+      {
+        "model": "SEE1.OHC-DS60",
+        "power": "1.0HP / 0.75kW",
+        "voltage": "110 / 220V - 60Hz",
+        "singlePhase": true,
+        "poles": "2 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE2.OHC-DS60",
+        "power": "2.0HP / 1.5kW",
+        "voltage": "110 / 220V - 60Hz",
+        "singlePhase": true,
+        "poles": "2 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE3.OHC-DS60",
+        "power": "3.0HP / 2.2kW",
+        "voltage": "110 / 220V - 60Hz",
+        "singlePhase": true,
+        "poles": "2 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE4.OHC-DS60",
+        "power": "4.0HP / 3.0kW",
+        "voltage": "110 / 220V - 60Hz",
+        "singlePhase": true,
+        "poles": "2 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE1.OLC-DS60",
+        "power": "1.0HP / 0.75kW",
+        "voltage": "110 / 220V - 60Hz",
+        "singlePhase": true,
+        "poles": "4 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE2.OLC-DS60",
+        "power": "2.0HP / 1.5kW",
+        "voltage": "110 / 220V - 60Hz",
+        "singlePhase": true,
+        "poles": "4 poles",
+        "speed": "Low speed"
+      },
+      {
+        "model": "SEE3.OLC-DS60",
+        "power": "3.0HP / 2.2kW",
+        "voltage": "110 / 220V - 60Hz",
+        "singlePhase": true,
+        "poles": "4 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE4.OLC-DS60",
+        "power": "4.0HP / 3.0kW",
+        "voltage": "110 / 220V - 60Hz",
+        "singlePhase": true,
+        "poles": "4 poles",
+        "speed": "Low speed"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "water-pump",
+    "image": ["SWP1.5x1.5STC.webp", "SWP2x2SC-212.webp", "SWP3x3SC-212.webp"],
+    "sharedDescription": [
+      "Efficient self-priming with high pumping capacity",
+      "High quality components: cylinders, pistons, oil seals, bearings",
+      "Compact size and portable design",
+      "Models for different flow rates and lifting heights"
+    ],
+    "models": [
+      {
+        "model": "SWP1.5x1.5STC",
+        "pumpType": "Self-priming",
+        "motor": "Gasoline, 2 stroke, 52cc, 2.0 HP",
+        "startSystem": "Retractable",
+        "maxPumpCapacity": "15000 liters per hour",
+        "suctionDischargediameter": "1.5 inches x 1.5 inches",
+        "totalHeadLifting": "30 meters",
+        "suctionHeight": "7 meters",
+        "fuelTank": "1.2 liters"
+      },
+      {
+        "model": "SWP2x2SC-212",
+        "pumpType": "Self-priming",
+        "motor": "Gasoline, 4 stroke, 212cc, 7.0 HP",
+        "startSystem": "Retractable",
+        "maxPumpCapacity": "30000 liters per hour",
+        "suctionDischargediameter": "2 inches x 2 inches",
+        "totalHeadLifting": "30 meters",
+        "suctionHeight": "7 meters",
+        "fuelTank": "3.6 liters"
+      },
+      {
+        "model": "SWP3x3SC-212",
+        "pumpType": "Self-priming",
+        "motor": "Gasoline, 4 stroke, 212cc, 7.0 HP",
+        "startSystem": "Retractable",
+        "maxPumpCapacity": "60000 liters per hour",
+        "suctionDischargediameter": "3 inches x 3 inches",
+        "totalHeadLifting": "30 meters",
+        "suctionHeight": "7 meters",
+        "fuelTank": "3.6 liters"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "water-pump",
+    "image": ["SWP2x2CC-212.webp"],
+    "sharedDescription": [
+      "Efficient self-priming with high pumping capacity",
+      "High quality components: cylinders, pistons, oil seals, bearings",
+      "Compact size and portable design",
+      "Models for different flow rates and lifting heights"
+    ],
+    "models": [
+      {
+        "model": "SWP2x2CC-212",
+        "pumpType": "Self-priming",
+        "motor": "Gasoline, 4 stroke, 212cc, 7.0 HP",
+        "startSystem": "Retractable",
+        "maxPumpCapacity": "22000 liters per hour",
+        "suctionDischargediameter": "2 inches x 2 inches",
+        "totalHeadLifting": "68 meters",
+        "suctionHeight": "6 meters",
+        "fuelTank": "3.6 liters"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "water-pump",
+    "image": ["SDWP2x2SC-211.webp", "SDWP3x3SC-296.webp", "SDWP4x4SC-406.webp"],
+    "sharedDescription": [
+      "Cast iron coating - Excellent wear resistance",
+      "High quality components like cylinders, pistons, oil seals, bearings",
+      "Wide range of flow rates and heights according to model",
+      "Robust and durable design for intensive use"
+    ],
+    "models": [
+      {
+        "model": "SDWP2x2SC-211",
+        "pumpType": "Self-priming",
+        "motor": "Diesel, 4 stroke, 211cc, 5.0 HP",
+        "startSystem": "Retractable",
+        "maxPumpCapacity": "30000 liters per hour",
+        "suctionDischargediameter": "2 inches x 2 inches",
+        "totalHeadLifting": "25 meters",
+        "suctionHeight": "8 meters",
+        "fuelTank": "2.5 liters"
+      },
+      {
+        "model": "SDWP3x3SC-296",
+        "pumpType": "Self-priming",
+        "motor": "Diesel, 4 stroke, 296cc, 7.0 HP",
+        "startSystem": "Retractable",
+        "maxPumpCapacity": "50000 liters per hour",
+        "suctionDischargediameter": "3 inches x 3 inches",
+        "totalHeadLifting": "25 meters",
+        "suctionHeight": "8 meters",
+        "fuelTank": "3.5 liters"
+      },
+      {
+        "model": "SDWP4x4SC-406",
+        "pumpType": "Self-priming",
+        "motor": "Diesel, 4 stroke, 406cc, 10.0 HP",
+        "startSystem": "Retractable",
+        "maxPumpCapacity": "65000 liters per hour",
+        "suctionDischargediameter": "4 inches x 4 inches",
+        "totalHeadLifting": "25 meters",
+        "suctionHeight": "8 meters",
+        "fuelTank": "5.5 liters"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "water-pump",
+    "image": ["SDWP2x2CC.webp"],
+    "sharedDescription": [
+      "Cast iron coating - Excellent wear resistance",
+      "High quality components like cylinders, pistons, oil seals, bearings",
+      "Wide range of flow rates and heights according to model",
+      "Robust and durable design for intensive use"
+    ],
+    "models": [
+      {
+        "model": "SDWP2x2CC",
+        "pumpType": "Centrifugal",
+        "motor": "Diesel, 4 stroke, 406cc, 10.0 HP",
+        "startSystem": "Retractable",
+        "maxPumpCapacity": "30000 liters per hour",
+        "suctionDischargediameter": "4 inches x 4 inches",
+        "totalHeadLifting": "65 meters",
+        "suctionHeight": "8 meters",
+        "fuelTank": "5.5 liters"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": ["SG3.3CSD-60.webp", "SG3.0CSD-50.webp", "SG9.0CSD-60.webp", "SG8.1CSD.webp", "SG8.1CS1.webp"],
+    "sharedDescription": [
+      "Cold rolled steel alternator - Better performance at high temperature",
+      "100% Copper coil - More energy efficient",
+      "Dual voltage available according to model (110/220V - 50/60Hz)",
+      "4-stroke OHV gasoline engine",
+      "Wide variety of powers for different needs"
+    ],
+    "models": [
+      {
+        "model": "SG3.3CSD-60",
+        "maxPower": "3.3 KW",
+        "nominalPower": "3.0 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 60Hz",
+        "motor": "7 HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "8.0 Hour",
+        "fuelCapacity": "25 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "1.1 Liter"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": ["SG5.5CS1-50.webp"],
+    "sharedDescription": [
+      "Cold rolled steel alternator - Better performance at high temperature",
+      "100% Copper coil - More energy efficient",
+      "Dual voltage available according to model (110/220V - 50/60Hz)",
+      "4-stroke OHV gasoline engine",
+      "Wide variety of powers for different needs"
+    ],
+    "models": [
+      {
+        "model": "SG5.5CS1-50",
+        "maxPower": "5.5 KW",
+        "nominalPower": "5.0 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "220V - 50Hz",
+        "motor": "13 HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "8.0 Hour",
+        "fuelCapacity": "25 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "1.1 Liter"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": ["SG7.0CSD-60.webp", "SG6.3CSD-50.webp"],
+    "sharedDescription": [
+      "Cold rolled steel alternator - Better performance at high temperature",
+      "100% Copper coil - More energy efficient",
+      "Dual voltage available according to model (110/220V - 50/60Hz)",
+      "4-stroke OHV gasoline engine",
+      "Wide variety of powers for different needs"
+    ],
+    "models": [
+      {
+        "model": "SG7.0CSD-60",
+        "maxPower": "7.0 KW",
+        "nominalPower": "6.5 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 60Hz",
+        "motor": "15 HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "7.0 Hour",
+        "fuelCapacity": "25 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "1.1 Liter"
+      },
+      {
+        "model": "SG6.3CSD-50",
+        "maxPower": "6.3 KW",
+        "nominalPower": "5.8 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 50Hz",
+        "motor": "15 HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "7.0 Hour",
+        "fuelCapacity": "25 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "1.1 Liter"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": ["SG6.3CS1-50.webp"],
+    "sharedDescription": [
+      "Cold rolled steel alternator - Better performance at high temperature",
+      "100% Copper coil - More energy efficient",
+      "Dual voltage available according to model (110/220V - 50/60Hz)",
+      "4-stroke OHV gasoline engine",
+      "Wide variety of powers for different needs"
+    ],
+    "models": [
+      {
+        "model": "SG6.3CS1-50",
+        "maxPower": "6.3 KW",
+        "nominalPower": "5.8 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "220V - 50Hz",
+        "motor": "15 HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "7.0 Hour",
+        "fuelCapacity": "25 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "1.1 Liter"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": ["SG9.0CSD-60.webp", "SG8.1CSD.webp"],
+    "sharedDescription": [
+      "Cold rolled steel alternator - Better performance at high temperature",
+      "100% Copper coil - More energy efficient",
+      "Dual voltage available according to model (110/220V - 50/60Hz)",
+      "4-stroke OHV gasoline engine",
+      "Wide variety of powers for different needs"
+    ],
+    "models": [
+      {
+        "model": "SG9.0CSD-60",
+        "maxPower": "9.0 KW",
+        "nominalPower": "8.5 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 60Hz",
+        "motor": "16 HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "6.0 Hour",
+        "fuelCapacity": "25 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "1.1 Liter"
+      },
+      {
+        "model": "SG8.1CSD",
+        "maxPower": "8.1 KW",
+        "nominalPower": "7.8 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 50Hz",
+        "motor": "16 HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "6.0 Hour",
+        "fuelCapacity": "25 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "1.1 Liter"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": ["SG8.1CS1.webp"],
+    "sharedDescription": [
+      "Cold rolled steel alternator - Better performance at high temperature",
+      "100% Copper coil - More energy efficient",
+      "Dual voltage available according to model (110/220V - 50/60Hz)",
+      "4-stroke OHV gasoline engine",
+      "Wide variety of powers for different needs"
+    ],
+    "models": [
+      {
+        "model": "SG8.1CS1",
+        "maxPower": "8.1 KW",
+        "nominalPower": "7.8 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "220V - 50Hz",
+        "motor": "16 HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "6.0 Hour",
+        "fuelCapacity": "25 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "1.1 Liter"
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": ["SG3.5ICS1-60.webp", "SG3.5ICS2-60.webp", "SG3.5ICS1-50.webp", "SG3.5ICS2-50.webp", "SG1.8ICS2-50.webp", "SG3.5ICS2-50-2.webp"],
+    "sharedDescription": [
+      "100% Copper coil (more energy efficient)",
+      "Inverter technology - High efficiency",
+      "Cold rolled steel alternator for better performance at high temperature",
+      "With voltage meter",
+      "2 output outlets"
+    ],
+    "models": [
+      {
+        "model": "SG3.5iCS1-60",
+        "maxPower": "3.5 KW",
+        "nominalPower": "3.2 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V - 60Hz",
+        "motor": "223cc - 8HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "6 Hour",
+        "fuelCapacity": "7.5 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "550 ml"
+      },
+      {
+        "model": "SG3.5iCS2-60",
+        "maxPower": "3.5 KW",
+        "nominalPower": "3.2 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "220V - 60Hz",
+        "motor": "223cc - 8HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "6 Hour",
+        "fuelCapacity": "7.5 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "550 ml"
+      },
+      {
+        "model": "SG3.5iCS1-50",
+        "maxPower": "3.5 KW",
+        "nominalPower": "3.2 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V - 50Hz",
+        "motor": "223cc - 8HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "6 Hour",
+        "fuelCapacity": "7.5 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "550 ml"
+      },
+      {
+        "model": "SG3.5iCS2-50",
+        "maxPower": "3.5 KW",
+        "nominalPower": "3.2 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "220V - 50Hz",
+        "motor": "223cc - 8HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "6 Hour",
+        "fuelCapacity": "7.5 Liters",
+        "startSystem": "Retractable",
+        "oilCapacity": "550 ml"
+      },
+      {
+        "model": "SG1.8iCS2-50",
+        "maxPower": "",
+        "nominalPower": "",
+        "statorCoil": "100% Copper",
+        "voltage": "220V - 50Hz",
+        "motor": "223cc - 8HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "",
+        "fuelCapacity": "",
+        "startSystem": "Retractable",
+        "oilCapacity": ""
+      },
+      {
+        "model": "SG3.5iCS2-50",
+        "maxPower": "",
+        "nominalPower": "",
+        "statorCoil": "100% Copper",
+        "voltage": "220V - 50Hz",
+        "motor": "223cc - 8HP / OHV, Gasoline, 4 Stroke",
+        "autonomyAt50Load": "",
+        "fuelCapacity": "",
+        "startSystem": "Retractable",
+        "oilCapacity": ""
+      }
+    ]
+  },
+  {
+    "category": "power",
+    "product": "generator",
+    "image": ["SDG2.2CSD-60.webp", "SDG2.0CSD-50.webp", "SDG3.3CSD-60.webp", "SDG3.0CSD-50.webp", "SDG5.0CSD-60.webp", "SDG4.5CSD-50.webp", "SDG5.0CSD-50.webp", "SDG7.5CSD-60.webp", "SDG6.8CSD-50.webp"],
+    "sharedDescription": [
+      "100% copper coil (more energy efficient)",
+      "Dual voltage 110/220V",
+      "Cold-rolled steel alternator for better high-temperature performance",
+      "Battery charger: 12VDC 8.3A"
+    ],
+    "models": [
+      {
+        "model": "SDG2.2CSD-60",
+        "maxPower": "2.2 KW",
+        "nominalPower": "2.0 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 60Hz",
+        "engine": "211cc, 5HP, Diesel, 4 Stroke",
+        "runtime50load": "11.5 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "750 ml"
+      },
+      {
+        "model": "SDG2.0CSD-50",
+        "maxPower": "2.0 KW",
+        "nominalPower": "1.8 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 50Hz",
+        "engine": "211cc, 5HP, Diesel, 4 Stroke",
+        "runtime50load": "11.5 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "750 ml"
+      },
+      {
+        "model": "SDG3.3CSD-60",
+        "maxPower": "3.3 KW",
+        "nominalPower": "3.0 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 60Hz",
+        "engine": "296cc, 7HP, Diesel, 4 Stroke",
+        "runtime50load": "10.0 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "1.1 Liters"
+      },
+      {
+        "model": "SDG3.0CSD-50",
+        "maxPower": "3.0 KW",
+        "nominalPower": "2.7 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 50Hz",
+        "engine": "296cc, 7HP, Diesel, 4 Stroke",
+        "runtime50load": "10.0 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "1.1 Liters"
+      },
+      {
+        "model": "SDG5.0CSD-60",
+        "maxPower": "5.0 KW",
+        "nominalPower": "4.6 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 60Hz",
+        "engine": "418cc, 11HP, Diesel, 4 Stroke",
+        "runtime50load": "9.0 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "1.65 Liters"
+      },
+      {
+        "model": "SDG4.5CSD-50",
+        "maxPower": "4.5 KW",
+        "nominalPower": "4.1 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 50Hz",
+        "engine": "406cc, 10HP, Diesel, 4 Stroke",
+        "runtime50load": "9.0 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "1.65 Liters"
+      },
+      {
+        "model": "SDG5.0CSD-50",
+        "maxPower": "5.0 KW",
+        "nominalPower": "4.5 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 50Hz",
+        "engine": "418cc, 11HP, Diesel, 4 Stroke",
+        "runtime50load": "8.0 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "1.65 Liters"
+      },
+      {
+        "model": "SDG7.5CSD-60",
+        "maxPower": "7.5 KW",
+        "nominalPower": "6.8 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 60Hz",
+        "engine": "418cc, 11HP, Diesel, 4 Stroke",
+        "runtime50load": "7.0 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "1.65 Liters"
+      },
+      {
+        "model": "SDG6.8CSD-50",
+        "maxPower": "6.8 KW",
+        "nominalPower": "6.2 KW",
+        "statorCoil": "100% Copper",
+        "voltage": "110V/220V Dual voltage - 50Hz",
+        "engine": "519cc, 13HP, Diesel, 4 Stroke",
+        "runtime50load": "7.0 Hours",
+        "fuelCapacity": "12.5 Liters",
+        "startSystem": "Recoil",
+        "oilCapacity": "1.65 Liters"
+      },
+      {
+        "model": "SG3.0CSD-50",
+        "Potencia Maxima": "3,0 KW",
+        "Potencia Nominal": "2,8 KW",
+        "Bobina del Estator": "100% Cobre",
+        "Voltaje": "110V/220V Doble voltaje - 50Hz",
+        "Motor": "7 HP / OHV, Gasolina, 4 Tiempos",
+        "Autonomia al 50% de carga": "11,5 Hora",
+        "Capacidad Tanque Combustible": "15 Litros",
+        "Sistema de Arranque": "Retractil",
+        "Capacidad Deposito Aceite": "600 ml"
+      }
+      ,
+       {
+        "model": "SG3.0CS1-50",
+        "Potencia Maxima": "3,0 KW",
+        "Potencia Nominal": "2,8 KW",
+        "Bobina del Estator": "100% Cobre",
+        "Voltaje": "220V - 50Hz",
+        "Motor": "7 HP / OHV, Gasolina, 4 Tiempos",
+        "Autonomia al 50% de carga": "11,5 Hora",
+        "Capacidad Tanque Combustible": "15 Litros",
+        "Sistema de Arranque": "Retractil",
+        "Capacidad Deposito Aceite": "600 ml"
+      },
+      {
+        "model": "SG6.0CSD-60",
+        "Potencia Maxima": "6,0 KW",
+        "Potencia Nominal": "5,5 KW",
+        "Bobina del Estator": "100% Cobre",
+        "Voltaje": "110V/220V Doble voltaje - 60Hz",
+        "Motor": "13 HP / OHV, Gasolina, 4 Tiempos",
+        "Autonomia al 50% de carga": "8,0 Hora",
+        "Capacidad Tanque Combustible": "25 Litros",
+        "Sistema de Arranque": "Retractil",
+        "Capacidad Deposito Aceite": "1,1 litro"
+      },
+      {
+        "model": "SG5.5CSD-50",
+        "Potencia Maxima": "5,5 KW",
+        "Potencia Nominal": "5,0 KW",
+        "Bobina del Estator": "100% Cobre",
+        "Voltaje": "110V/220V Doble voltaje - 50Hz",
+        "Motor": "13 HP / OHV, Gasolina, 4 Tiempos",
+        "Autonomia al 50% de carga": "8,0 Hora",
+        "Capacidad Tanque Combustible": "25 Litros",
+        "Sistema de Arranque": "Retractil",
+        "Capacidad Deposito Aceite": "1,1 litro"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "sprayer-pump",
+    "image": ["SPSP22C.webp", "SPSP45C.webp"],
+    "sharedDescription": [
+      "Triplex pump with stainless steel pistons",
+      "Recommended for agricultural spraying or as a pressure washer",
+      "Compatible with electric, diesel, or gasoline motors"
+    ],
+    "models": [
+      {
+        "model": "SPSP22C",
+        "maxFlowRate": "14 to 22 l/min",
+        "workingSpeed": "300 to 800 RPM",
+        "gasolineMotorPower": "5.5 to 6.5 HP",
+        "electricMotorPower": "1.5 to 2 HP",
+        "maxPressure": "35 kgf/cm²",
+        "structure": "Cast iron housing, triplex pump"
+      },
+      {
+        "model": "SPSP45C",
+        "maxFlowRate": "30 to 45 l/min",
+        "workingSpeed": "300 to 800 RPM",
+        "gasolineMotorPower": "6.5 to 9.0 HP",
+        "electricMotorPower": "2.7 to 4 HP",
+        "maxPressure": "45 kgf/cm²",
+        "structure": "Cast iron housing, triplex pump"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "manual-seed-spreader",
+    "image": ["SMSS10C.webp"],
+    "sharedDescription": [
+      "Crank-operated drive",
+      "10-liter tank",
+      "Range up to 7 meters"
+    ],
+    "models": [
+      {
+        "model": "SMSS10C",
+        "type": "Manual",
+        "tank": "10 liters",
+        "range": "Up to 7 meters"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "earth-auger",
+    "image": ["SEA43C-150.webp", "SEA52C-200.webp", "SEA63C-250.webp"],
+    "sharedDescription": [
+      "Reinforced, practical, and lightweight design",
+      "Drill bit included",
+      "Easy operation by one or two operators"
+    ],
+    "models": [
+      {
+        "model": "SEA43C-150",
+        "engine": "2 stroke, gasoline, 43cc, 1.7HP",
+        "operators": "One operator",
+        "holediameter": "50mm",
+        "drillBit": "150mm"
+      },
+      {
+        "model": "SEA52C-200",
+        "engine": "2 stroke, gasoline, 52cc, 2.0HP",
+        "operators": "One operator",
+        "holediameter": "200mm",
+        "drillBit": "200mm"
+      },
+      {
+        "model": "SEA63C-250",
+        "engine": "2 stroke, gasoline, 63cc, 3.5HP",
+        "operators": "One or two operators",
+        "holediameter": "250mm",
+        "drillBit": "250mm"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "sprayer-pump",
+    "image": ["SMMD43BC.webp"],
+    "sharedDescription": [
+      "Backpack design for easy transport",
+      "Coastal range up to 15 meters",
+      "Lightweight and comfortable"
+    ],
+    "models": [
+      {
+        "model": "SMMD43BC",
+        "engine": "2 stroke, gasoline, 43cc, 1.7HP",
+        "range": "15 meters"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "tiller",
+    "image": ["ST1000C.webp", "ST900RC.webp"],
+    "sharedDescription": [
+      "212cc gasoline motor, 4 stroke",
+      "Tilling depth up to 100mm",
+      "Manual recoil start system",
+      "Adjustable handlebar and inflatable tires"
+    ],
+    "models": [
+      {
+        "model": "ST1000C",
+        "engine": "212cc, 4 stroke, gasoline",
+        "handlebarType": "Height and rotation adjustable",
+        "cuttingWidth": "900 mm",
+        "tillingDepth": "100 mm",
+        "gears": "1 Forward, 1 Reverse",
+        "fuelTank": "3.6 L",
+        "transmission": "Transmission box with PTO",
+        "startSystem": "Manual recoil"
+      },
+      {
+        "model": "ST900RC",
+        "engine": "212cc, 4 stroke, gasoline",
+        "handlebarType": "Rotatable, height adjustable",
+        "cuttingWidth": "900 mm",
+        "tillingDepth": "100 mm",
+        "gears": "2 Forward, 1 Reverse",
+        "fuelTank": "3.6 L",
+        "transmission": "Belt drive",
+        "startSystem": "Manual recoil"
+      }
+    ]
+  },
+  {
+    "category": "agricultural",
+    "product": "tiller",
+    "image": ["SDT1350EC.webp"],
+    "sharedDescription": [
+      "406cc diesel motor, 4 stroke",
+      "Rotatable and adjustable handlebar",
+      "Tilling depth 150-300mm",
+      "Transmission box with PTO shaft",
+      "6 speeds"
+    ],
+    "models": [
+      {
+        "model": "SDT1350ERC",
+        "engine": "406cc, 4 stroke, diesel",
+        "cuttingWidth": "1350 mm",
+        "tillingDepth": "150 to 300mm",
+        "gears": "6 speeds",
+        "fuelTank": "5.5 L"
+      }
+    ]
+  },
+  {
+    "category": "electric-motors",
+    "product": "electric-motors",
+    "image": ["SEE1.0HC-DS60.webp", "SEE2.0HC-DS60.webp", "SEE3.0HC-DS60.webp", "SEE4.0HC-DS60.webp", "SEE1.0LC-DS60.webp", "SEE2.0LC-DS60.webp", "SEE3.0LC-DS60.webp", "SEE4.0LC-DS60.webp"],
+    "sharedDescription": [
+      "Low vibration - More user comfort",
+      "Low consumption motor - More economical and efficient",
+      "Mature and reliable design - Stable and durable operation",
+      "D-handle - More comfort during use",
+      "0.55 liter tank - Over 1 hour autonomy",
+      "Includes 3-point blade + nylon head"
+    ],
+    "models": [
+      {
+        "model": "SEE1.0HC-DS60",
+        "power": "1.0HP / 0.75kW",
+        "voltage": "110 / 220V - 60Hz",
+        "poles": "2 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE2.0HC-DS60",
+        "power": "2.0HP / 1.5kW",
+        "voltage": "110 / 220V - 60Hz",
+        "poles": "2 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE3.0HC-DS60",
+        "power": "3.0HP / 2.2kW",
+        "voltage": "110 / 220V - 60Hz",
+        "poles": "2 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE4.0HC-DS60",
+        "power": "4.0HP / 3.0kW",
+        "voltage": "110 / 220V - 60Hz",
+        "poles": "2 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE1.0LC-DS60",
+        "power": "1.0HP / 0.75kW",
+        "voltage": "110 / 220V - 60Hz",
+        "poles": "4 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE2.0LC-DS60",
+        "power": "2.0HP / 1.5kW",
+        "voltage": "110 / 220V - 60Hz",
+        "poles": "4 poles",
+        "speed": "Low speed"
+      },
+      {
+        "model": "SEE3.0LC-DS60",
+        "power": "3.0HP / 2.2kW",
+        "voltage": "110 / 220V - 60Hz",
+        "poles": "4 poles",
+        "speed": "High speed"
+      },
+      {
+        "model": "SEE4.0LC-DS60",
+        "power": "4.0HP / 3.0kW",
+        "voltage": "110 / 220V - 60Hz",
+        "poles": "4 poles",
+        "speed": "Low speed"
+      }
+    ]
+  },
+  {
+    "category": "marine",
+    "product": "outboard-motor",
+    "image": ["SM35TS.webp", "SM58TS.webp", "SM98TS.webp"],
+    "sharedDescription": [
+      "Lightweight and powerful motors",
+      "Manual start system",
+      "Speeds: Forward, Neutral, and Reverse according to model",
+      "Ideal for navigation with low fuel consumption"
+    ],
+    "models": [
+      {
+        "model": "SM35TS",
+        "engine": "2 stroke, 1 cylinder, 70cc",
+        "maxPower": "3.5HP",
+        "cooling": "Water cooled, short shaft",
+        "fuelTank": "1.4L internal",
+        "maxRPM": "5500RPM",
+        "speeds": "1 forward speed and neutral",
+        "startSystem": "Manual"
+      },
+      {
+        "model": "SM58TS",
+        "engine": "2 stroke, 1 cylinder, 103cc",
+        "maxPower": "5.8HP",
+        "cooling": "Water cooled, short shaft",
+        "fuelTank": "2.8L internal",
+        "maxRPM": "5500RPM",
+        "speeds": "1 forward speed, neutral, and 1 reverse",
+        "startSystem": "Manual"
+      },
+      {
+        "model": "SM98TS",
+        "engine": "2 stroke, 1 cylinder, 246cc",
+        "maxPower": "9.8HP",
+        "cooling": "Water cooled, short shaft",
+        "fuelTank": "2.4L external",
+        "maxRPM": "5500RPM",
+        "speeds": "1 forward speed, neutral, and 1 reverse",
+        "startSystem": "Manual"
+      }
+    ]
+  }
+]
