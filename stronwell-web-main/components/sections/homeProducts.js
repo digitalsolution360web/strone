@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion'
 import React, { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import productsData from '../../data/homeProducts.json'
 import { useTranslation } from '../../contexts/TranslationContext'
 
@@ -16,7 +17,7 @@ function Products() {
   
   // Triple the products for seamless infinite scroll
   const duplicatedProducts = [...products, ...products, ...products]
-  const CARD_WIDTH = 280 // Width of each card including gap
+  const CARD_WIDTH = 352 // Width of each card (w-80) including gap (space-x-8)
   const TOTAL_WIDTH = products.length * CARD_WIDTH
 
   useEffect(() => {
@@ -87,9 +88,10 @@ function Products() {
   }
 
   return (
-    <section className="relative py-16 lg:py-24 overflow-hidden">
+    <section className="relative py-16 lg:py-24 overflow-hidden bg-gradient-to-br from-[#0c1222] via-[#1e293b] to-[#0f172a]">
+      <div className="absolute inset-0 bg-gradient-to-t from-[#ff4f01]/05 via-transparent to-transparent pointer-events-none" aria-hidden="true" />
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#ff4f01]/50 to-transparent" aria-hidden="true" />
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
         
         <motion.div
           variants={containerVariants}
@@ -139,53 +141,65 @@ function Products() {
                   className="flex-shrink-0"
                 >
                   <motion.div
-                    className="group cursor-pointer"
+                    className="group cursor-pointer h-full"
                     whileHover={{ y: -8, scale: 1.02 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                   >
-                    <div className="w-64 bg-black/40 rounded-2xl overflow-hidden border border-white/10 hover:border-white/25 transition-all duration-300 group/card">
-                      {/* Product Image Container */}
-                      <div className="relative h-full bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
-                        <motion.img
-                          src={product.image}
-                          alt={product.title}
-                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                          loading="lazy"
-                        />
-                        
-                        {/* Hover Overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div className="w-80 h-[400px] bg-[#1e293b]/90 rounded-xl overflow-hidden border border-white/10 hover:border-[#ff4f01]/50 transition-all duration-300 group/card shadow-xl hover:shadow-[0_0_24px_rgba(255,79,1,0.2)] flex flex-col flex-shrink-0">
+                      {/* Product Image Container - Fixed height for equal cards */}
+                      <div className="relative h-64 flex-shrink-0 bg-[#0f172a]/80 p-5 flex items-center justify-center overflow-hidden">
+                        <motion.div
+                          className="relative w-full h-full flex items-center justify-center"
+                          whileHover={{ scale: 1.05 }}
+                          transition={{ duration: 0.3 }}
+                        >
+                          <Image
+                            src={product.image}
+                            alt={product.title}
+                            width={360}
+                            height={256}
+                            className={`object-contain w-auto h-auto max-h-full max-w-full ${
+                              product.image.includes('manual-seed-spreader') ? 'max-h-[70%] max-w-[70%]' : ''
+                            }`}
+                            loading="eager"
+                            quality={100}
+                            unoptimized={true}
+                            sizes="(max-width: 380px) 100vw, 360px"
+                            style={{
+                              imageRendering: '-webkit-optimize-contrast',
+                              transform: 'translateZ(0)',
+                              backfaceVisibility: 'hidden',
+                              ...(product.image.includes('manual-seed-spreader') && {
+                                filter: 'contrast(1.08)'
+                              })
+                            }}
+                          />
+                        </motion.div>
                         
                         {/* Category Badge */}
-                        <div className="absolute top-4 left-4 px-3 py-1 bg-[#ff4f01] backdrop-blur-sm rounded-full text-xs font-medium text-gray-100">
-                          {product.category.replace('-', ' ').toUpperCase()}
-                        </div>
-                        
-                        {/* Hover Icon */}
-                        <div className="absolute top-4 right-4 w-8 h-8 bg-[#ff4f01] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transform scale-0 group-hover:scale-100 transition-all duration-300">
-                          <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                          </svg>
+                        <div className="absolute top-4 left-4 px-2.5 py-1 bg-black/60 rounded text-xs font-semibold text-[#ff4f01] uppercase tracking-wider border border-[#ff4f01]/30">
+                          {product.category.replace('-', ' ')}
                         </div>
                       </div>
                       
-                      {/* Product Info – bottom bar style */}
-                      <div className="p-5 border-t border-white/10 bg-black/30">
-                        <h3 className="text-lg font-bold text-white group-hover:text-[#ff4f01] transition-colors leading-tight">
-                          {product.title}
-                        </h3>
-                        <div className="mt-2 flex items-center text-[#ff4f01] font-medium text-sm">
-                          <span>{t('sections.homeProducts.viewDetails')}</span>
-                          <motion.svg
-                            className="w-4 h-4 ml-2"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            animate={{ x: [0, 4, 0] }}
-                            transition={{ duration: 1.5, repeat: Infinity }}
-                          >
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                          </motion.svg>
+                      {/* Product Info - fixed height area for equal cards */}
+                      <div className="p-5 flex-1 min-h-0 flex flex-col justify-between bg-[#1e293b]/90">
+                        <div className="min-h-0">
+                          <h3 className="text-lg font-bold text-white group-hover:text-[#ff4f01] transition-colors leading-tight mb-1 line-clamp-2">
+                            {product.title}
+                          </h3>
+                          <p className="text-xs text-gray-400 mb-3 line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity h-0 group-hover:h-auto">
+                            Professional Grade Tool
+                          </p>
+                        </div>
+                        
+                        <div className="flex items-center justify-between pt-4 border-t border-white/5 mt-auto flex-shrink-0">
+                          <span className="text-[#ff4f01] text-sm font-bold uppercase tracking-wider">{t('products.viewDetails')}</span>
+                          <div className="w-7 h-7 rounded-full bg-[#ff4f01]/10 flex items-center justify-center group-hover:bg-[#ff4f01] transition-colors">
+                            <svg className="w-4 h-4 text-[#ff4f01] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </div>
                         </div>
                       </div>
                     </div>

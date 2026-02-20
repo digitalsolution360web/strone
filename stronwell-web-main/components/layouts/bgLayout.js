@@ -41,12 +41,14 @@ function BgLayout({ children }) {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.2 }}
       >
-        {/* Simple dark background */}
-        <div className="absolute inset-0 bg-black" />
+        {/* Same gradient as Products section - full website */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0c1222] via-[#1e293b] to-[#0f172a]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#ff4f01]/05 via-transparent to-transparent pointer-events-none" />
         <div 
-          className="absolute inset-0 opacity-30"
+          className="absolute inset-0 opacity-20"
           style={{
-            background: 'radial-gradient(ellipse 70% 60% at 50% 20%, rgba(255, 79, 1, 0.08) 0%, transparent 50%)'
+            background:
+              'radial-gradient(ellipse 80% 70% at 50% 0%, rgba(30,41,59,0.6) 0%, transparent 55%)'
           }}
         />
 

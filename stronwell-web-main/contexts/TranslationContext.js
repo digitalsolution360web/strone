@@ -3,18 +3,21 @@
 import { createContext, useContext, useState, useEffect } from 'react'
 import enTranslations from './translations-en.json'
 import esTranslations from './translations-es.json'
+import ptTranslations from './translations-pt.js'
 
 const translations = {
   en: enTranslations,
-  es: esTranslations
+  es: esTranslations,
+  pt: ptTranslations
 }
 
-// List of country codes for Spanish-speaking regions
+// Country codes for Spanish-speaking regions (excluding Portuguese-speaking)
 const SPANISH_COUNTRIES = [
-  'MX', // Mexico
-  'GT', 'BZ', 'SV', 'HN', 'NI', 'CR', 'PA', // Central America
-  'CO', 'EC', 'PE', 'BO', 'CL', 'AR', 'PY', 'UY', 'BR', 'VE', 'GY', 'SR', 'GF' // South America
+  'MX', 'GT', 'BZ', 'SV', 'HN', 'NI', 'CR', 'PA',
+  'CO', 'EC', 'PE', 'BO', 'CL', 'AR', 'PY', 'UY', 'VE', 'GY', 'SR', 'GF'
 ]
+// Portuguese-speaking: BR (Brazil), PT (Portugal), AO, MZ, etc.
+const PORTUGUESE_COUNTRIES = ['BR', 'PT', 'AO', 'MZ', 'CV', 'GW', 'ST', 'TL']
 
 const TranslationContext = createContext()
 
@@ -28,7 +31,7 @@ export function TranslationProvider({ children }) {
       try {
         // Check if user has a saved preference
         const savedLocale = localStorage.getItem('stronwell-locale')
-        if (savedLocale && (savedLocale === 'en' || savedLocale === 'es')) {
+        if (savedLocale && (savedLocale === 'en' || savedLocale === 'es' || savedLocale === 'pt')) {
           setLocale(savedLocale)
           setIsLoading(false)
           return
@@ -48,11 +51,12 @@ export function TranslationProvider({ children }) {
           const data = await response.json()
           const countryCode = data.country_code
           
-          // If user is in Spanish-speaking countries, keep Spanish
-          if (countryCode && SPANISH_COUNTRIES.includes(countryCode)) {
+          // Prefer Portuguese for Brazil/Portugal, then Spanish for Latam, else English
+          if (countryCode && PORTUGUESE_COUNTRIES.includes(countryCode)) {
+            setLocale('pt')
+          } else if (countryCode && SPANISH_COUNTRIES.includes(countryCode)) {
             setLocale('es')
           } else {
-            // Otherwise set to English
             setLocale('en')
           }
         }
@@ -74,8 +78,12 @@ export function TranslationProvider({ children }) {
     }
   }, [locale, isLoading])
 
-  const switchLocale = () => {
-    setLocale(prev => prev === 'en' ? 'es' : 'en')
+  const switchLocale = (code) => {
+    if (code && (code === 'en' || code === 'es' || code === 'pt')) {
+      setLocale(code)
+    } else {
+      setLocale(prev => prev === 'en' ? 'es' : prev === 'es' ? 'pt' : 'en')
+    }
   }
 
   // Helper function to get nested translation

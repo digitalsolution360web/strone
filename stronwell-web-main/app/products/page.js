@@ -273,15 +273,15 @@ function ProductsPage() {
                     transition={{ duration: 0.6, delay: index * 0.1 }}
                     className="group"
                   >
-                    <Link href={product.link}>
-                      <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden hover:border-[#ff4f01]/50 transition-all duration-300 hover:scale-105 cursor-pointer">
+                    <Link href={product.link} className="h-full block">
+                      <div className="h-[340px] flex flex-col bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl overflow-hidden hover:border-[#ff4f01]/50 transition-all duration-300 hover:scale-105 cursor-pointer">
                         
-                        {/* Product Image */}
-                        <div className="relative h-full overflow-hidden">
+                        {/* Product Image - fixed height for equal cards */}
+                        <div className="relative h-52 flex-shrink-0 overflow-hidden bg-[#0f172a]">
                           <img
                             src={product.image}
                             alt={product.title}
-                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                            className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                           
@@ -291,9 +291,9 @@ function ProductsPage() {
                           </div>
                         </div>
 
-                        {/* Product Info */}
-                        <div className="p-6">
-                          <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#ff4f01] transition-colors duration-300">
+                        {/* Product Info - flex to fill and align cards */}
+                        <div className="p-6 flex-1 flex flex-col min-h-0">
+                          <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#ff4f01] transition-colors duration-300 line-clamp-2">
                             {product.title}
                           </h3>
                           

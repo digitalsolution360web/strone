@@ -15,7 +15,8 @@ function Header() {
   
   const languages = [
     { code: 'en', name: 'English' },
-    { code: 'es', name: 'Español' }
+    { code: 'es', name: 'Español' },
+    { code: 'pt', name: 'Português' }
   ]
 
   const navItems = [
@@ -297,7 +298,7 @@ function Header() {
                 {languages.map((lang, index) => (
                   <motion.button
                     key={lang.code}
-                    onClick={() => switchLocale()}
+                    onClick={() => switchLocale(lang.code)}
                     className={`px-4 py-2 text-base cursor-pointer font-medium transition-all duration-300 relative ${
                       locale === lang.code
                         ? 'text-white'
@@ -358,7 +359,7 @@ function Header() {
                       <motion.button
                         key={lang.code}
                         onClick={() => {
-                          switchLocale()
+                          switchLocale(lang.code)
                           setIsLanguageOpen(false)
                         }}
                         className={`w-15 text-left px-4 py-3 text-lg cursor-pointer transition-all duration-200 ${

@@ -112,9 +112,9 @@ function Hero() {
   }
 
   return (
-    <section className="relative h-screen w-full overflow-hidden bg-black" id="main-content">
+    <section className="relative h-screen w-full overflow-hidden bg-[#020617]" id="main-content">
       {/* Background Slider */}
-      <div className="absolute inset-0 bg-black">
+      <div className="absolute inset-0 bg-[#020617]">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             key={currentSlide}
@@ -123,7 +123,7 @@ function Hero() {
             initial="enter"
             animate="center"
             exit="exit"
-            className="absolute inset-0 bg-black"
+            className="absolute inset-0 bg-[#020617]"
           >
             <div className="relative h-full w-full">
               {/* Background Image */}
@@ -136,8 +136,8 @@ function Hero() {
                 transition={{ duration: 2, ease: "easeOut" }}
               />
               
-              {/* Premium gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/20 to-transparent" />
+              {/* Gradient overlay (lighter so images stay visible) */}
+              <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/85 via-[#020617]/30 to-transparent" />
             </div>
           </motion.div>
         </AnimatePresence>

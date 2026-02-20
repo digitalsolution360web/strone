@@ -116,21 +116,6 @@ function About() {
 
   return (
     <section ref={sectionRef} className="relative overflow-hidden">
-      {/* Diagonal divider from hero */}
-      <div className="h-20 w-full relative -mt-px" aria-hidden="true">
-        <div 
-          className="absolute inset-0 bg-black"
-          style={{ clipPath: 'polygon(0 100%, 0 0, 100% 100%)' }}
-        />
-        <div 
-          className="absolute inset-0 opacity-60"
-          style={{ 
-            clipPath: 'polygon(0 100%, 0 0, 100% 100%)',
-            background: 'linear-gradient(135deg, rgba(255,79,1,0.15) 0%, transparent 60%)'
-          }}
-        />
-      </div>
-
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 pb-20 lg:pt-20 lg:pb-28">
         
         {/* Section Header – left-aligned on desktop */}
