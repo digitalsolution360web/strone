@@ -95,35 +95,32 @@ function House() {
   }
 
   return (
-    <section className="py-16 lg:py-24 px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <section className="relative py-10 lg:py-16 px-6 lg:px-8">
+      {/* Section background overlay */}
+      <div className="absolute inset-0 bg-[#0c111d]/80 z-0"></div>
+      <div className="relative z-10 max-w-7xl mx-auto">
 
         {/* Section Header */}
         <motion.div
-          className="text-center mb-16"
-          initial={{ opacity: 0, y: 30 }}
+          className="mb-10"
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.7 }}
         >
-          <span className="section-label">Garden & Forestry</span>
-          <motion.h2
-            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-gray-100 mb-6 tracking-tight"
+          <div className="flex items-center gap-3 mb-5">
+            <div className="h-[2px] w-8 bg-[#ff4f01] rounded-full"></div>
+            <span className="text-[#ff4f01] text-xs font-extrabold uppercase tracking-[0.2em]">Garden &amp; Forestry</span>
+          </div>
+          <h2
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight tracking-tight"
             style={{ fontFamily: 'var(--font-titillium-web)' }}
           >
-            {t('sections.house.gardenForestry').split(' & ')[0]} & {' '}
-            <span className="bg-gradient-to-r from-[#ff4f01] to-[#ff6b2e] bg-clip-text text-transparent">
+            {t('sections.house.gardenForestry').split(' & ')[0]} &amp; {' '}
+            <span className="text-[#ff4f01]">
               {t('sections.house.gardenForestry').split(' & ')[1]}
             </span>
-          </motion.h2>
-
-          <motion.div
-            className="w-20 h-1.5 bg-gradient-to-r from-[#ff4f01] to-[#ff6b2e] mx-auto rounded-full"
-            initial={{ width: 0 }}
-            whileInView={{ width: 80 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-          />
+          </h2>
         </motion.div>
 
         {/* Companies Grid */}
@@ -141,48 +138,59 @@ function House() {
               whileHover="hover"
               className="group"
             >
-              <div className="relative bg-black/50 rounded-2xl overflow-hidden border border-white/10 hover:border-white/25 transition-all duration-300">
-                {/* Card Header */}
-                <div className="relative h-32 bg-white/5 overflow-hidden">
+              <div className="relative bg-[#111111] rounded-xl overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.15)] border-[3px] border-white flex flex-col group h-full transform transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.25)]">
+                {/* Top Tab for Description */}
+                <div className="bg-white py-2.5 text-center shadow-sm relative z-10 w-[95%] mx-auto mt-2 rounded-t-lg">
+                  <h4 className="text-black font-extrabold text-xs uppercase tracking-widest whitespace-nowrap px-2">
+                    {company.description}
+                  </h4>
+                </div>
+
+                {/* Card Header with Logo */}
+                <div className="relative flex-1 bg-gradient-to-br from-gray-900 to-black p-6 flex flex-col items-center justify-center overflow-hidden w-full mt-2 rounded-b-lg min-h-[160px]">
+                  {/* Spotlight effect behind logo */}
+                  <div className="absolute inset-0 bg-white opacity-5 mix-blend-overlay group-hover:opacity-10 transition-opacity duration-300"></div>
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-[#ff4f01] opacity-0 blur-[50px] rounded-full group-hover:opacity-20 transition-opacity duration-500"></div>
 
                   {/* Logo Container */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="h-20 rounded-xl flex items-center justify-center">
-                      <img
-                        src={company.logo}
-                        alt={`${company.name} logo`}
-                        className="h-32 p-4 object-contain"
-                      />
-                    </div>
+                  <div className="relative z-10 w-full h-full flex items-center justify-center">
+                    <motion.img
+                      src={company.logo}
+                      alt={`${company.name} logo`}
+                      className="max-h-24 max-w-full p-2 object-contain drop-shadow-[0_10px_15px_rgba(0,0,0,0.5)]"
+                      whileHover={{ scale: 1.05 }}
+                      transition={{ duration: 0.3 }}
+                    />
                   </div>
                 </div>
 
                 {/* Card Content */}
-                <div className="p-6">
-
-                  {/* Company Name */}
-                  <motion.h3
-                    className="text-xl lg:text-2xl text-center text-gray-100 mb-4"
-                  >
-                    {company.tagline}
-                  </motion.h3>
+                <div className="p-6 pt-4 flex flex-col">
+                  {/* Tagline */}
+                  <div className="flex items-center justify-center w-full mb-5 opacity-90">
+                    <div className="h-[1px] bg-gray-600 flex-grow"></div>
+                    <span className="px-3 text-[#ff4f01] text-sm font-bold tracking-wider text-center">
+                      {company.tagline}
+                    </span>
+                    <div className="h-[1px] bg-gray-600 flex-grow"></div>
+                  </div>
 
                   {/* Visit Website Button */}
-                  <Link href={company.website} target="_blank" rel="noopener noreferrer">
+                  <Link href={company.website} target="_blank" rel="noopener noreferrer" className="mt-auto">
                     <motion.button
                       variants={buttonVariants}
                       whileHover="hover"
                       whileTap="tap"
-                      className="w-full text-lg hover:text-xl cursor-pointer bg-gradient-to-r from-[#ff4f01] to-[#ff6b2e] text-white font-bold py-3 px-6 rounded-xl shadow-[0_4px_20px_rgba(255,79,1,0.2)] group-hover:shadow-[0_8px_28px_rgba(255,79,1,0.3)] transition-all duration-300 border border-[#ff4f01]/20"
+                      className="w-full text-base font-bold bg-white text-black py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300 group-hover:shadow-[0_5px_15px_rgba(255,255,255,0.2)] border-2 border-transparent hover:border-[#ff4f01]"
                     >
                       <div className="flex items-center justify-center space-x-2">
-                        <span className="">{company.name}</span>
+                        <span>{company.name}</span>
                         <motion.svg
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-[#ff4f01]"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
-                          animate={{ x: [0, 2, 0] }}
+                          animate={{ x: [0, 4, 0] }}
                           transition={{ duration: 1.5, repeat: Infinity }}
                         >
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -197,30 +205,25 @@ function House() {
         </motion.div>
 
         <motion.div
-          className="text-center my-16"
-          initial={{ opacity: 0, y: 30 }}
+          className="mb-10 mt-16"
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.7 }}
         >
-          <span className="section-label">Hardware Division</span>
-          <motion.h2
-            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-gray-100 mb-6 tracking-tight"
+          <div className="flex items-center gap-3 mb-5">
+            <div className="h-[2px] w-8 bg-[#ff4f01] rounded-full"></div>
+            <span className="text-[#ff4f01] text-xs font-extrabold uppercase tracking-[0.2em]">Hardware Division</span>
+          </div>
+          <h2
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight tracking-tight"
             style={{ fontFamily: 'var(--font-titillium-web)' }}
           >
             {t('sections.house.hardwareDivision').split(' ')[0]} {' '}
-            <span className="bg-gradient-to-r from-[#ff4f01] to-[#ff6b2e] bg-clip-text text-transparent">
+            <span className="text-[#ff4f01]">
               {t('sections.house.hardwareDivision').split(' ')[1]}
             </span>
-          </motion.h2>
-
-          <motion.div
-            className="w-20 h-1.5 bg-gradient-to-r from-[#ff4f01] to-[#ff6b2e] mx-auto rounded-full"
-            initial={{ width: 0 }}
-            whileInView={{ width: 80 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-          />
+          </h2>
         </motion.div>
 
         {/* Companies Grid */}
@@ -238,58 +241,59 @@ function House() {
               whileHover="hover"
               className="group w-full md:w-[50%] lg:w-[33%] mx-auto"
             >
-              <div className="relative bg-black/50 rounded-2xl overflow-hidden border border-white/10 hover:border-white/25 transition-all duration-300">
-                {/* Card Header */}
-                <div className="relative h-32 bg-white/5 overflow-hidden">
+              <div className="relative bg-[#111111] rounded-xl overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.15)] border-[3px] border-white flex flex-col group h-full transform transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.25)]">
+                {/* Top Tab for Description */}
+                <div className="bg-white py-2.5 text-center shadow-sm relative z-10 w-[95%] mx-auto mt-2 rounded-t-lg">
+                  <h4 className="text-black font-extrabold text-xs uppercase tracking-widest whitespace-nowrap px-2">
+                    {company.description}
+                  </h4>
+                </div>
+
+                {/* Card Header with Logo */}
+                <div className="relative flex-1 bg-gradient-to-br from-gray-900 to-black p-6 flex flex-col items-center justify-center overflow-hidden w-full mt-2 rounded-b-lg min-h-[160px]">
+                  {/* Spotlight effect behind logo */}
+                  <div className="absolute inset-0 bg-white opacity-5 mix-blend-overlay group-hover:opacity-10 transition-opacity duration-300"></div>
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-[#ff4f01] opacity-0 blur-[50px] rounded-full group-hover:opacity-20 transition-opacity duration-500"></div>
 
                   {/* Logo Container */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="h-20  rounded-xl  flex items-center justify-center">
-                      <img
-                        src={company.logo}
-                        alt={`${company.name} logo`}
-                        className="h-32 p-4 object-contain"
-                      />
-                    </div>
+                  <div className="relative z-10 w-full h-full flex items-center justify-center">
+                    <motion.img
+                      src={company.logo}
+                      alt={`${company.name} logo`}
+                      className="max-h-24 max-w-full p-2 object-contain drop-shadow-[0_10px_15px_rgba(0,0,0,0.5)]"
+                      whileHover={{ scale: 1.05 }}
+                      transition={{ duration: 0.3 }}
+                    />
                   </div>
                 </div>
 
                 {/* Card Content */}
-                <div className="p-6">
-
-                  {/* Company Name */}
-                  <motion.h3
-                    className="text-xl lg:text-2xl text-center text-gray-100 mb-4"
-                  >
-                    {company.tagline}
-                  </motion.h3>
-
-                  {/* Description Badge */}
-                  {/* <div className="inline-flex items-center px-3 py-1 rounded-full bg-white/10 text-[#ff4f01] text-sm font-medium mb-4">
-                    {company.description}
-                  </div> */}
-
+                <div className="p-6 pt-4 flex flex-col">
                   {/* Tagline */}
-                  {/* <p className="text-gray-100 text-sm mb-6 leading-relaxed">
-                    {company.tagline}
-                  </p> */}
+                  <div className="flex items-center justify-center w-full mb-5 opacity-90">
+                    <div className="h-[1px] bg-gray-600 flex-grow"></div>
+                    <span className="px-3 text-[#ff4f01] text-sm font-bold tracking-wider text-center">
+                      {company.tagline}
+                    </span>
+                    <div className="h-[1px] bg-gray-600 flex-grow"></div>
+                  </div>
 
                   {/* Visit Website Button */}
-                  <Link href={company.website} target="_blank" rel="noopener noreferrer">
+                  <Link href={company.website} target="_blank" rel="noopener noreferrer" className="mt-auto">
                     <motion.button
                       variants={buttonVariants}
                       whileHover="hover"
                       whileTap="tap"
-                      className="w-full text-lg hover:text-xl cursor-pointer bg-gradient-to-r from-[#ff4f01] to-[#ff6b2e] text-white font-bold py-3 px-6 rounded-xl shadow-[0_4px_20px_rgba(255,79,1,0.2)] group-hover:shadow-[0_8px_28px_rgba(255,79,1,0.3)] transition-all duration-300 border border-[#ff4f01]/20"
+                      className="w-full text-base font-bold bg-white text-black py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300 group-hover:shadow-[0_5px_15px_rgba(255,255,255,0.2)] border-2 border-transparent hover:border-[#ff4f01]"
                     >
                       <div className="flex items-center justify-center space-x-2">
-                        <span className="">{company.name}</span>
+                        <span>{company.name}</span>
                         <motion.svg
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-[#ff4f01]"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
-                          animate={{ x: [0, 2, 0] }}
+                          animate={{ x: [0, 4, 0] }}
                           transition={{ duration: 1.5, repeat: Infinity }}
                         >
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />

@@ -88,7 +88,7 @@ function Products() {
   }
 
   return (
-    <section className="relative py-16 lg:py-24 overflow-hidden bg-gradient-to-br from-[#0c1222] via-[#1e293b] to-[#0f172a]">
+    <section className="relative py-10 lg:py-16 overflow-hidden bg-gradient-to-br from-[#0f172a] via-[#131d2e] to-[#0c1222]">
       <div className="absolute inset-0 bg-gradient-to-t from-[#ff4f01]/05 via-transparent to-transparent pointer-events-none" aria-hidden="true" />
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#ff4f01]/50 to-transparent" aria-hidden="true" />
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
@@ -98,20 +98,21 @@ function Products() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="text-center mb-14"
+          className="mb-14"
         >
-          <motion.span variants={titleVariants} className="section-label block mb-2">
-            Products
-          </motion.span>
+          <motion.div variants={titleVariants} className="flex items-center gap-3 mb-5">
+            <div className="h-[2px] w-8 bg-[#ff4f01] rounded-full"></div>
+            <span className="text-[#ff4f01] text-xs font-extrabold uppercase tracking-[0.2em]">Our Products</span>
+          </motion.div>
           <motion.h2 
             variants={titleVariants}
-            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4"
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight tracking-tight"
           >
-            {t('sections.homeProducts.title').split(' ')[0]} <span className="text-[#ff4f01]">{t('sections.homeProducts.title').split(' ')[1]}</span>
+            {t('sections.homeProducts.title').split(' ').slice(0,-1).join(' ')} <span className="text-[#ff4f01]">{t('sections.homeProducts.title').split(' ').slice(-1)[0]}</span>
           </motion.h2>
           <motion.p 
             variants={titleVariants}
-            className="text-base lg:text-lg text-gray-400 max-w-2xl mx-auto"
+            className="text-base lg:text-lg text-gray-400 max-w-2xl font-light"
           >
             {t('sections.homeProducts.subtitle')}
           </motion.p>
@@ -145,11 +146,22 @@ function Products() {
                     whileHover={{ y: -8, scale: 1.02 }}
                     transition={{ duration: 0.3, ease: "easeOut" }}
                   >
-                    <div className="w-80 h-[400px] bg-[#1e293b]/90 rounded-xl overflow-hidden border border-white/10 hover:border-[#ff4f01]/50 transition-all duration-300 group/card shadow-xl hover:shadow-[0_0_24px_rgba(255,79,1,0.2)] flex flex-col flex-shrink-0">
-                      {/* Product Image Container - Fixed height for equal cards */}
-                      <div className="relative h-64 flex-shrink-0 bg-[#0f172a]/80 p-5 flex items-center justify-center overflow-hidden">
+                    <div className="w-80 h-[400px] bg-[#151515] rounded-xl overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.15)] border-[3px] border-white flex flex-col flex-shrink-0 group/card relative">
+                      {/* Top Tab */}
+                      <div className="bg-white py-3 text-center shadow-sm relative z-10 w-[95%] mx-auto mt-2 rounded-t-lg">
+                        <h3 className="text-black font-extrabold text-sm uppercase tracking-widest whitespace-nowrap overflow-hidden text-ellipsis px-2 group-hover:text-[#ff4f01] transition-colors">
+                          {product.title}
+                        </h3>
+                      </div>
+                      
+                      {/* Image Area */}
+                      <div className="relative flex-1 bg-gradient-to-br from-gray-900 to-black p-5 flex items-center justify-center overflow-hidden w-full mt-2 rounded-b-lg">
+                        {/* Spotlight effect behind image */}
+                        <div className="absolute inset-0 bg-white opacity-5 mix-blend-overlay group-hover:opacity-10 transition-opacity duration-300"></div>
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#ff4f01] opacity-0 blur-[60px] rounded-full group-hover:opacity-20 transition-opacity duration-500"></div>
+                        
                         <motion.div
-                          className="relative w-full h-full flex items-center justify-center"
+                          className="relative w-full h-full flex items-center justify-center z-10"
                           whileHover={{ scale: 1.05 }}
                           transition={{ duration: 0.3 }}
                         >
@@ -158,7 +170,7 @@ function Products() {
                             alt={product.title}
                             width={360}
                             height={256}
-                            className={`object-contain w-auto h-auto max-h-full max-w-full ${
+                            className={`object-contain w-auto h-auto max-h-[85%] max-w-full drop-shadow-[0_10px_15px_rgba(0,0,0,0.7)] ${
                               product.image.includes('manual-seed-spreader') ? 'max-h-[70%] max-w-[70%]' : ''
                             }`}
                             loading="eager"
@@ -176,30 +188,14 @@ function Products() {
                           />
                         </motion.div>
                         
-                        {/* Category Badge */}
-                        <div className="absolute top-4 left-4 px-2.5 py-1 bg-black/60 rounded text-xs font-semibold text-[#ff4f01] uppercase tracking-wider border border-[#ff4f01]/30">
-                          {product.category.replace('-', ' ')}
-                        </div>
-                      </div>
-                      
-                      {/* Product Info - fixed height area for equal cards */}
-                      <div className="p-5 flex-1 min-h-0 flex flex-col justify-between bg-[#1e293b]/90">
-                        <div className="min-h-0">
-                          <h3 className="text-lg font-bold text-white group-hover:text-[#ff4f01] transition-colors leading-tight mb-1 line-clamp-2">
-                            {product.title}
-                          </h3>
-                          <p className="text-xs text-gray-400 mb-3 line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity h-0 group-hover:h-auto">
-                            Professional Grade Tool
-                          </p>
-                        </div>
-                        
-                        <div className="flex items-center justify-between pt-4 border-t border-white/5 mt-auto flex-shrink-0">
-                          <span className="text-[#ff4f01] text-sm font-bold uppercase tracking-wider">{t('products.viewDetails')}</span>
-                          <div className="w-7 h-7 rounded-full bg-[#ff4f01]/10 flex items-center justify-center group-hover:bg-[#ff4f01] transition-colors">
-                            <svg className="w-4 h-4 text-[#ff4f01] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        {/* Category Badge hover effect */}
+                        <div className="absolute bottom-4 left-4 pt-4 mt-auto flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                          <span className="text-[#ff4f01] text-xs font-bold uppercase tracking-wider bg-black/80 px-2 py-1 rounded border border-[#ff4f01]/30 flex items-center gap-1">
+                            {t('products.viewDetails')}
+                            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>
-                          </div>
+                          </span>
                         </div>
                       </div>
                     </div>

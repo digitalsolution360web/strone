@@ -9,9 +9,13 @@ export default function Home() {
   return (
     <BgLayout>
       <Hero/>
+      <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
       <About/>
+      <div className="h-px bg-gradient-to-r from-transparent via-[#ff4f01]/20 to-transparent" />
       <Products/>
+      <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
       <House/>
+      <div className="h-px bg-gradient-to-r from-transparent via-[#ff4f01]/20 to-transparent" />
       <Faqs/>
     </BgLayout>
   );

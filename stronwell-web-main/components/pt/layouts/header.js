@@ -148,7 +148,7 @@ function Header() {
                 <img 
                     src="/logo.png" 
                     alt="Stronwell Logo" 
-                    className="h-5 sm:h-8 rounded-xl shadow-lg"
+                    className="h-3 sm:h-[14px] md:h-4 w-auto drop-shadow-md transition-all duration-300"
                 />
                 {/* <motion.div
                     className="absolute -inset-1 bg-gradient-to-br from-[#ff4f01] to-[#ff6b2e] rounded-xl opacity-30 blur-sm"
