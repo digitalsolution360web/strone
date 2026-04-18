@@ -112,13 +112,13 @@ function Footer() {
   return (
     <motion.footer
       ref={footerRef}
-      className="relative bg-black text-white overflow-hidden"
+      className="relative bg-[#050505] text-white overflow-hidden"
       variants={containerVariants}
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
     >
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black via-gray-900/40 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0f172a]/20 via-black to-black" />
       
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 opacity-5">
@@ -145,32 +145,29 @@ function Footer() {
 
       <div className="relative z-10">
         {/* Main Footer Content */}
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 md:py-16">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-14 lg:gap-16">
-            {/* Brand Section */}
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-10 md:py-14">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
+            {/* Brand Section - Widened */}
             <motion.div 
-              className="lg:col-span-1"
+              className="lg:col-span-5 space-y-5"
               variants={sectionVariants}
             >
-              <Link href="/" className="inline-block mb-6">
+              <Link href="/" className="inline-block">
                 <motion.div
-                  className="flex items-center space-x-3"
+                  className="flex items-center"
                   whileHover={{ scale: 1.05 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <img 
                     src="/logo.png" 
                     alt="Stronwell Logo" 
-                    className="h-7 shadow-lg"
+                    className="h-4 sm:h-[18px] md:h-5 w-auto drop-shadow-md transition-all duration-300"
                   />
-                  {/* <span className="text-2xl font-bold text-white">
-                    Stronwell
-                  </span> */}
                 </motion.div>
               </Link>
               
               <motion.p 
-                className="text-white/70 text-lg mb-8 max-w-xl leading-relaxed"
+                className="text-white/70 text-base leading-relaxed max-w-lg"
                 initial={{ opacity: 0 }}
                 animate={isInView ? { opacity: 1 } : {}}
                 transition={{ delay: 0.3, duration: 0.6 }}
@@ -178,20 +175,21 @@ function Footer() {
                 {t('footer.description')}
               </motion.p>
 
-              <Link href="/dealer">
+              <Link href="/dealer" className="inline-block">
                 <motion.button
                   initial={{ opacity: 0 }}
                   animate={isInView ? { opacity: 1 } : {}}
                   transition={{ delay: 0.5, duration: 0.4 }}
-                  className="px-6 py-3 bg-[#ff4f01] text-white text-xl font-semibold cursor-pointer hover:scale-[1.03] rounded-xl shadow-[0_4px_20px_rgba(255,79,1,0.25)] hover:shadow-[0_8px_28px_rgba(255,79,1,0.35)] hover:bg-[#ff6b2e] transition-all duration-300 border border-[#ff4f01]/30"
+                  className="px-6 py-3 bg-[#ff4f01] text-white text-base font-bold cursor-pointer hover:scale-[1.02] rounded-xl shadow-[0_15px_30px_rgba(255,79,1,0.2)] hover:bg-[#ff6b2e]"
                 >
                     {t('footer.becomeDealer')}
                 </motion.button>
               </Link>
             </motion.div>
 
-            <div className='flex flex-col justify-between'>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
+            {/* Links Sections - Expanded */}
+            <div className="lg:col-span-7">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
                 {/* Footer Links */}
                 {footerSections.map((section, sectionIndex) => (
                   <motion.div 

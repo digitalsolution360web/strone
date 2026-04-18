@@ -112,7 +112,7 @@ function Hero() {
   }
 
   return (
-    <section className="relative h-screen w-full overflow-hidden bg-[#020617]" id="main-content">
+    <section className="relative h-[75vh] min-h-[500px] w-full overflow-hidden bg-[#020617]" id="main-content">
       {/* Background Slider */}
       <div className="absolute inset-0 bg-[#020617]">
         <AnimatePresence initial={false} custom={direction}>
@@ -144,7 +144,7 @@ function Hero() {
       </div>
 
       {/* Content – centered glass panel (different UI) */}
-      <div className="relative z-10 h-full flex flex-col items-center justify-end pb-14 lg:pb-20 px-4">
+      <div className="relative z-10 h-full flex flex-col items-center justify-center pb-8 lg:pb-12 px-4">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}

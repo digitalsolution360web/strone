@@ -14,15 +14,8 @@ function House() {
       description: 'Intensive Use',
       website: 'https://bonhoeffermachines.com',
       logo: '/logos/bon_letter.png',
-      tagline: t('sections.house.bonhoeffer.tagline')
-    },
-    {
-      id: 2,
-      name: t('sections.house.stronwell.name'),
-      description: 'Hardware Division',
-      website: 'https://stronwell.com',
-      logo: '/logo.png',
-      tagline: t('sections.house.stronwell.tagline')
+      tagline: t('sections.house.bonhoeffer.tagline'),
+      color: '#94A034'
     },
     {
       id: 3,
@@ -30,18 +23,17 @@ function House() {
       description: 'Occasionally Use',
       website: 'https://mechnovamachines.com',
       logo: '/logos/mechnova_logo.png',
-      tagline: t('sections.house.mechnova.tagline')
-    }
-  ]
-
-  const HardCompanies = [
+      tagline: t('sections.house.mechnova.tagline'),
+      color: '#0084ff'
+    },
     {
-      id: 1,
+      id: 4,
       name: t('sections.house.stevron.name'),
       description: 'Hardware Division',
       website: 'https://stevrontools.com',
       logo: '/logos/stevron_logo.png',
-      tagline: t('sections.house.stevron.tagline')
+      tagline: t('sections.house.stevron.tagline'),
+      color: '#94A034'
     }
   ]
 
@@ -50,256 +42,99 @@ function House() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2,
+        staggerChildren: 0.15,
         delayChildren: 0.1
       }
     }
   }
 
   const cardVariants = {
-    hidden: {
-      opacity: 0,
-      y: 50,
-      scale: 0.9
-    },
+    hidden: { opacity: 0, y: 40 },
     visible: {
       opacity: 1,
       y: 0,
-      scale: 1,
-      transition: {
-        duration: 0.6,
-        ease: [0.25, 0.1, 0.25, 1]
-      }
+      transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }
     },
     hover: {
-      y: -8,
-      scale: 1.02,
-      transition: {
-        duration: 0.3,
-        ease: "easeOut"
-      }
-    }
-  }
-
-  const buttonVariants = {
-    hover: {
-      scale: 1.05,
-      backgroundColor: "#ff6b2e",
-      transition: {
-        duration: 0.2
-      }
-    },
-    tap: {
-      scale: 0.95
+      y: -12,
+      transition: { duration: 0.4, ease: "easeOut" }
     }
   }
 
   return (
-    <section className="relative py-10 lg:py-16 px-6 lg:px-8">
-      {/* Section background overlay */}
-      <div className="absolute inset-0 bg-[#0c111d]/80 z-0"></div>
-      <div className="relative z-10 max-w-7xl mx-auto">
+    <section className="relative py-16 lg:py-20 px-6 lg:px-8 overflow-hidden bg-slate-50">
+      <div className="absolute inset-0 opacity-[0.03] pointer-events-none z-0" style={{ backgroundImage: 'url("https://www.transparenttextures.com/patterns/cubes.png")' }} />
 
-        {/* Section Header */}
+      <div className="relative z-10 max-w-7xl mx-auto">
+        {/* Global Group Header Banner */}
         <motion.div
-          className="mb-10"
-          initial={{ opacity: 0, y: 24 }}
+          className="flex justify-center mb-12 lg:mb-16"
+          initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.8 }}
         >
-          <div className="flex items-center gap-3 mb-5">
-            <div className="h-[2px] w-8 bg-[#ff4f01] rounded-full"></div>
-            <span className="text-[#ff4f01] text-xs font-extrabold uppercase tracking-[0.2em]">Garden &amp; Forestry</span>
+          <div className="bg-white px-10 py-3 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.05)] border border-slate-200">
+            <h2 className="text-[#020617] font-sans text-xs sm:text-base lg:text-lg font-black tracking-[0.2em] text-center uppercase" style={{ fontFamily: 'var(--font-titillium-web)' }}>
+              {t('sections.house.globalGroup')}
+            </h2>
           </div>
-          <h2
-            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight tracking-tight"
-            style={{ fontFamily: 'var(--font-titillium-web)' }}
-          >
-            {t('sections.house.gardenForestry').split(' & ')[0]} &amp; {' '}
-            <span className="text-[#ff4f01]">
-              {t('sections.house.gardenForestry').split(' & ')[1]}
-            </span>
-          </h2>
         </motion.div>
 
-        {/* Companies Grid */}
+        {/* Brand Comparison Grid - Single Row for All 3 */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 mx-auto"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {companies.map((company, index) => (
+          {companies.map((company) => (
             <motion.div
               key={company.id}
               variants={cardVariants}
               whileHover="hover"
               className="group"
             >
-              <div className="relative bg-[#111111] rounded-xl overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.15)] border-[3px] border-white flex flex-col group h-full transform transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.25)]">
-                {/* Top Tab for Description */}
-                <div className="bg-white py-2.5 text-center shadow-sm relative z-10 w-[95%] mx-auto mt-2 rounded-t-lg">
-                  <h4 className="text-black font-extrabold text-xs uppercase tracking-widest whitespace-nowrap px-2">
-                    {company.description}
-                  </h4>
-                </div>
+              <div className="relative bg-white rounded-[2rem] overflow-hidden shadow-[0_20px_40px_-10px_rgba(0,0,0,0.05)] border border-slate-100 flex flex-col p-6 lg:p-8 transition-all duration-500">
+                {/* Brand Header area */}
+                <div className="flex flex-col items-center text-center">
+                  <h3 
+                    className="font-bold text-3xl lg:text-4xl tracking-tighter mb-1.5 transition-colors duration-300"
+                    style={{ color: company.color }}
+                  >
+                    {company.name.split(' ')[0]}
+                  </h3>
 
-                {/* Card Header with Logo */}
-                <div className="relative flex-1 bg-gradient-to-br from-gray-900 to-black p-6 flex flex-col items-center justify-center overflow-hidden w-full mt-2 rounded-b-lg min-h-[160px]">
-                  {/* Spotlight effect behind logo */}
-                  <div className="absolute inset-0 bg-white opacity-5 mix-blend-overlay group-hover:opacity-10 transition-opacity duration-300"></div>
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-[#ff4f01] opacity-0 blur-[50px] rounded-full group-hover:opacity-20 transition-opacity duration-500"></div>
-
-                  {/* Logo Container */}
-                  <div className="relative z-10 w-full h-full flex items-center justify-center">
-                    <motion.img
-                      src={company.logo}
-                      alt={`${company.name} logo`}
-                      className="max-h-24 max-w-full p-2 object-contain drop-shadow-[0_10px_15px_rgba(0,0,0,0.5)]"
-                      whileHover={{ scale: 1.05 }}
-                      transition={{ duration: 0.3 }}
-                    />
-                  </div>
-                </div>
-
-                {/* Card Content */}
-                <div className="p-6 pt-4 flex flex-col">
-                  {/* Tagline */}
-                  <div className="flex items-center justify-center w-full mb-5 opacity-90">
-                    <div className="h-[1px] bg-gray-600 flex-grow"></div>
-                    <span className="px-3 text-[#ff4f01] text-sm font-bold tracking-wider text-center">
+                  {/* Horizontal Divider with Tight Gapping */}
+                  <div className="w-full flex items-center justify-center gap-3 mb-3">
+                    <div className="h-[1px] flex-1 bg-slate-100" />
+                    <span className="text-slate-500 text-[11px] font-bold tracking-tight">
                       {company.tagline}
                     </span>
-                    <div className="h-[1px] bg-gray-600 flex-grow"></div>
+                    <div className="h-[1px] flex-1 bg-slate-100" />
                   </div>
 
-                  {/* Visit Website Button */}
-                  <Link href={company.website} target="_blank" rel="noopener noreferrer" className="mt-auto">
-                    <motion.button
-                      variants={buttonVariants}
-                      whileHover="hover"
-                      whileTap="tap"
-                      className="w-full text-base font-bold bg-white text-black py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300 group-hover:shadow-[0_5px_15px_rgba(255,255,255,0.2)] border-2 border-transparent hover:border-[#ff4f01]"
-                    >
-                      <div className="flex items-center justify-center space-x-2">
-                        <span>{company.name}</span>
-                        <motion.svg
-                          className="w-4 h-4 text-[#ff4f01]"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          animate={{ x: [0, 4, 0] }}
-                          transition={{ duration: 1.5, repeat: Infinity }}
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </motion.svg>
-                      </div>
-                    </motion.button>
-                  </Link>
-                </div>
-              </div>
-            </motion.div>
-          ))}
-        </motion.div>
-
-        <motion.div
-          className="mb-10 mt-16"
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
-          <div className="flex items-center gap-3 mb-5">
-            <div className="h-[2px] w-8 bg-[#ff4f01] rounded-full"></div>
-            <span className="text-[#ff4f01] text-xs font-extrabold uppercase tracking-[0.2em]">Hardware Division</span>
-          </div>
-          <h2
-            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight tracking-tight"
-            style={{ fontFamily: 'var(--font-titillium-web)' }}
-          >
-            {t('sections.house.hardwareDivision').split(' ')[0]} {' '}
-            <span className="text-[#ff4f01]">
-              {t('sections.house.hardwareDivision').split(' ')[1]}
-            </span>
-          </h2>
-        </motion.div>
-
-        {/* Companies Grid */}
-        <motion.div
-          className="grid grid-cols-1 gap-8 lg:gap-10"
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-        >
-          {HardCompanies.map((company, index) => (
-            <motion.div
-              key={company.id}
-              variants={cardVariants}
-              whileHover="hover"
-              className="group w-full md:w-[50%] lg:w-[33%] mx-auto"
-            >
-              <div className="relative bg-[#111111] rounded-xl overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.15)] border-[3px] border-white flex flex-col group h-full transform transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.25)]">
-                {/* Top Tab for Description */}
-                <div className="bg-white py-2.5 text-center shadow-sm relative z-10 w-[95%] mx-auto mt-2 rounded-t-lg">
-                  <h4 className="text-black font-extrabold text-xs uppercase tracking-widest whitespace-nowrap px-2">
+                  <p className="text-slate-400 text-[11px] font-bold uppercase tracking-[0.15em] mb-5">
                     {company.description}
-                  </h4>
-                </div>
+                  </p>
 
-                {/* Card Header with Logo */}
-                <div className="relative flex-1 bg-gradient-to-br from-gray-900 to-black p-6 flex flex-col items-center justify-center overflow-hidden w-full mt-2 rounded-b-lg min-h-[160px]">
-                  {/* Spotlight effect behind logo */}
-                  <div className="absolute inset-0 bg-white opacity-5 mix-blend-overlay group-hover:opacity-10 transition-opacity duration-300"></div>
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-[#ff4f01] opacity-0 blur-[50px] rounded-full group-hover:opacity-20 transition-opacity duration-500"></div>
-
-                  {/* Logo Container */}
-                  <div className="relative z-10 w-full h-full flex items-center justify-center">
-                    <motion.img
-                      src={company.logo}
-                      alt={`${company.name} logo`}
-                      className="max-h-24 max-w-full p-2 object-contain drop-shadow-[0_10px_15px_rgba(0,0,0,0.5)]"
-                      whileHover={{ scale: 1.05 }}
-                      transition={{ duration: 0.3 }}
-                    />
-                  </div>
-                </div>
-
-                {/* Card Content */}
-                <div className="p-6 pt-4 flex flex-col">
-                  {/* Tagline */}
-                  <div className="flex items-center justify-center w-full mb-5 opacity-90">
-                    <div className="h-[1px] bg-gray-600 flex-grow"></div>
-                    <span className="px-3 text-[#ff4f01] text-sm font-bold tracking-wider text-center">
-                      {company.tagline}
-                    </span>
-                    <div className="h-[1px] bg-gray-600 flex-grow"></div>
-                  </div>
-
-                  {/* Visit Website Button */}
-                  <Link href={company.website} target="_blank" rel="noopener noreferrer" className="mt-auto">
-                    <motion.button
-                      variants={buttonVariants}
-                      whileHover="hover"
-                      whileTap="tap"
-                      className="w-full text-base font-bold bg-white text-black py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300 group-hover:shadow-[0_5px_15px_rgba(255,255,255,0.2)] border-2 border-transparent hover:border-[#ff4f01]"
+                  {/* Link Box - Improved Visibility */}
+                  <Link 
+                    href={company.website} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="w-full"
+                  >
+                    <motion.div
+                      whileHover={{ scale: 1.02 }}
+                      whileTap={{ scale: 0.98 }}
+                      className="bg-[#ff4f01] rounded-xl py-3 px-6 flex items-center justify-center shadow-[0_10px_20px_-5px_rgba(255,79,1,0.3)] group-hover:bg-[#ff6b2e]"
                     >
-                      <div className="flex items-center justify-center space-x-2">
-                        <span>{company.name}</span>
-                        <motion.svg
-                          className="w-4 h-4 text-[#ff4f01]"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                          animate={{ x: [0, 4, 0] }}
-                          transition={{ duration: 1.5, repeat: Infinity }}
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </motion.svg>
-                      </div>
-                    </motion.button>
+                      <span className="font-bold text-[13px] tracking-wide text-white lowercase">
+                        {company.website.replace('https://', 'www.')}
+                      </span>
+                    </motion.div>
                   </Link>
                 </div>
               </div>
@@ -308,7 +143,6 @@ function House() {
         </motion.div>
       </div>
     </section>
-
   )
 }
 

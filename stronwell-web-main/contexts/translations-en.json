@@ -495,6 +495,7 @@
     "house": {
       "gardenForestry": "Garden & Forestry",
       "hardwareDivision": "Hardware Division",
+      "globalGroup": "Part of a Global Industrial Group",
       "bonhoeffer": {
         "name": "Bonhoeffer Machines",
         "tagline": "Heavy Duty for Professional Use"
