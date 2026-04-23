@@ -26,10 +26,13 @@ function Faqs() {
   }
 
   return (
-    <section className="relative py-16 lg:py-20 px-6 lg:px-8 bg-[#070b12]" id='faqs'>
+    <section className="relative py-16 lg:py-20 px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-white to-orange-50/30" id='faqs'>
+      {/* Subtle decorative top border */}
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#ff4f01]/30 to-transparent" />
+
       <div className="relative z-10 max-w-4xl mx-auto">
 
-        {/* Section Header - Tighter margins */}
+        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -43,15 +46,15 @@ function Faqs() {
             <span className="text-[#ff4f01] text-xs font-bold uppercase tracking-[0.2em]">Support</span>
             <div className="h-[2px] w-8 bg-[#ff4f01] rounded-full"></div>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#020617] mb-4 leading-tight tracking-tight">
             Frequently Asked <span className="text-[#ff4f01]">Questions</span>
           </h2>
-          <p className="text-base lg:text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed font-medium">
+          <p className="text-base lg:text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed font-medium">
             {t('sections.faqs.subtitle')}
           </p>
         </motion.div>
 
-        {/* FAQ Accordion - Tighter spacing */}
+        {/* FAQ Accordion */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -68,25 +71,25 @@ function Faqs() {
               transition={{ duration: 0.4, delay: index * 0.05 }}
             >
               <div
-                className={`relative rounded-xl overflow-hidden transition-all duration-300 ${
+                className={`relative rounded-2xl overflow-hidden transition-all duration-300 ${
                   openFaq === faq.id
-                    ? 'bg-white/[0.06] border border-[#ff4f01]/40 shadow-[0_8px_32px_rgba(255,79,1,0.12)]'
-                    : 'bg-white/[0.03] border border-white/8 hover:bg-white/[0.05]'
+                    ? 'bg-white border border-[#ff4f01]/30 shadow-[0_8px_32px_rgba(255,79,1,0.10)]'
+                    : 'bg-white border border-slate-200 hover:border-[#ff4f01]/20 hover:shadow-md shadow-sm'
                 }`}
               >
                 {/* Left accent bar */}
-                <div className={`absolute left-0 top-0 bottom-0 w-1 bg-[#ff4f01] transition-all duration-300 ${openFaq === faq.id ? 'opacity-100' : 'opacity-0'}`}></div>
+                <div className={`absolute left-0 top-0 bottom-0 w-1 bg-[#ff4f01] rounded-l-2xl transition-all duration-300 ${openFaq === faq.id ? 'opacity-100' : 'opacity-0'}`}></div>
 
                 {/* Question row */}
                 <button
                   onClick={() => toggleFaq(faq.id)}
-                  className="w-full pl-6 pr-6 py-4.5 text-left cursor-pointer flex items-center justify-between gap-4"
+                  className="w-full pl-6 pr-6 py-4 text-left cursor-pointer flex items-center justify-between gap-4"
                 >
                   <div className="flex items-start gap-4 min-w-0">
-                    <span className={`text-[10px] font-bold pt-1 transition-colors duration-200 ${openFaq === faq.id ? 'text-[#ff4f01]' : 'text-white/20'}`}>
+                    <span className={`text-[10px] font-bold pt-1 transition-colors duration-200 ${openFaq === faq.id ? 'text-[#ff4f01]' : 'text-slate-300'}`}>
                       {String(index + 1).padStart(2, '0')}
                     </span>
-                    <h3 className={`text-base lg:text-lg font-bold leading-snug transition-colors duration-200 ${openFaq === faq.id ? 'text-white' : 'text-gray-200'}`}>
+                    <h3 className={`text-base lg:text-lg font-bold leading-snug transition-colors duration-200 ${openFaq === faq.id ? 'text-[#020617]' : 'text-slate-700'}`}>
                       {faq.question}
                     </h3>
                   </div>
@@ -94,19 +97,19 @@ function Faqs() {
                   <motion.div
                     animate={{ rotate: openFaq === faq.id ? 45 : 0 }}
                     transition={{ duration: 0.2 }}
-                    className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center border transition-all duration-300 ${
+                    className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center border transition-all duration-300 ${
                       openFaq === faq.id
                         ? 'bg-[#ff4f01] border-[#ff4f01]'
-                        : 'bg-transparent border-white/20'
+                        : 'bg-slate-100 border-slate-200'
                     }`}
                   >
-                    <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className={`w-3 h-3 ${openFaq === faq.id ? 'text-white' : 'text-slate-500'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M12 4v16m8-8H4" />
                     </svg>
                   </motion.div>
                 </button>
 
-                {/* Answer - Tighter */}
+                {/* Answer */}
                 <AnimatePresence>
                   {openFaq === faq.id && (
                     <motion.div
@@ -117,11 +120,11 @@ function Faqs() {
                       className="overflow-hidden"
                     >
                       <div className="pl-16 pr-6 pb-5">
-                        <div className="h-px bg-white/5 mb-3" />
+                        <div className="h-px bg-slate-100 mb-3" />
                         <motion.div
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
-                          className="text-gray-400 leading-relaxed text-sm font-medium"
+                          className="text-slate-500 leading-relaxed text-sm font-medium"
                         >
                           {faq.answer}
                         </motion.div>

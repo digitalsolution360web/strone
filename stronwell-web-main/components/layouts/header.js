@@ -171,8 +171,8 @@ function Header() {
             </Link>
             </motion.div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:block">
+          {/* Desktop Navigation - Pushed to the right */}
+          <div className="hidden lg:block ml-auto pr-10">
             <ul className="flex items-center space-x-8" role="menubar">
               {navItems.map((item, index) => (
                 <motion.li

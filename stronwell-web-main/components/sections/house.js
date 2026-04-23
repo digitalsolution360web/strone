@@ -62,28 +62,32 @@ function House() {
   }
 
   return (
-    <section className="relative py-16 lg:py-20 px-6 lg:px-8 overflow-hidden bg-slate-50">
-      <div className="absolute inset-0 opacity-[0.03] pointer-events-none z-0" style={{ backgroundImage: 'url("https://www.transparenttextures.com/patterns/cubes.png")' }} />
+    <section className="relative py-20 lg:py-24 px-6 lg:px-8 overflow-hidden bg-[#020617]">
+      <div className="absolute inset-0 opacity-[0.05] pointer-events-none z-0" style={{ backgroundImage: 'url("https://www.transparenttextures.com/patterns/cubes.png")' }} />
+      
+      {/* Decorative Glow */}
+      <div className="absolute -top-24 -left-24 w-96 h-96 bg-[#ff4f01]/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Global Group Header Banner */}
         <motion.div
-          className="flex justify-center mb-12 lg:mb-16"
+          className="flex justify-center mb-16 lg:mb-20"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <div className="bg-white px-10 py-3 rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.05)] border border-slate-200">
-            <h2 className="text-[#020617] font-sans text-xs sm:text-base lg:text-lg font-black tracking-[0.2em] text-center uppercase" style={{ fontFamily: 'var(--font-titillium-web)' }}>
+          <div className="bg-white/5 backdrop-blur-xl px-12 py-4 rounded-2xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
+            <h2 className="text-white font-sans text-sm sm:text-base lg:text-lg font-black tracking-[0.3em] text-center uppercase">
               {t('sections.house.globalGroup')}
             </h2>
           </div>
         </motion.div>
 
-        {/* Brand Comparison Grid - Single Row for All 3 */}
+        {/* Brand Comparison Grid */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 mx-auto"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -96,11 +100,11 @@ function House() {
               whileHover="hover"
               className="group"
             >
-              <div className="relative bg-white rounded-[2rem] overflow-hidden shadow-[0_20px_40px_-10px_rgba(0,0,0,0.05)] border border-slate-100 flex flex-col p-6 lg:p-8 transition-all duration-500">
+              <div className="relative bg-white rounded-[2.5rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(0,0,0,0.5)] border border-white/10 flex flex-col p-8 lg:p-10 transition-all duration-500">
                 {/* Brand Header area */}
                 <div className="flex flex-col items-center text-center">
                   <h3 
-                    className="font-bold text-3xl lg:text-4xl tracking-tighter mb-1.5 transition-colors duration-300"
+                    className="font-bold text-3xl lg:text-5xl tracking-tighter mb-2 transition-transform duration-500 group-hover:scale-110"
                     style={{ color: company.color }}
                   >
                     {company.name.split(' ')[0]}

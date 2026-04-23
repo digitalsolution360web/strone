@@ -6,6 +6,7 @@ import HomeCTA from "@/components/sections/homeCTA";
 import Hero from "@/components/sections/hero";
 import Products from "@/components/sections/homeProducts";
 import House from "@/components/sections/house";
+import FeatureShowcase from "@/components/sections/featureShowcase";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <House/>
       <div className="h-px bg-gradient-to-r from-transparent via-[#ff4f01]/20 to-transparent" />
       <Products/>
+      <div className="h-px bg-gradient-to-r from-transparent via-[#ff4f01]/20 to-transparent" />
+      <FeatureShowcase/>
       <div className="h-px bg-gradient-to-r from-transparent via-[#ff4f01]/20 to-transparent" />
       <Faqs/>
       <HomeCTA/>

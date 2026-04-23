@@ -149,34 +149,34 @@ function Products() {
                     whileHover={{ y: -12 }}
                     transition={{ duration: 0.4, ease: "circOut" }}
                   >
-                    <div className="w-[340px] h-[440px] bg-white rounded-[2.5rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] hover:shadow-[0_45px_100px_-20px_rgba(255,79,1,0.15)] border border-gray-100 flex flex-col relative transition-all duration-500">
+                    <div className="w-[340px] h-[460px] bg-white rounded-[2.5rem] overflow-hidden shadow-[0_15px_40px_rgba(0,0,0,0.04)] hover:shadow-[0_40px_80px_rgba(0,0,0,0.08)] border border-slate-100/80 flex flex-col relative transition-all duration-700 ease-in-out group">
                       
-                      {/* Product Category/Type (Subtle) */}
-                      <div className="pt-8 px-8 text-center">
-                        <span className="text-[#ff4f01]/60 text-[10px] font-black uppercase tracking-[0.3em] block mb-2">
+                      {/* Product Header */}
+                      <div className="pt-10 px-8 text-center">
+                        <span className="text-[#ff4f01] text-[8px] font-bold uppercase tracking-[0.5em] block mb-2.5 opacity-60">
                           Premium Equipment
                         </span>
-                        <h3 className="text-[#020617] font-orbitron font-black text-xl uppercase tracking-tighter group-hover:text-[#ff4f01] transition-colors line-clamp-2">
+                        <h3 className="text-[#020617] font-extrabold text-2xl tracking-tight transition-colors duration-300">
                           {product.title}
                         </h3>
                       </div>
                       
-                      {/* Image Area with Inner Glass */}
-                      <div className="relative flex-1 m-4 mb-2 rounded-[2rem] bg-gray-50/50 flex items-center justify-center overflow-hidden border border-gray-100/50">
-                        {/* Interactive Spotlight */}
-                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#ff4f01] opacity-0 blur-[60px] rounded-full group-hover:opacity-10 transition-opacity duration-700"></div>
+                      {/* Image Area - Ultra Clean */}
+                      <div className="relative flex-1 m-5 rounded-[2.2rem] bg-[#fcfdfe] flex items-center justify-center overflow-hidden border border-slate-100/50 group-hover:bg-white transition-colors duration-700">
+                        {/* Subtle Background Glow */}
+                        <div className="absolute inset-0 bg-gradient-to-tr from-[#ff4f01]/3 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-1000"></div>
                         
                         <motion.div
-                          className="relative w-full h-full p-8 flex items-center justify-center z-10"
-                          whileHover={{ scale: 1.1, rotate: [-1, 1, -1] }}
-                          transition={{ duration: 0.5 }}
+                          className="relative w-full h-full p-11 flex items-center justify-center z-10"
+                          whileHover={{ scale: 1.05 }}
+                          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
                         >
                           <Image
                             src={product.image}
                             alt={product.title}
                             width={400}
                             height={300}
-                            className="object-contain w-auto h-auto max-h-full max-w-full drop-shadow-2xl brightness-105"
+                            className="object-contain w-auto h-auto max-h-full max-w-full drop-shadow-[0_10px_20px_rgba(0,0,0,0.05)] transition-all duration-700 group-hover:drop-shadow-[0_30px_50px_rgba(0,0,0,0.12)]"
                             loading="eager"
                             quality={100}
                             unoptimized={true}
@@ -184,15 +184,22 @@ function Products() {
                         </motion.div>
                       </div>
 
-                      {/* Footer Link Bar (Subtle) */}
-                      <div className="px-8 pb-8 mt-auto flex justify-center">
-                        <div className="bg-[#020617] w-full py-4 rounded-2xl flex items-center justify-center gap-3 shadow-lg group-hover:bg-[#ff4f01] transition-all duration-300">
-                          <span className="text-white text-xs font-bold uppercase tracking-widest">
+                      {/* Footer Button - Clean & Sharp */}
+                      <div className="px-9 pb-10 mt-auto flex justify-center">
+                        <div className="bg-[#020617] group-hover:bg-[#ff4f01] w-full py-4 rounded-2xl flex items-center justify-center gap-3 shadow-[0_10px_25px_rgba(0,0,0,0.1)] group-hover:shadow-[0_15px_35px_rgba(255,79,1,0.3)] transition-all duration-500 ease-out">
+                          <span className="text-white text-[11px] font-bold uppercase tracking-[0.2em]">
                             {t('products.viewDetails')}
                           </span>
-                          <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7-7 7" />
-                          </svg>
+                          <motion.svg 
+                            className="w-4 h-4 text-white" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                            animate={{ x: [0, 3, 0] }}
+                            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                          >
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M14 5l7 7-7 7" />
+                          </motion.svg>
                         </div>
                       </div>
                     </div>

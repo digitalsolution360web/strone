@@ -112,13 +112,13 @@ function Footer() {
   return (
     <motion.footer
       ref={footerRef}
-      className="relative bg-[#050505] text-white overflow-hidden"
+      className="relative bg-[#0f1623] text-white overflow-hidden"
       variants={containerVariants}
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
     >
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0f172a]/20 via-black to-black" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#162032] via-[#0f1623] to-[#0a1020]" />
       
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 opacity-5">

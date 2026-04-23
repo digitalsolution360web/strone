@@ -61,31 +61,33 @@ function OurStory() {
             </motion.div>
           </div>
 
-          {/* Right Column - Mosaic Image Layout */}
+          {/* Right Column - Single Premium Image */}
           <motion.div variants={itemVariants} className="relative">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <div className="h-64 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white group">
-                    <img src="/about/about-1.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Legacy" />
-                </div>
-                <div className="h-48 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white group">
-                    <img src="/about/about-2.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Quality" />
-                </div>
-              </div>
-              <div className="space-y-4 pt-12">
-                <div className="h-48 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white group">
-                    <img src="/about/about-3.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Team" />
-                </div>
-                <div className="h-64 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white group">
-                    <img src="/about/about-4.png" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Global" />
-                </div>
+            {/* Decorative background blob */}
+            <div className="absolute -top-6 -right-6 w-72 h-72 bg-[#ff4f01]/10 rounded-full blur-3xl pointer-events-none z-0" />
+            <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-slate-200/60 rounded-full blur-2xl pointer-events-none z-0" />
+
+            {/* Main Image Card */}
+            <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.18)] border-4 border-white group" style={{ height: '520px' }}>
+              <img
+                src="/banners/hero-banner.png"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                alt="Stronwell Industrial Equipment"
+              />
+              {/* Gradient overlay at bottom */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+
+              {/* Bottom overlay text */}
+              <div className="absolute bottom-6 left-6 right-6 z-10">
+                <p className="text-white text-sm font-semibold uppercase tracking-widest opacity-80">Est. 1999</p>
+                <p className="text-white text-xl font-bold leading-snug mt-1">Trusted by industries worldwide</p>
               </div>
             </div>
-            
+
             {/* Experience Badge */}
-            <div className="absolute -bottom-6 -left-6 bg-[#ff4f01] text-white p-8 rounded-[2rem] shadow-2xl z-20 hidden md:block">
-                <div className="text-4xl font-black mb-1">25+</div>
-                <div className="text-[10px] font-black uppercase tracking-widest opacity-80 whitespace-nowrap">Years of Excellence</div>
+            <div className="absolute -bottom-5 -right-5 bg-[#ff4f01] text-white px-7 py-5 rounded-[1.5rem] shadow-2xl z-20 hidden md:flex flex-col items-center justify-center">
+              <div className="text-4xl font-black leading-none">25+</div>
+              <div className="text-[10px] font-black uppercase tracking-widest opacity-80 mt-1 whitespace-nowrap">Years of Excellence</div>
             </div>
           </motion.div>
         </motion.div>

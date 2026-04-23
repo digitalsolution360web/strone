@@ -149,7 +149,7 @@ function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="w-full max-w-2xl rounded-3xl border border-white/20 bg-black/50 backdrop-blur-xl px-8 py-10 sm:px-10 sm:py-12 text-center shadow-[0_24px_80px_rgba(0,0,0,0.5)]"
+          className="w-full max-w-2xl rounded-3xl border border-white/10 bg-black/15 backdrop-blur-[6px] px-8 py-10 sm:px-10 sm:py-12 text-center shadow-[0_24px_80px_rgba(0,0,0,0.2)]"
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight mb-3">
             {banners[currentSlide].title}
